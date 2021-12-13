@@ -1,0 +1,1133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Charte_médiévale[
+   <!ENTITY er "<choice> <abbr>&#185;</abbr> <expan>er</expan> </choice>">
+]>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Charte régulant le passage des hommes et biens de Devesset par
+               Saint-Agrève</title>
+            <respStmt>
+               <resp>Etudiant - Titulaire d'un master Mondes Médiévaux</resp>
+               <persName>Virgile Reignier</persName>
+               <orgName>Ecole Nationale des Chartes</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Virgile Reignier</publisher>
+            <pubPlace>
+               <region>France</region>
+               <name>Ecole Nationale des Chartes - Paris</name>
+            </pubPlace>
+            <date when="2021"/>
+            <authority>Ségolène Albouy</authority>
+            <ref target="#AD69_48H_1669">Document principal servant de support pour la présente
+               édition</ref>
+            <ref target="#AD69_48H_1671-3">Document secondaire servant de support pour compléter les
+               lacunes du document principal</ref>
+            <ref target="#AD69_48H_1671-4">Document tertiaire servant de support pour compléter les
+               lacunes des deux autres documents</ref>
+         </publicationStmt>
+         <notesStmt>
+            <note> Le texte reproduit est une charte régulant les droits de passage des hommes de
+               Devesset par Saint-Agrève. La présente édition est réalisée à partir du texte
+               original en complétant ses lacules à partir de deux copies conservées dans le même
+               fonds. </note>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc xml:id="AD69_48H_1669" type="Source">
+               <msIdentifier>
+                  <region>France</region>
+                  <settlement>Lyon</settlement>
+                  <repository>Archives du Département du Rhône et de la Métropole de
+                     Lyon</repository>
+                  <idno type="Cote_archivistique">48 H 1669</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Charte régulant le passage des hommes et biens de Devesset par
+                     Saint-Agrève</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="Rouleau">
+                     <supportDesc material="Parchemin">
+                        <support>Rouleau de parchemin</support>
+                        <condition>Document en mauvais état, des parties entières ont été altérées
+                           par de mauvaises conditions de conservation</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>Manuscrit produit après 1335 par la commanderie de Devesset </origin>
+                  <acquisition>Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
+                     Devesset vers le centre du grand-prieuré d'Auvergne à Lyon où il a été
+                     transféré aux AD à la révolution.</acquisition>
+               </history>
+            </msDesc>
+            <msDesc xml:id="AD69_48H_1671-3" type="Source">
+               <msIdentifier>
+                  <region>France</region>
+                  <settlement>Lyon</settlement>
+                  <repository>Archives du Département du Rhône et de la Métropole de
+                     Lyon</repository>
+                  <idno type="Cote_archivistique">48 H 1671-3</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Charte régulant le passage des hommes et biens de Devesset par
+                     Saint-Agrève</summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Parchemin">
+                        <support>Pièce de parchemin</support>
+                        <condition>Document en mauvais état, des parties entières ont été altérées
+                           par de mauvaises conditions de conservation</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin> Manuscrit produit au cours du XIVème siècle par la commanderie de
+                     Devesset </origin>
+                  <acquisition> Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
+                     Devesset vers le centre du grand-prieuré d'Auvergne à Lyon où il a été
+                     transféré aux AD à la révolution. </acquisition>
+               </history>
+            </msDesc>
+            <msDesc xml:id="AD69_48H_1671-4" type="Source">
+               <msIdentifier>
+                  <region>France</region>
+                  <settlement>Lyon</settlement>
+                  <repository>Archives du Département du Rhône et de la Métropole de
+                     Lyon</repository>
+                  <idno type="Cote_archivistique">48 H 1671-4</idno>
+               </msIdentifier>
+               <msContents>
+                  <summary>Charte régulant le passage des hommes et biens de Devesset par
+                     Saint-Agrève </summary>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc material="Papier">
+                        <support>Pièces de papiers</support>
+                        <condition>Document en bon état de conservation</condition>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <history>
+                  <origin>Copie manuscrite produite au cours du XVIIème ou du XVIIIème siècle </origin>
+                  <acquisition>Le manuscrit a été conservé au sein du fonds de Devesset dans les
+                     archives du grand-prieuré d'Auvergne à Lyon où il a été transféré aux AD à la
+                     révolution. </acquisition>
+               </history>
+            </msDesc>
+            <bibl xml:id="Reignier_2021b" type="Bibliographie">
+               <title>Les droits de passage à Saint-Agrève au début du XIVe siècle</title>
+               <author>Virgile Reignier</author>
+               <date>2021</date>
+               <series>
+                  <title>Mémoire d'Ardèche et temps présent</title>
+                  <idno>151</idno>
+                  <biblScope>p. 89-94</biblScope>
+               </series>
+            </bibl>
+            <bibl xml:id="Reignier_2021a" type="Bibliographie">
+               <title>Aux origines de la commanderie de Devesset</title>
+               <author>Virgile Reignier</author>
+               <date>2021</date>
+               <series>
+                  <title>Revue du Vivarais</title>
+                  <idno>CXXV</idno>
+                  <biblScope>p. 81-105</biblScope>
+               </series>
+            </bibl>
+            <bibl xml:id="Reignier_2020" type="Bibliographie">
+               <title>Une seigneurie montagnarde entre Vivarais et Velay, monographie de la
+                  commanderie de Devesset au XIVe sièclet</title>
+               <author>Virgile Reignier</author>
+               <date>2020</date>
+               <pubPlace>Lyon</pubPlace>
+               <objectName>Mémoire de master</objectName>
+               <affiliation>Université Jean Moulin Lyon 3</affiliation>
+               <respStmt>
+                  <resp>Directeur de mémoire</resp>
+                  <persName>Nicolas Carrier</persName>
+                  <orgName>Université Jean Moulin Lyon 3</orgName>
+               </respStmt>
+            </bibl>
+            <bibl xml:id="Reignier_2022" type="Bibliographie">
+               <title>L’élevage à Devesset au Moyen Âge : un enjeu de géopolitique locale</title>
+               <author>Virgile Reignier</author>
+               <date>2022</date>
+               <series>
+                  <title>Mémoire d'Ardèche et Temps Présent</title>
+               </series>
+               <note>A paraître</note>
+            </bibl>
+            <bibl xml:id="Brechon_2000" type="Bibliographie">
+               <title>Réseau routier et organisation de l’espace en Vivarais et sur ses marges au
+                  Moyen Âge</title>
+               <author>Franck Brechon</author>
+               <date>2000</date>
+               <pubPlace>Lyon</pubPlace>
+               <objectName>Thèse de doctorat</objectName>
+               <affiliation>Université Lumière Lyon 2</affiliation>
+               <respStmt>
+                  <resp>Directeur de thèse</resp>
+                  <persName>Marie-Thérèse Lorcin</persName>
+                  <orgName>Université Lumière Lyon 2</orgName>
+               </respStmt>
+               <ref target="http://theses.univ-lyon2.fr/documents/lyon2/2000/brechon_f"/>
+            </bibl>
+            <bibl xml:id="ENC_2002" type="Bibliographie">
+               <title>Conseils pour l’édition des textes médiévaux</title>
+               <editor>Ecole Nationale des Chartes</editor>
+               <publisher>Edition du CTHS</publisher>
+               <pubPlace>Paris</pubPlace>
+               <num>3 volumes</num>
+               <date>2001-2002</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName xml:id="Guillaume_Rochette">Guillermus Rocheta</persName>
+                  <occupation>Bayle de <placeName corresp="#Saint-Agrève"
+                     >Saint-Agrève</placeName></occupation>
+               </person>
+               <person>
+                  <persName xml:id="Renaud_de_Fay">Reynaudus de Fayn</persName>
+                  <affiliation><orgName corresp="#Commanderie_de_Devesset">Commanderie de
+                        Devesset</orgName></affiliation>
+                  <occupation>Commandeur de Devesset</occupation>
+               </person>
+               <person>
+                  <persName xml:id="Eustache_de_Lamastre">Heustachius de Mastra</persName>
+                  <occupation>Seigneur de <placeName>Lamastre</placeName> et pour partie de
+                        <placeName corresp="#Saint-Agrève">Saint-Agrève</placeName></occupation>
+               </person>
+               <person>
+                  <persName xml:id="Cateherine_de_Bouzols">Katherina de Bouzolio</persName>
+                  <occupation>Vicomtesse de Polignac</occupation>
+                  <event>
+                     <desc>Mariée avec <persName corresp="#Armand_de_Polignac"/>Armand de
+                        Polignac</desc>
+                  </event>
+               </person>
+               <person>
+                  <persName xml:id="Armand_de_Polignac">Armandus de Podemniaco</persName>
+                  <occupation>Vicomte de Polignac et seigneur pour partie de <placeName
+                        corresp="#Saint-Agrève">Saint-Agrève</placeName></occupation>
+                  <event>
+                     <desc>Marié avec <persName nymRef="#Cateherine_de_Bouzols">Catherine de
+                           Bouzols</persName></desc>
+                  </event>
+               </person>
+               <person>
+                  <persName xml:id="Andrea_Garralis">Andrea Garralis</persName>
+                  <occupation>notaire</occupation>
+               </person>
+               <person>
+                  <persName xml:id="Pierre_Ariberui">Petrus Ariberui</persName>
+                  <occupation>notaire</occupation>
+               </person>
+               <person>
+                  <persName xml:id="Pierre_Girardi">Petrus Girardi</persName>
+                  <occupation>notaire</occupation>
+               </person>
+               <person>
+                  <persName xml:id="Guillaume_de_sous_Villeneuve_de_Devesset">Guillermus de sub
+                     Villa Nova Devesseti</persName>
+                  <occupation>Serf de <orgName nymRef="#Commanderie_de_Devesset">la commanderie de
+                        Devesset</orgName></occupation>
+               </person>
+               <person>
+                  <persName xml:id="Jean_de_la_Chalins_de_Chaumargeais"> Johannes de Las Chalins de
+                     Chamarias </persName>
+                  <occupation>Serf de <orgName nymRef="#Commanderie_de_Devesset">la commanderie de
+                        Devesset</orgName></occupation>
+               </person>
+               <person>
+                  <persName xml:id="Jacques_de_Fay_de_Chaumargeais"> Jacobus Fayni de Chalmariays </persName>
+                  <occupation>Serf de <orgName nymRef="#Commanderie_de_Devesset">la commanderie de
+                        Devesset</orgName></occupation>
+               </person>
+               <person>
+                  <persName xml:id="Jean_Verilhati_de_Chaumargeais">Johannes Verilhati de
+                     Chalmariays</persName>
+                  <occupation>Serf de <orgName nymRef="#Commanderie_de_Devesset">la commanderie de
+                        Devesset</orgName></occupation>
+               </person>
+               <person>
+                  <persName xml:id="Charles_IV">Karolus</persName>
+                  <occupation>Roi de France</occupation>
+               </person>
+               <person>
+                  <persName xml:id="Philippe_VI">Philippus</persName>
+                  <occupation>Roi de France</occupation>
+               </person>
+            </listPerson>
+            <listOrg>
+               <org>
+                  <orgName xml:id="hommes_de_Devesset">Homines Devesseti</orgName>
+                  <trait>
+                     <p>Dépendent de la <orgName nymRef="#Commanderie_de_Devesset">Commanderie de
+                           Devesset</orgName></p>
+                  </trait>
+               </org>
+               <org>
+                  <orgName nymRef="#Commanderie_de_Devesset">Domus Devesseti</orgName>
+                  <trait>
+                     <p>Relève de l'ordre de l'Hôpital de l'ordre de Saint-Jean de Jérusalem et plus
+                        particulièrement du <orgName nymRef="#Grand-Prieuré_d_Auvergne"
+                           >Grand-Prieuré d'Auvergne</orgName></p>
+                  </trait>
+                  <settlement type="Commune">Devesset</settlement>
+                  <district type="Département">Ardèche</district>
+                  <district type="Département">Haute-Loire</district>
+               </org>
+               <org>
+                  <orgName xml:id="Grand-Prieuré_d_Auvergne">Grand-Prieuré d'Auvergne</orgName>
+                  <trait>
+                     <p>Prioris Alvernie</p>
+                  </trait>
+                  <note>Le titulaire du titre de Grand-Prieur n'est pas nommé dans le
+                     document</note>
+               </org>
+            </listOrg>
+         </particDesc>
+         <settingDesc>
+            <listPlace>
+               <place>
+                  <placeName xml:id="Commanderie_de_Devesset">Commanderie de Devesset</placeName>
+                  <geogName>Devesset</geogName>
+                  <settlement type="Commune">Devesset</settlement>
+                  <district type="Département">Ardèche</district>
+               </place>
+               <place>
+                  <placeName xml:id="Berthoux">Berthos</placeName>
+                  <geogName>Berthoux</geogName>
+                  <settlement type="Commune">Devesset</settlement>
+                  <district type="Département">Ardèche</district>
+               </place>
+               <place>
+                  <placeName xml:id="Saint-Agrève">Sanctus-Agrippavus</placeName>
+                  <geogName>Saint-Agrève</geogName>
+                  <settlement type="Commune">Saint-Agrève</settlement>
+                  <district type="Département">Ardèche</district>
+               </place>
+               <place>
+                  <placeName xml:id="Maujour">Malodie</placeName>
+                  <geogName>Maujour</geogName>
+                  <settlement type="Commune">Devesset</settlement>
+                  <district type="Département">Ardèche</district>
+               </place>
+               <place>
+                  <placeName xml:id="Le_Cholet">Chauletus</placeName>
+                  <geogName>Le Cholet</geogName>
+                  <settlement type="Commune">Devesset</settlement>
+                  <district type="Département">Ardèche</district>
+               </place>
+               <place>
+                  <placeName xml:id="Arcelet">Arceletus</placeName>
+                  <geogName>Arcelet</geogName>
+                  <settlement type="Commune">Le Chambon sur Lignon</settlement>
+                  <district type="Département">Haute-Loire</district>
+               </place>
+               <place>
+                  <placeName xml:id="Champagne">Champachis</placeName>
+                  <geogName>Champagne</geogName>
+                  <settlement type="Commune">Les Vastres</settlement>
+                  <district type="Département">Haute-Loire</district>
+               </place>
+            </listPlace>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1>
+            <div2>
+               <div3>
+                  <p><lb n="1"/>Nov&er;int univ&er;si et singuli presentes pariter et futuri hoc presens
+                     publicum instrumentum inspecturi et auditori, quod <date when="1327-06-06">anno
+                        ab incarnatione domini millesimo tercentesimo vigesimo septimo die vero
+                        sexta men<lb n="2" break="no" rend="hyphen"/>sis junii</date> inclito
+                     principe <persName nymRef="#Charles_IV">domino Karolo dei gratia rege francorum
+                        et Navarre regnante</persName>. </p>
+               </div3>
+               <div3>
+                  <p>Cum, inter nobilem <persName nymRef="#Guillaume_Rochette">Guillelmum Rocheta
+                        domicellum baiulum castri Sancti Agrippavi</persName> procuratorem etiam et
+                     nomine procuratorio nobilium <lb n="3"/>virorum <persName
+                        nymRef="#Armand_de_Polignac">domini Armandi vicecomitis Podempniaci
+                        militis</persName> et <persName nymRef="#Eustache_de_Lamastre">Heustachii de
+                        Mastra domicelli</persName> dominorum castri Sancti Agrippavi ut dicebat ex
+                     una parte et venerabilem et <persName nymRef="#Renaud_de_Fay">religiosum virum
+                        fratrem Renaudum de Fayno or<lb n="4" break="no" rend="hyphen"/>dinis
+                        hospitalis Sancti Iohannis Iherusolomitani preceptorem castri ac domus
+                        Devesseti</persName> nomine suo ac dicta <orgName
+                        nymRef="#Commanderie_de_Devesset">domus Devesseti</orgName> et <orgName
+                        nymRef="#hommes_de_Devesset">hominum suorum et dicte domus
+                        Devesseti</orgName> et <orgName nymRef="#Grand-Prieuré_d_Auvergne"
+                        >prioris</orgName> ex parte altera, orta fuisset discordia, controversia et
+                     questionis <lb n="5"/>materia super eo videlicet quod dictus <persName
+                        nymRef="#Guillaume_Rochette">nobilis Guillermus Rocheta</persName> nomine
+                     procuratorio quo supra petebat et exigebat pedacgium et polvoracgium ab
+                        <orgName nymRef="#hommes_de_Devesset">hominibus dicti domini preceptoris et
+                        domus predicte de Devesseto</orgName> transentibus per <placeName
+                        nymRef="#Saint-Agrève">villam <lb n="6"/>Sancti Agrippavi et eius
+                        mandamentum</placeName> ducentibus bestias omnias seu alias quascumque
+                     quicumque dicti homines seu aliqui ipsorum transitum suum faciebant per loca
+                     predicta cum animalibus quibuscumque pro quibus et de quibus consuetum est
+                     levare <lb n="7"/>pedacgium et polvoracgium apud <placeName
+                        nymRef="#Saint-Agrève">Sanctum Agrippavum</placeName> per dominos dicti loci
+                     seu deputatos ab eis <persName nymRef="#Renaud_de_Fay">dicto domino
+                        preceptore</persName> nomine suo et dicte <orgName
+                        nymRef="#hommes_de_Devesset">domus Devesseti</orgName> et <orgName
+                        nymRef="#hommes_de_Devesset">hominum suorum et dicte domus</orgName> et pro
+                     ipsis. In contrarium dicente <orgName nymRef="#Grand-Prieuré_d_Auvergne"
+                        >[dominus prior</orgName> quod <orgName nymRef="#hommes_de_Devesset">ipsi]
+                           homi<lb n="8" break="no" rend="hyphen"/>nes suos</orgName> et <orgName
+                        nymRef="#Commanderie_de_Devesset">dicte domus Devesseti</orgName> minime
+                     tenere solvere, dare et prestare nec etiam debere dare, prestare et solvere
+                     pedacgium et polvoracgium apud <placeName nymRef="#Saint-Agrève">Sanctum
+                        Agrippavum et in eius mandamento</placeName> pro quacumque ratione occasione
+                     […] <lb n="9"/>[…] et immunes apud <placeName nymRef="#Saint-Agrève">Sanctum
+                        Agrippavum et in eius mandamento</placeName> ab omni exactione, prestatione
+                     et solutione pedacgii et polvoracgii quorumcumque. </p>
+
+                  <p>Tandem dicte partes constitute in presentia <persName nymRef="#Andrea_Garralis"
+                        >notarii</persName> et testium infrascriptorum non errans [in] <lb n="10"
+                     />[aliquo nec] decepte set bene certe et certifficate videlicet dictus nobilis
+                        <persName nymRef="#Guillaume_Rochette">Guillermus Rocheta</persName> de jure
+                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictorum
+                        dominorum Sancti Agrippavi</persName>, quorum est procurator, et bene
+                     premeditatus ut dicebat et <persName nymRef="#Renaud_de_Fay">dictus dominus
+                        preceptor</persName> de jure suo et <orgName
+                        nymRef="#Commanderie_de_Devesset">dicte <lb n="11"/>domus
+                        Devesseti</orgName> et <orgName nymRef="#hommes_de_Devesset">hominum suorum
+                        et dicte domus Devesseti</orgName> et bene premeditatus ut dicebat super
+                     discordia, controvertia et questionis predictis et super quibusdam aliis
+                     articulis infrascriptis cupientes [...] super amicabili-<lb n="12" break="no"
+                     />-ter expensas et aufractus litiam et aurgiorum materiam evitare super eisdem
+                     sollempniter transagendo concordaverunt nominibus quibus supra pacificaverunt
+                     et transegerunt per modum qui sequitur infrascriptum. </p>
+               </div3>
+
+               <div3>
+                  <p>In primis, ex causa sollepnis <lb n="13"/>transactionis, convenerunt inter se
+                     dicte partes nominibus quibus supra quod idem <persName nymRef="#Renaud_de_Fay"
+                        >dictus preceptor</persName>, <orgName nymRef="#Commanderie_de_Devesset"
+                        >fratres et donati dicte domus Devesseti et eorum successores
+                        perpetuo</orgName> sint quitii, liberi et immunes apud <placeName
+                        nymRef="#Saint-Agrève">Sanctum Agrippavum et in toto mandamento
+                        eiusdem</placeName>
+                     <lb n="14"/>ab omni prestatione, exactione et solutione pedacgii, leyde et
+                     polvoracgii cui[buscumque] et quod per se vel per alium seu alios possint
+                     transire et transitum suum facere pure et libere per <placeName
+                        nymRef="#Saint-Agrève">castrum Sancti Agrippavi et eius
+                        mandamentum</placeName> cum anima<lb n="15" break="no" rend="hyphen"/>libus
+                     suis et ductore si quod conducebant seu locabant in rippia vel alibi pro
+                     fimandis terris grangiarum de <placeName nymRef="#Maujour">Malodie sive Del
+                        Chalfalt</placeName>, de <placeName nymRef="#Arcelet">Arcelleto</placeName>,
+                     de <placeName nymRef="#Le_Cholet">Chauleto</placeName>, et de <placeName
+                        nymRef="#Champagne">Champanhis</placeName> sine solutione seu prestatione
+                     pedacgii et polv[orac]<lb n="16" break="no" rend="hyphen"/>[gii] quorumcumque
+                     et insuper possint et ipsos liceat pure et libere blata (sic) sua vendere et
+                     animalia quecumque emere apud <placeName nymRef="#Saint-Agrève">Sanctum
+                        Agrippavum et in mandamento eiusdem</placeName> absque prestatione seu
+                     solutione leyde cuiuscumque. </p>
+                  <p>Item convenerunt inter <lb n="17"/>se dicte partes nominibus quibus supra ex
+                     causa sollepnis transactionis quod <orgName nymRef="#hommes_de_Devesset"
+                        >homines dicte domus Devesseti</orgName> pro quolibet trentenario averis ab
+                     uno usque ad summam quinque tretenariorum et dimidium transente per <placeName
+                        nymRef="#Saint-Agrève">villam Sancti Agripp[avi] et in eius <lb n="18"
+                        />mandamentum</placeName> si quod locabant et adducebant de rippia causa
+                     fimandi terras suas dare et solvere debeant ac etiam teneantur <persName
+                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictis dominis Sancti
+                        Agrippavi</persName> ratione pedacgii tres denarios turonenses. Hoc acto
+                     quod de trentenaris […] <lb n="19"/>nihil dare teneantur. Si vero dictum avere
+                     exedere contigeret summam quinque trentenariorum et dimidii, quantumcumque sit
+                     seu esse poterit, quod pro quolibet ovili quod exinde facerent de ipso avere
+                        <orgName nymRef="#hommes_de_Devesset">dicti homines et quilibet
+                        ipsorum</orgName>, dare et solvere teneantur <lb n="20"/>et debeant
+                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictis
+                        dominis</persName> ratione polvoracgii duos solidos et semis turonensium et
+                        <persName nymRef="#Guillaume_Rochette">eorum baiulis</persName> unum caseum. </p>
+                  <p>Item convuenerunt inter se dicte partes nominibus quibus supra ex causa
+                     sollepnis transactionis quod <orgName
+                        nymRef="#hommes_de_Devesset #Commanderie_de_Devesset">homines predicti et
+                        dicte domus [De]vesseti <lb n="21"/>et quilibet ipsorum</orgName> possint et
+                     ipsos liceat transire pure et libere et transitum suum facere per <placeName
+                        nymRef="#Saint-Agrève">castrum Sancti Agrippavi et eius
+                        mandamentum</placeName> cum animalibus suis proprius (sic) et eorum hospicio
+                     Scurchelcis […] <lb n="22"/>placuerit faciendum absque prestatione seu
+                     solutione pedacgii. Hoc salvo et retento quod si sunt aliqui de <orgName
+                        nymRef="#hommes_de_Devesset">predictis hominibus</orgName> qui teneant
+                     denariatas quascumque ad vendendum et ipsi vel alicui ipsorum transitum suum
+                     facerent per <placeName nymRef="#Saint-Agrève">castrum Sancti <lb n="23"
+                        />Agrippavi seu eius mandamentum</placeName> cum dictis denariatis, tunc in
+                     illo casu pro qualibet saumata unum denarium turonensem ratione pedacgii
+                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictis
+                        dominis</persName> dare et soluere teneantur. Aliter pedacgium apud
+                        <placeName nymRef="#Saint-Agrève">[Sanctum] Agrippavum seu in eius
+                        mandamento</placeName>
+                     <lb n="24"/>dare et soluere minime debeant nec etiam teneantur preter quam in
+                     casibus superius memoratis. </p>
+                  <p>Item convenerunt inter se dicte partes nominibus quibus supra ex causa
+                     sollepnis transaction[is] quod <orgName nymRef="#Commanderie_de_Devesset"
+                        >servientes castri Devesseti et quilibet ipsorum</orgName> qui nunc <lb
+                        n="25"/> sunt vel qui pro tempore fuerint possint portare arma sua per
+                        <placeName nymRef="#Saint-Agrève">villam Sancti Agrippavi et eius
+                        mandamentum</placeName> eundo et redeundo sine offensa tamen alicui
+                     facienda. Hoc acto et adjuncto quod cum <placeName nymRef="#Saint-Agrève"
+                        >villam Sancti Agrippavi</placeName> intraverint et <lb n="26"/>moram ibidem
+                     facere vellent, tunc in eo casu quo ibidem moram facerent dicta arma ponere
+                     debeant in quadam domo in qua notitiam habeant et ibidem dimitere teneantur
+                     [...] [-]rint <lb n="27"/>gressus suos. </p>
+                  <p>Item convenerunt inter se dicte partes nominibus quibus supra ex causa
+                     sollepnis transactionis quod si <orgName nymRef="#Commanderie_de_Devesset"
+                        >servientes et familiares curie castri Devesseti</orgName> caperent aliquem
+                     delatum qui in terra et juridictione dicti castri Devesseti <lb n="28"/>aliquid
+                     commisisset et ipsum ducere vellent versus <placeName
+                        nymRef="#Commanderie_de_Devesset">Devessetum</placeName> pro justitia ibidem
+                     facienda de eodem, de et super hiis de quibus delatus esset in juridictione
+                     dicti castri Devesseti, tunc in iillo casu <orgName
+                        nymRef="#Commanderie_de_Devesset">dicti [servientes] castri Devesseti <lb
+                           n="29"/>qui nunc sunt vel qui pro tempore fuerint</orgName> dictum
+                     delatum transire possint per <placeName nymRef="#Saint-Agrève">mandamentum et
+                        villam Sancti Agrippavi</placeName> omni impedimento cessante, ita tamen
+                     quod dictum delatum <persName nymRef="#Guillaume_Rochette">baiulis seu
+                        curialibus Sancti Agrippavi</persName> remitere teneantur <lb n="30"/>et
+                     debeant. Et facta remissione de dicto delato ut premissum est, <persName
+                        nymRef="#Guillaume_Rochette">baiuli ipsi castri Sancti Agrippavi seu
+                        curiales dicti castri</persName> incontinenter et sine aliquo intervallo
+                     dictum delatum <orgName nymRef="#Commanderie_de_Devesset">servientibus seu
+                        curialibus curie castri Dvesseti</orgName> in fine <lb n="31"/>
+                     <placeName nymRef="#Saint-Agrève">mandamenti castri Sancti
+                        Agrippavi</placeName> reddere et deliberare debeant ac etiam teneantur
+                     omnibus exeptionibus et allegationibus post positis et remotis. Et si
+                     contingeret aliquo casu quod <orgName nymRef="#Commanderie_de_Devesset"
+                        >curiales Devesseti</orgName> non [...] <placeName nymRef="#Saint-Agrève"
+                        >[Sanctum] Agrippavum</placeName>
+                     <lb n="32"/>aliquem de curialibus dicti loci cui facerent remissionem de dicto
+                     delato, quod in eo casu dictum delatum ducere debeant in platea <placeName
+                        nymRef="#Saint-Agrève">Sancti Agrippavi</placeName>, et ibidem presentare se
+                     paratos remittere dictum delatum si <persName nymRef="#Guillaume_Rochette">idem
+                        [...] <lb n="33"/>dicti castri Sancti Agrippavi</persName> ipsum reciperet.
+                     Quo facto, <orgName nymRef="#Commanderie_de_Devesset">predicti curiales
+                        Devesseti</orgName> predictum delatum secum ducere possint et debeant pure,
+                     libere et impune, et etiam omni impedimento cessante. Si vero contigeret dictum
+                     delatum aliquid de<lb n="34" break="no" rend="hyphen"/>linquisse in
+                     juridictione castri Sancti Agrippavi et idem delatus propter delictum commissum
+                     per eum in juridictione castri Devesseti minime judicaretur ad mortem per
+                     judicem <orgName nymRef="#Commanderie_de_Devesset">curie castri
+                        Devesseti</orgName>, tunc in casu <orgName nymRef="#Commanderie_de_Devesset"
+                        >[servientes seu curiales] <lb n="35"/>castri Devesseti</orgName> dictum
+                     delatum remittere debeant <persName
+                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">dominis Sancti Agrippavi
+                        seu eorum curialibus</persName> in fine <placeName
+                        nymRef="#Commanderie_de_Devesset">mandamenti castri Devesseti</placeName>,
+                     facta prius exequtione de eodem per <orgName nymRef="#Commanderie_de_Devesset"
+                        >curiales Devesseti</orgName> de hiis qui ad ipsos pertinent. </p>
+                  <p>Item convenerunt inter se <lb n="36"/>dicte partes nominibus quibus supra ex
+                     causa sollempnis transactionis quod <persName nymRef="#Guillaume_Rochette"
+                        >dictus Guillermus Rocheta</persName> procuret et procurare debeat ac etiam
+                     teneatur cum effectu quod <persName
+                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">domini Sancti Agrippavi
+                        predicti</persName> ac etiam <persName nymRef="#Cateherine_de_Bouzols"
+                        >domina vicecomitissa Podempniaci</persName>
+                     <lb n="37"/>et simplicem requisitionem <persName nymRef="#Renaud_de_Fay">dicti
+                        domini preceptoris seu eius certi mandati</persName> hanc presentem
+                     transactionem et omnia et singula supradicta in hoc presenti publico
+                     instrumento contenta laudent, approbent et confirment ac etiam [...] <lb n="38"
+                     />in eisdem cum sollempnitate qua decet et quod <persName
+                        nymRef="#Renaud_de_Fay">dictus dominus preceptor</persName> procuret etiam
+                     cum effectu quod <orgName nymRef="#hommes_de_Devesset">homines domus
+                        Devesseti</orgName> faciant illud idem et etiam fieri faciat hoc idem per
+                        <orgName nymRef="#Grand-Prieuré_d_Auvergne">dominum priorem Alvernie
+                        prioratus</orgName> ad solam [et simpli]<lb n="39" break="no" rend="hyphen"
+                     />cem requisitionem <persName
+                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictorum dominorum Sancti
+                        Agrippavi seu eorum certi mandati</persName>. </p>
+               </div3>
+               <div3>
+                  <p>Hanc vero tansactionem et omnia et singula supradicta et infrascripta in hoc
+                     presenti publico instrumento contenta secundum quod melius, sanius et firmius
+                     possunt dic<lb n="40" break="no" rend="hyphen"/>tari incartari, scribi,
+                     intelligi sive dici ad tollendum et removendum in futurum omnem oscuritatem et
+                     omne dubium promiserunt dicte partes nominibus quibus supra sub pena
+                     quinquaginta librarum turonensium ratione [...] <lb n="41"/>per partem
+                     inhobedientem parti obedienti quotiens contra predicta vel aliqua de predictis
+                     faceret in aliquo vel veniret et super sanctis dei evvangeliis ab ipsis
+                     corporaliter tactis juraverunt attendere perpetuo et illibate ; volentes
+                     [etiam] <lb n="42"/>dicte partes se posse et debere compelli ad attendendum et
+                     complendum omnia et singula supradicta per curiam et curiales dicti domini
+                     nostri regis omnibus exceptionibus, deffentionibus et juris allegationibus post
+                     positis et rem[otis] [...] <lb n="43"/><persName nymRef="#Guillaume_Rochette"
+                        >Guillermus Rocheta</persName> per bonorum <persName
+                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">dominorum castri Sancti
+                        Agrippavi predictorum</persName> quorum est procurator ut dicebat et
+                        <persName nymRef="#Renaud_de_Fay">dictus dominus preceptor</persName> per
+                     bonorum suorum captionem, distractionem, saysinam et venditionem in quam et
+                     quos consentierunt tamquam in suos judi<lb n="44" break="no" rend="hyphen"/>ces
+                     ordinarios et se et omnia bona predicta juridictione, districtui, compultioni
+                     et cohertioni eorumdem. Nec non et vigori discretui et cohertioni sigilli regii
+                     in bayllivia vallavie auctoritate regia constituti supposuerunt pro predictis
+                     omnibus et <lb n="45"/>singulis attendendis et complendis cum omni juris
+                     renunciatione ad predicta necessaria pariter et cautela. </p>
+                  <p>Acta fuerunt hec apud <placeName nymRef="#Berthoux">Bertos</placeName>, anno et
+                     die predictis in quodam orto juxta villam dicti loci, <listPerson>
+                        <personGrp role="Témoins">
+                           <p>testibus presentibus fratribus <persName nymRef="Seigneur de Solerio"
+                                 >dominis de <lb n="46"/>de Solerio</persName> et <persName>Raynaudo
+                                 de Fayno</persName> ordinis Hospitalis predicti, <persName>Raymundo
+                                 de Villa Nova domicello</persName>, <persName nymRef="Pierre Doux"
+                                 >Petro Dulcis</persName>, <persName nymRef="Guillaume de La Roche"
+                                 >Guillermo de Ruppe</persName>, <persName nymRef="Bonnefoi Textor"
+                                 >Bonafide Textoris</persName> et <persName
+                                 nymRef="#Andrea_Garralis">notario publico regio
+                                 infrascripto</persName> per quem de predictis dicte partes <lb
+                                 n="47"/>ad invicem concesserunt fieri earum cuilibet publicum et
+                              eiusdem tenoris instrumentum</p>
+                        </personGrp>
+                     </listPerson>. </p>
+               </div3>
+            </div2>
+         </div1>
+         <div1>
+            <div2>
+               <p>Post hec <date when="1328-06-22">anno domini millesimo tercentesimo vicesimo
+                     octavo videlicet die vicesima secunda mensis junii</date> inclito principe
+                     <persName nymRef="#Philippe_VI">domino Philippo dee (sic) gra-<lb n="48"
+                        break="no"/>-tia rege francorum regnante</persName>, in presentia <persName
+                     nymRef="#Andrea_Garralis">notarii</persName> et testium infrascriptorum,
+                  personnaliter constitutus <persName nymRef="#Armand_de_Polignac">vir nobilis et
+                     potens dominus Armandus vicecomes Podepniaci miles dominus in parte castri
+                     [Sancti Agrippavi]</persName> non errans <lb n="49"/>in aliquo nec deceptus set
+                  bene certus et certificatus de predictis et etiam de jure suo et bene premeditatus
+                  ut dicebat per se suosque heredes et sucessores predictam transactionem et omnia
+                  et singula supradicta in hoc pre<lb n="50" break="no" rend="hyphen"/>senti publico
+                  instrumento contenta laudavit, approbavit, ratificavit et confirmavit et etiam
+                  grata habuit et in eis consentiit. Et universa omnia et singula supradicta
+                  promisit sub [ypothece et obligatione omnium bonorum suorum] <lb n="51"/>et super
+                  sanctis dei evvangeliis ab ipso corporaliter sponte tactis juravit attendere et
+                  contra per se vel per alium non venire, quod si faceret quod absit voluit et
+                  concessit quod nullathenus audiatur set quod omnis audicientia in judi<lb n="52"
+                     break="no" rend="hyphen"/>cio et extra eidem denegetur tamquam venienti contra
+                  suum proprium factum ac etiam juramentum ; volens et concedens <persName
+                     nymRef="#Armand_de_Polignac">dictus dominus vicecomes</persName> se posse
+                  compelli ad attendendum predicta pro curiam et curiales dicti domini <lb n="53"
+                  />nostri regis omnibus exeptionibus, deffentionibus et juris allegationibus post
+                  positis et remotis videlicet per bonorum suorum captionem, distrationem, saysinam
+                  et venditionem in quam et quos consentiit tamquam in suos judicios ordinarios <lb
+                     n="54"/>et se et omnia bona sua juridictioni, districtui, compultioni et
+                  cohertioni eorumdem sub sigillo regio predicto supposuit pro predictis omnibus et
+                  singulis attendendis complendis et [inviolabiliter] observendis cum omni juri
+                     renun<lb n="55" break="no" rend="hyphen"/>tiatis ad predicta nesessaria pariter
+                  et cautela. </p>
+               <p>Acta fuerunt hec apud <placeName nymRef="#Saint-Agrève">Sanctum
+                     Agrippavum</placeName> in <placeName nymRef="Maison de Guillaume Rochette"
+                     >hospicio <persName nymRef="#Guillaume_Rochette">Guillermi Rocheta
+                        domicelli</persName></placeName>, anno et die supra proximis, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis presentibus <persName>domino Guillermo de Senareto
+                              milite</persName>, <persName>domino Mattheo Sabbo-<lb n="56"
+                                 break="no"/>-ti rectore <placeName>ecclesie <placeName
+                                    nymRef="#Saint-Agrève">Sancti
+                                 [Agrippavi]</placeName></placeName></persName>, <persName>[...]
+                              Runerii</persName> et <persName nymRef="#Andrea_Garralis">notario
+                              infrascripto</persName> per quem de predictis <persName
+                              nymRef="#Armand_de_Polignac">dictus dominus vicecomes</persName>
+                           petiit sibi fieri publicum instrumentum</p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+            <div2>
+               <p>Post hec <date when="1328-06-22">anno et die supra proximis</date>
+                  <lb n="57"/><persName nymRef="#Philippe_VI">eodem domino Philippo rege francorum
+                     regnante</persName>, in presentia mei <persName nymRef="#Andrea_Garralis"
+                     >notarii predicti</persName> et testium infrascriptorum, personnaliter
+                  constitutus <persName nymRef="#Eustache_de_Lamastre">vir nobilis Heustachius de
+                     Mastra dominus de Bastia et pro parte castri Sancti Agrippavi</persName> non
+                  errans in aliquo nec deceptus <lb n="58"/>set bene certus et certifficatus de jure
+                  suo et omnibus et singulis supradictis et bene premeditatus ut dicebat per se
+                  suosque heredes et successores predictam transactionem et omnia et singula
+                  [supradicta] in hoc presenti publico instrumento contenta faciendum quod melius,
+                  sanius et furimus possunt scribi, dictari, incartari, intelligi sive dici ad
+                  tollendum <lb n="59"/>et removendum in futurum omnem oscuritatem licem seu
+                  questionem et omne dubium [laudavit], aprobavit ratifficavit et confir[mavit] et
+                  predicta omnia grata habueruntque rata et in eis consentiit. Et predicta omnia
+                  attendere <lb n="60"/>promisit bona fide sub ypothece et obligatione omnium
+                  bonorum suorum et super sanctis dei evvangeliis ab ipso corporaliter sponta tactis
+                     <lb n="61"/>juravit et contra non [venire] per se [vel] per alium, quod si
+                  faceret quod absit voluit et concessit quod in judicio et extra nullathenus
+                  audiatur set quod omnis audientia sibi denegetur tamquam venienti contra suum
+                  proprium factum ac etiam <lb n="62"/>juramentum ; volens et concedens <persName
+                     nymRef="#Eustache_de_Lamastre">dictus dominus de Bastia</persName> se posse et
+                  debere compelli ad attendendus predicta pro curiam et curiales predicti domini
+                  nostri regis omnibus exceptionibus, deffensionibus et juris allegationibus post
+                  positis et remotis vide<lb n="63" break="no" rend="hyphen"/>licet per bonorum
+                  suorum captionem, distractionem, saysinam et venditionem in quam et quos
+                  consentiit tamquam in suos judices ordinarios et se et omnia bona sua
+                  juridictioni, compultioni, districtui et cohertioni eorumdem. Nec non et vigoris
+                  ac dis-<lb n="64" break="no"/>-trictui dicti sigilli regio supposuit pro predictis
+                  omni[bus et singulis attendendis complendis et inviola]biliter observandis cum
+                  omni juris renunciantes ad predicta necessaria pariter et cautela. </p>
+               <p>Acta fuerunt hec anno et die supra <lb n="65"/>proximis apud <placeName
+                     nymRef="#Saint-Agrève">Sanctum Agrippavum</placeName> in <placeName>forrello
+                     Petronille Armandona</placeName>, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis praesentibus <persName nymRef="Pierre de Saint-Vincent"
+                              >magistro Petro de Sancto Vincentio notario regio</persName>,
+                              <persName>Guillermo Fumati</persName>, <persName>Petro
+                              Ariberii</persName>, <persName>Guillermo La Ravasse</persName> [et]
+                              <persName nymRef="#Andrea_Garralis">notario <lb n="66"/>regio
+                              infrascripto</persName> per quem de predictis omnibus et singulis
+                              <persName nymRef="#Eustache_de_Lamastre">dictus dominus de
+                              Bastia</persName> petiit sibi fieri publicum instrumentum</p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+            <div2>
+               <p>Post hec <date when="1331-08-28">anno domini millesimo tercentesimo tricesimo
+                     primo videlicet die vicesima octava mensis <lb n="67"/>augusti</date>
+                  <persName nymRef="#Philippe_VI">dicto domino Philippo rege francorum
+                     regnante</persName>, in presantia <persName nymRef="#Andrea_Garralis"
+                     >notarii</persName> et testium infrascriptorum, personnaliter constituta
+                     <persName nymRef="#Cateherine_de_Bouzols">nobilis et potens domina Katherina de
+                     Bousolio consors viri nobilis et potentis domini Ar-<lb n="68" break="no"
+                     />-mandi vicecomitis Podepniaci militis</persName> non errans in aliquo nec
+                  decepta set bene certa et certificata de jure suo et omnibus et singulis
+                  supradictis et bene premeditata ut dicebat per se suos[que heredes et
+                  successores], <lb n="69"/>de et cum consensu, voluntate et assensu dicti domini
+                  vicecomitis mariti sui presentis ibidem quod etiam verum esse, dicebat predictam
+                  transactionem et omnia et singula supradicta in hoc presens publico instrumento
+                     <lb n="70"/>contenta laudavit, approbavit, ratifficavit et confirmavit et
+                  predicta omnia attendere promisit bona fide sub ypotheca et obligatione omnium
+                  bonorum suorum et super sanctis dei evvangeliis ab ipsis corporaliter sponte
+                  tactis <lb n="71"/>juravit et etiam contra non venire per se vel per alium, quod
+                  si faceret quod absit, voluit et concessit quod in judicio et extra nullathenus
+                  audiatur set quod omnis audientia eidem denegari [valeat] tamquam venien-<lb
+                     n="72" break="no"/>-ti contra suum proprium factum ac etiam juramentum ; volens
+                  et concedens <persName nymRef="#Cateherine_de_Bouzols">dicta domina
+                     Katerina</persName> se posse et debere compelli ad attendendum predicta per
+                  curiam et curiales dicti domini nostri regis omnibus exeptionibus, <lb n="73"
+                  />deffentionibus et juris allegationibus post positis et remotis videlicet per
+                  bonorum suorum captionem, distractionem, saysinam et venditionem in quam et quos
+                  [consentiit] tamquam in suos judices ordinarios et se et <lb n="74"/>omnia bona
+                  sua juridictioni, districtui, compulsioni et cohertioni eorumdem sub sigillo regio
+                  predicto supposuit pro predictis omnibus et singulis attendendis et perpetuo
+                  observandis cum omni juris renuncia<lb n="75" break="no" rend="hyphen"/>tione ad
+                  predicta necessaria pariter et cautela. </p>
+               <p>Acta fuerunt hec apud <placeName nymRef="#Saint-Agrève">Sanctum
+                     Agrippavum</placeName> in <placeName nymRef="Maison de Guillaume Rochette"
+                     >hospocio <persName nymRef="#Guillaume_Rochette">Guillermi
+                     Rocheta</persName></placeName>, anno et die superius proximis, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis presentibus <persName>dominis Vitale Vicesseri</persName>
+                           <lb n="76"/>et <persName nymRef="#Pierre_Ariberui">Andrea
+                              Garralis</persName> presbiteris, <persName>Guillermo de Chambarlhaco
+                              domicello</persName> et magistro <persName nymRef="#Andrea_Garralis"
+                              >Andrea Garrallis notario regio infrascripto</persName> per quem de
+                           predictis omnibus et singulis <persName nymRef="#Cateherine_de_Bouzols"
+                              >dicta domina Katherina</persName> petiit <lb n="77"/>sibi fieri
+                           publicum instrumentum</p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+         </div1>
+         <div1>
+            <div2>
+               <p>Post hec <date when="1332-01-31">anno domini quo supra et die ulitima mensis
+                     jannuarii</date>
+                  <persName nymRef="#Philippe_VI">dicto domino Philippo rege francorum
+                     regnante</persName>, in presentia <persName nymRef="#Andrea_Garralis">notarii
+                     predicti</persName> et testium infrascriptorum personaliter <lb n="78"
+                  />constituti <listPerson>
+                     <personGrp>
+                        <p><persName>Petrus La Rocha</persName>, <persName>Armandus de
+                              Ruppe</persName>, <persName>Johannes filius <persName>Guilliermi de
+                                 Ruppe condam</persName></persName>, <persName>Peyruchonus Duneyra
+                              de Ruppe</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Petrus Rotbandi</persName> pro se et
+                                       <persName>Matheo</persName> et <persName>Michaele</persName>
+                                    eius fratribus</p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Guillermus Traussat <lb n="79"/>de
+                                       Raschassoco</persName> pro se et <persName>Gregorio eius
+                                       fratre</persName></p>
+                              </personGrp>
+                           </listPerson> , <persName>Gregorius Blachoni</persName>,
+                              <persName>Michael Blachoni</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Stephanus Columbi</persName> pro se et
+                                       <persName>Poncio Columbi eius fratre de
+                                       Raschassaco</persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Johannes de Aulamberio</persName> et
+                                       <persName>Guillermus eius <lb n="80"/>frater</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Andreas Giri de Vileta</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Petrus de Rivieria</persName> pro se et
+                                       <persName>Michaele</persName> et <persName>Johanne</persName>
+                                    eius fratribus</p>
+                              </personGrp>
+                           </listPerson>, <persName>Antonius de Chabanaas</persName>,
+                              <persName>Poncius de Croso</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Andreas de Croso</persName> pro se et
+                                       <persName>Peyruchono</persName> et
+                                       <persName>Andrenono</persName> eius <lb n="81"/>
+                                    fratribus</p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Martinus de la Costa</persName> et <persName>Pascalis
+                                       de la Costa</persName> pro se et <persName>Johanne</persName>
+                                    eorum nepote</p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Johannes de Jarrias</persName> et
+                                       <persName>Bartholomeus de Jarrias</persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Andreas de Jalibertas</persName> pro se et
+                                       <persName>Johanne eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson>, <lb n="82"/><persName>Jacobus de la Valleta</persName>,
+                              <persName>Poncius filius <persName>Hugonis de la
+                              Valleta</persName></persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Vitalis de Spayetis</persName> pro se et
+                                       <persName>Jacobo de Spayetis</persName> et <persName>Johanna
+                                       filia <persName>Johannis de Spayetis
+                                       condam</persName></persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Giraudus de Bargiis</persName> pro se et
+                                       <persName>Katherina <lb n="83"/>eius sorore</persName> et
+                                       <persName>Guigone filio <persName>Bartholomei de Bargiis
+                                          condam</persName></persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Jacobus de Filatranna</persName> pro se et
+                                       <persName>Arnaudo eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Petrus de Montabonello</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Jacobus Tavani</persName> pro se et
+                                       <persName>Andrea</persName> et <persName>Michaele</persName>
+                                    eius <lb n="84"/>fratribus</p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Bonafides Del Sape</persName> pro se et
+                                       <persName>Bartholomeo eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Johannes de Chanicros sive de Podio
+                              Brunent</persName>, <persName>Guillermus de Gararytz</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Johannes Del Feu</persName> pro se et
+                                       <persName>Gregorio eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Poncius <lb n="85"/>de Chanils</persName> pro se et
+                                       <persName>Johanne eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Jacobus de Chanils</persName> pro se et
+                                       <persName>Jacobo eius nepote</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Armandus de Bertos</persName>,
+                              <persName>Girardonus de Bertos</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Michael de Bertos</persName> pro se et
+                                       <persName>Guillermo eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Johannes</persName>
+                                    <lb n="86"/>et <persName>Peyruchonus Pastorelli de
+                                       Bertos</persName> fratres</p>
+                              </personGrp>
+                           </listPerson>, <persName>Johannes de Frigidis Perietibus</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Peyruchonus Roerii de Ruppe</persName> pro se et
+                                       <persName>Bartholomeo eius fratre</persName> ac
+                                       <persName>Guillermo Barthi eius amiculo</persName></p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Vitalis Verilhati</persName> pro <lb n="87"/>se et
+                                       <persName>Durando eius consanguineo</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Johannes Jordani</persName>, <persName>Vitalis
+                              de Garaytz de Villa Nova</persName>, <persName>Johannes
+                              Pelhisserii</persName>, <persName>Guilliermus Pelhicerii</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Gregorius Pelhicerii</persName> pro se et fratribus
+                                    suis</p>
+                              </personGrp>
+                           </listPerson>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Petrus Pelhicerii</persName> pro se <lb n="88"/>et
+                                       <persName>Clemente Pelhicerii de Malagayta</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Andreas de Ruela</persName>, <persName>Durandus
+                              Chantayres dicti loci</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Petronilla Conha</persName> pro se et liberis suis</p>
+                              </personGrp>
+                           </listPerson>, <persName>Johannes Garaytonis</persName>, <listPerson>
+                              <personGrp>
+                                 <p><persName>Michaletus Saluavel</persName> et <persName>Johannes
+                                       de Bargiis</persName></p>
+                              </personGrp>
+                           </listPerson>, <persName>Petrus <lb n="89"/>de Bargiis</persName> et <listPerson>
+                              <personGrp>
+                                 <p><persName>Guilliermus de Ruella</persName> pro se et
+                                       <persName>Girardo eius fratre</persName></p>
+                              </personGrp>
+                           </listPerson></p>
+                     </personGrp>
+                  </listPerson>
+                  <orgName nymRef="#hommes_de_Devesset">homines licgii ut dicebant dicti domini
+                     preceptoris ac domus predicte de Deveceto (sic)</orgName> omnes in simul et
+                  quilibet eorum pro se et quibus <lb n="90"/>supra nominibus singulariter, singuli
+                  et particulariter pro se et suis heredibus ac successoribus universis certificati
+                  primitus de omnibus et singulis supradictis predictam [transactionem] et omnia et
+                     <lb n="91"/>singula supradicta laudaverunt, approbaverunt grata et rata
+                  habuerunt et in eis consentierunt et predicta omnia et singula promisserunt sub
+                  ypotheca et obligatione omnium bonorum suorum et <lb n="92"/>super sanctis dei
+                  evvangeliis ab ipsis et eorum quolibet corporaliter sponte tactis juraverunt
+                  attendere et inviolabiliter observare et contra numquam facere vel venire, [quod
+                  si faceret quod] absit <lb n="93"/>voluerunt et concesserunt quod in judico et
+                  extra nullathenus audiantur set quod eis et eorum cuilibet omnis audientia
+                  denegari valeat tamquam venientibus contra eorum facta propria ac etiam <lb n="94"
+                  />juramenta ; volentes et concedentes <orgName nymRef="#hommes_de_Devesset">omnes
+                     prenominati et eorum quilibet</orgName> per se se posse et debere compelli ad
+                  attendendum omnia et singula supradicta per curiam ordinariam dicti [domini
+                  nostri] <lb n="95"/>regis omnibus exceptionibus, defentionibus et juris
+                  allegationibus post positis et remotis videlicet per bonorum suorum captionem,
+                  distractionem, saysinam et venditionem in quam et quos <lb n="96"/>consentierunt
+                  tamquam in suos judices ordinarios et se et omnia bona sua juridictioni,
+                  districtui, compultioni et cohertioni eorumdem sub sigillo regio predicto
+                  [supposuit pro] <lb n="97"/> predictis omnibus et singulis attendendis et perpetuo
+                  ac inviolabiliter observandis cum omni juris renunciationis ad predicta
+                  neccessaria pariter et cautela. </p>
+               <p>Acta fuerunt hec apud <lb n="98"/><placeName nymRef="#Berthoux">Bertos</placeName>
+                  juxta <placeName>grangiam Armandeti dicti loci</placeName>, anno quo supra et die
+                  supra proxima, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis presentibus <persName nymRef="Austorge de Layresset"
+                              >Austorgis de Layresset</persName>, <persName nymRef="Jean Chalvayron"
+                              >Johanne Chalvayronis</persName>, <persName>Petro Dulcis</persName>,
+                              <persName>Guillermo […]</persName> [et] <persName
+                              nymRef="#Andrea_Garralis">no<lb n="99" break="no" rend="hyphen"/>tario
+                              [publico] regio infrascripto</persName> per quem [de predictis]
+                              <persName>frater Raymundus Alamandi ordinis hospitalis</persName>
+                           predicti petiit et <orgName nymRef="#hommes_de_Devesset">predicti
+                              homines</orgName> sibi concesserunt ac etiam petierunt sibi fieri <lb
+                              n="100"/>et etiam concessunt fieri publicum instrumentum et publica
+                           instrumenta ad utilitatem et comodum <persName
+                              nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dominorum castri
+                              Sancti Agrippavi predictorum</persName></p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+            <div2>
+               <p>Post hec <date when="1332">anno domini quo supra et die decima</date>
+                  <lb n="101"/>[...] <persName nymRef="#Philippe_VI">[dicto domino Philippo rege
+                     francorum] regnante</persName>, in presentia <persName
+                     nymRef="#Andrea_Garralis">notarii supradicti</persName> et testium
+                  infrascriptorum personaliter constitutus <persName
+                     nymRef="#Guillaume_de_sous_Villeneuve_de_Devesset">Guillermus sub de Villa Nova
+                     Devesseti homo licgius dicti domini preceptori et domus Devesseti
+                     predicti</persName>
+                  <lb n="102"/> certificatus de omnibus et singulis supradictis pro se et suis
+                  heredibus et sucessoribus universis predictam transactionem et omnia et singula
+                  supra[dicta laudavit et aprobavit grata et rata] <lb n="103"/>habuit et in eis
+                  consentiit et predicta omnia et singula promisit sub ypotheca et obligatione
+                  omnium bonorum suorum et super sanctis dei avvangeliis ab ipso corporaliter sponte
+                  tactis juravit attendere <lb n="104"/>et contra non venire, quod si faceret quod
+                  absit voluit et concessit quod in judicio et extra nullathenus audiatur set quod
+                  omnis au[dientia sibi denegari valeat tamquam venienti] <lb n="105"/>contra suum
+                  proprium factum et etiam juramentum ; volens et concedens se posse compelli ad
+                  attendendis predicta per curiam et curiales dicti domini nostri regis in quam et
+                  quos consentiit <lb n="106"/>tamquam in suos judices ordinarios et se et omnia
+                  bona sua juridictioni, districtui, compultioni et cohertioni eorumdem sub sigillo
+                  regio predicto supposuit pro predictis [omnibus et] singulis attendendis <lb
+                     n="107"/>et perpetuo ac inviolabiliter observandis cum omni juris renunciatione
+                  ad predicta necessaria pariter et cautela. </p>
+               <p><lb n="108"/>Acta fuerunt hec in <placeName>fracta <placeName
+                        nymRef="#Saint-Agrève">Sancti Agrippavi</placeName></placeName> juxta
+                     <placeName>hospicio Johannis Garralis</placeName>, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis presentibus <persName>Johanne Garralis</persName>,
+                              <persName>Johanne Massoni de Romeriis</persName>, <persName
+                              nymRef="Stephane Bayle">Stephano Baiuli</persName> et <persName
+                              nymRef="#Andrea_Garralis">notario publico regio predicto</persName>
+                           <lb n="109"/>per quem de predictis omnibus et singulis <persName
+                              nymRef="#Guillaume_de_sous_Villeneuve_de_Devesset">dictus
+                              Guillermus</persName> petiit sibi fieri et etiam concessit fieri
+                           publicum instrumentum ad utilitatem et comodum <persName
+                              nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dominorum Sancti
+                              Agrippavi predictorum</persName></p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+            <div2>
+               <p><lb n="110"/>Post hec <date when="1335-05-28">anno domini millesimo trecentesimo
+                     tricesimo quinto videlicet die vicesima octava mensis mayii</date>
+                  <persName nymRef="#Philippe_VI">dicto domino Philippo rege francorum
+                     regnante</persName>, in presentia <persName nymRef="#Andrea_Garralis"
+                     >notarii</persName> et testium infrascriptorum <lb n="111"/>persornaliter
+                  constitutus <persName nymRef="#Jean_de_la_Chalins_de_Chaumargeais">Johannes de Las
+                     Chalins de Chamarias</persName> certificatus de omnibus et singulis supradictis
+                  pro se et suis heredibus ac successoribus universi predictam transactionem et
+                  omnia et singula sup<lb n="112" break="no" rend="hyphen"/>radicta laudavit et
+                  approbavit grata et rata habuit, et in eis consentiit, et predicta omnia et
+                  singula promisit bona fide sub hypotheca et obligatione omnium bonorum suorum et
+                  super sanctis dei evvangeliis <lb n="113"/>ab ipso corporaliter sponte tactis
+                  juravit attendere et contra non venire, quod si faceret que absit voluit et
+                  concessit quod in judicio et extra nullathenus audiatur set quod omnis audientia
+                  sibi denegari <lb n="114"/>valeat tamquam venienti contra suum proprium factum ac
+                  etiam juramentum ; volens et concedens <persName
+                     nymRef="#Jean_de_la_Chalins_de_Chaumargeais">dictus Johannes</persName> se
+                  posse et debere compelli ad attendendum omnia supradicta per curiam et curiales
+                  dicti domini <lb n="115"/>nostri regis francorum videlicet per bonorum suorum
+                  captionem, distractionem, saysinam et venditionem in quam et quos consentiit
+                  tamquam in suos judices ordinarios et se et omnia bona sua juridictioni,
+                     distric<lb n="116" break="no" rend="hyphen"/>tui, compultioni et cohertioni
+                  eorumdem sub sigillo regio predicto supposuit pro predictis cum omni juris
+                  renunciatione ad predicta necessaria pariter et cautela. </p>
+               <p>Acta fuerunt hec apud <placeName nymRef="#Saint-Agrève">Sanctum
+                     Agrippavum</placeName>
+                  <lb n="117"/>in <placeName>hospitio Guillermi Ariberui notarii regii</placeName>
+                  anno et die supra proximis, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis presentibus <persName>Guillermo Ariberui</persName>
+                           predicto, <persName>Matheo Runerii</persName>, <persName>predicto
+                              Bonafide Textoris</persName> et <persName nymRef="#Andrea_Garralis"
+                              >notario [publico] regio infra-<lb n="118" break="no"
+                              />-scripto</persName> per quem de predictis <persName
+                              nymRef="#Jean_de_la_Chalins_de_Chaumargeais">dictus
+                              Johannes</persName> petiit sibi fieri et etiam concessit fieri
+                           publicum instrumentum ad opus ipsius et <persName
+                              nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dominorum castri
+                              Sancti Agrippavi predictorum</persName></p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+            <div2>
+               <p>Post hec <date when="1335-05-29">anno domini <lb n="119"/>quo supra videlicet die
+                     vicesima nova mensis mayii</date>
+                  <persName nymRef="#Philippe_VI">dicto domino Philippo rege francorum
+                     regnante</persName>, in presentia <persName nymRef="#Andrea_Garralis"
+                     >notarii</persName> et testium infrascriptorum persornaliter constitutus
+                     <persName nymRef="#Jacques_de_Fay_de_Chaumargeais">Jacobus Fayni de
+                     Chalmariays</persName> certi<lb n="120" break="no" rend="hyphen"/>ficatus ad
+                  plenum de omnibus et singulis supradictis pro se et suis heredibus ac
+                  successoribus universis predictam transactionem et omnia et singula supradicta
+                  laudavit, approbavit et ratifficavit <lb n="121"/>et in eis consentiit et predicta
+                  omnia attendere et servare promisit sub hypotheca et obligatione omnium bonorum
+                  suorum et super sanctis dei evvangeliis ab ipso corporaliter tactis juravit et
+                  contra non venire, quod <lb n="122"/>si faceret quod absit voluit et concessit
+                  quod in judicio nullathenus audiatur set quod omnis audientia sibi denegari valeat
+                  tamquam venienti contra suum proprium factum ac etiam juramentum ; volens et
+                     con-<lb n="123" break="no"/>-cedens <persName
+                     nymRef="#Jacques_de_Fay_de_Chaumargeais">dictus Jacobus</persName> se posse et
+                  debere compelli attendendum omnia et singula supradicta per curiam et curiales
+                  dicti domini nostri regis videlicet per bonorum suorum captionem, distractionem,
+                  saysinam et venditionem in quam <lb n="124"/>et quos consentiit tamquam in suos
+                  judices ordinarios et se et omnia et singula bona sua juridictioni, districtui,
+                  compulsioni et cohertioni eorumdem sub sub (sic) sigillo regio predicto supposuit
+                  pro pre-<lb n="125" break="no"/>-dictis omnibus et singulis attendendis et
+                  inviolabiliter observandis cum omni juris renunciatione ad predicta necessaria
+                  pariter et cautela. </p>
+               <p>Acta fuerunt hec apud <placeName nymRef="#Saint-Agrève">Sanctum
+                     Agrippavum</placeName> in <placeName nymRef="Domicile d'Andrea Garralis"
+                     >hospicio mei <lb n="126"/>notarii supra et infrascripti</placeName> anno et
+                  die supra proximis, <listPerson>
+                     <personGrp role="Témoins">
+                        <p>testibus hiis presentibus <persName>Raymundo de Sahnna
+                              domicello</persName>, <persName nymRef="Humbert de Sorberio">dominis
+                              Humberto de Sorberio cononico
+                              <placeName>Charasii</placeName></persName> et <persName>Bonifacio de
+                              Pozato presbiteris</persName>
+                           <lb n="127"/>et <persName nymRef="#Andrea_Garralis">notario publico regio
+                              infrascripto</persName> per quem de predictis <persName
+                              nymRef="#Jacques_de_Fay_de_Chaumargeais">dictus Jacobus</persName>
+                           sibi fieri petiit et etiam fieri concessit publicum instrumentum ad opus
+                           eiusdem et <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre"
+                              >dominorum castri Sancti Agrippavi pre-<lb n="128" break="no"
+                              />-dictorum</persName></p>
+                     </personGrp>
+                  </listPerson>. </p>
+            </div2>
+            <div2>
+               <p>Post hec <date when="1335-05-29">anno, die</date>, loco et testibus quibus supra
+                  proximis dicto domino <persName nymRef="#Philippe_VI">Philippo rege francorum
+                     regnante</persName> in presentia <persName nymRef="#Andrea_Garralis">notarii
+                     supra et infra scripti</persName> et testium proxime dictorum personaliter <lb
+                     n="129"/><persName nymRef="#Jean_Verilhati_de_Chaumargeais">Johannes Verilhati
+                     de Chalmariays</persName> certificatus ad plenum ut dicebat de omnibus et
+                  singulis supradictis pro se et suis heredibus ac successoribus universis predictam
+                  transactionem et omnia et singula supra<lb n="130" break="no" rend="hyphen"/>dicta
+                  laudavit et approbavit rata atque grata habuit et in eis consentiit et predicta
+                  omnia sub hypotheca et obligatione omnium bonorum suorum promisit et super sanctis
+                  dei evvangeliis ab ipso corporaliter sponte <lb n="131"/>tactis juravit attendere
+                  et servare et contra non venire, quod si faceret quod absit voluit et concessit
+                  quod in judicio et extra nullathenus audiatur set quod omnis audientia sibi
+                  denegari valeat tamquam <lb n="132"/>venienti contra suum proprium factum ac etiam
+                  juramentum ; volens et concedens <persName
+                     nymRef="#Jean_Verilhati_de_Chaumargeais">dictus Johannes</persName> se posse et
+                  debere compelli ad attendendum predicta per curiam et curiales dicti domini nostri
+                  regis videlicet pro bonorum suorum captionem, <lb n="133"/>distractionem, saysinam
+                  et venditionem in quam et quos consentiit tamquam in suos judices ordinarios et se
+                  et omnia bona sua juridictioni, districtui, compulsioni et cohertioni eorumdem nec
+                  non et vigori et districtui dicti sigilli <lb n="134"/>regii supposuit pro
+                  predictis omnibus et singulis attendendis et inviolabiliter observandis. </p>
+               <p>Acta fuerunt hec anno, die, <placeName nymRef="Domicile d'Andrea Garralis"
+                        ><placeName nymRef="#Saint-Agrève">loco</placeName></placeName> et testibus
+                  supra proximis, et <persName nymRef="#Andrea_Garralis">prefato ma[gi]stro Andrea
+                     Garralis notario regio predicto</persName>
+                  <lb n="135"/>per quem de predictis <persName
+                     nymRef="#Jean_Verilhati_de_Chaumargeais">dictus Johannes</persName> petiit et
+                  etiam fieri concessit publicum instrumentum ad opus eiusdem et <persName
+                     nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dominorum castri Sancti
+                     Agrippavi predictorum</persName> qui predictis omnibus et singulis presens fui
+                     <lb n="136"/>et predicta omnia et singula notarii. </p>
+            </div2>
+            <div2>
+               <p>Vitalonus Blachoni de Raschassaco pro se et Petro eius fratre. </p>
+               <p>Cum omni juris renunciatione ad predicta neccessaria pariter et cautela. </p>
+            </div2>
+         </div1>
+      </body>
+      <back>
+         <p>De quibus quidem notis post decessum [...] <lb n="137"/>[notarii <persName
+               nymRef="#Pierre_Ariberui">ego Petrus] Ariberui clericus auctoritate regia [notarius]
+               publicus comissarius deputatus</persName> in notis et protocollis predicti condam
+            notarii, hoc presens instrumentum publicum hiis [presentibus] pellibus pergameni simul
+            [...] <lb n="138"/>[…], scripsi et [...] mea propria et signo meo quo utor consueto
+            signavi in robur et testimonium omnium et singulorum premissorum. </p>
+      </back>
+   </text>
+</TEI>
