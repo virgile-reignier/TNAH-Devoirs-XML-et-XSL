@@ -1,6 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Charte_médiévale[
    <!ENTITY er "<choice> <abbr>&#185;</abbr> <expan>er</expan> </choice>">
+   <!ENTITY re "<choice> <abbr>&#185;</abbr> <expan>re</expan> </choice>">
+   <!ENTITY re_v2 "<choice> <abbr>&#710;</abbr> <expan>re</expan> </choice>">
+   <!ENTITY ri_v2 "<choice> <abbr>&#185;</abbr> <expan>ri</expan> </choice>">
+   <!ENTITY ri "<choice> <abbr>&#710;</abbr> <expan>ri</expan> </choice>">
+   <!ENTITY ra "<choice> <abbr>&#710;</abbr> <expan>ra</expan> </choice>">
+   <!ENTITY ur "<choice> <abbr>&#705;</abbr> <expan>ur</expan> </choice>">
+   <!ENTITY per "<choice> <abbr>&#xa751;</abbr> <expan>per</expan> </choice>">
+   <!ENTITY pre "<choice> <abbr>&#58981;</abbr> <expan>pre</expan> </choice>">
+   <!ENTITY pra "<choice> <abbr>&#421;</abbr> <expan>pra</expan> </choice>">
+   <!ENTITY pro "<choice> <abbr>&#1020;</abbr> <expan>pro</expan> </choice>">
+   <!ENTITY par "<choice> <abbr>&#xa751;</abbr> <expan>par</expan> </choice>">
+   <!ENTITY per "<choice> <abbr>&#xa751;</abbr> <expan>per</expan> </choice>">
+   <!ENTITY ec "<choice> <abbr>&#705;</abbr> <expan>ec</expan> </choice>">
+   <!ENTITY ver "<choice> <abbr>v&#704;</abbr> <expan>ver</expan> </choice>">
+   <!ENTITY quod "<choice> <abbr>q&#999;</abbr> <expan>quod</expan> </choice>">
+   <!ENTITY quod_maj "<choice> <abbr>Q&amp;</abbr> <expan>quod</expan> </choice>">
+   <!ENTITY qua "<choice> <abbr>&#487;</abbr> <expan>qua</expan> </choice>">
+   <!ENTITY s_long "<choice> <abbr>&#383;</abbr> <expan>s</expan> </choice>">
+   <!ENTITY n "<choice> <abbr>&#175;</abbr> <expan>n</expan> </choice>">
+   <!ENTITY s "<choice> <abbr>&#175;</abbr> <expan>s</expan> </choice>">
+   <!ENTITY m "<choice> <abbr>&#175;</abbr> <expan>m</expan> </choice>">
+   <!ENTITY i "<choice> <abbr>&#175;</abbr> <expan>i</expan> </choice>">
+   <!ENTITY e "<choice> <abbr>&#175;</abbr> <expan>e</expan> </choice>">
+   <!ENTITY u "<choice> <abbr>&#175;</abbr> <expan>u</expan> </choice>">
+   <!ENTITY is "<choice> <abbr>&#175;</abbr> <expan>is</expan> </choice>">
+   <!ENTITY te "<choice> <abbr>&#175;</abbr> <expan>te</expan> </choice>">
+   <!ENTITY tia "<choice> <abbr>&#175;</abbr> <expan>tia</expan> </choice>">
+   <!ENTITY con "<choice> <abbr>&#999;</abbr> <expan>con</expan> </choice>">
+   <!ENTITY com "<choice> <abbr>&#999;</abbr> <expan>com</expan> </choice>">
+   <!ENTITY que "<choice> <abbr>q&#175;</abbr> <expan>que</expan> </choice>">
+   <!ENTITY que_final "<choice> <abbr>q&#541;</abbr> <expan>que</expan> </choice>">
+   <!ENTITY quam "<choice> <abbr>&#487;&#999;</abbr> <expan>quam</expan> </choice>">
+   <!ENTITY qui "<choice> <abbr>q&#710;</abbr> <expan>qui</expan> </choice>">
+   <!ENTITY quo "<choice> <abbr>q&#176;</abbr> <expan>quo</expan> </choice>">
+   <!ENTITY quem "<choice> <abbr>q&#175;</abbr> <expan>quem</expan> </choice>">
+   <!ENTITY rum "<choice> <abbr>&#565;</abbr> <expan>rum</expan> </choice>">
+   <!ENTITY rium "<choice> <abbr>&#565;</abbr> <expan>rium</expan> </choice>">
+   <!ENTITY e_final "<choice> <abbr>&#734;</abbr> <expan>e</expan> </choice>">
+   <!ENTITY i_final "<choice> <abbr>&#734;</abbr> <expan>i</expan> </choice>">
+   <!ENTITY is_final "<choice> <abbr>&#734;</abbr> <expan>is</expan> </choice>">
+   <!ENTITY ios "<choice> <abbr>&#734;</abbr> <expan>ios</expan> </choice>">
+   <!ENTITY ria "<choice> <abbr>&#565;</abbr> <expan>ria</expan> </choice>">
+   <!ENTITY tionibus "<choice> <abbr>t&#734;</abbr> <expan>tionibus</expan> </choice>">
+   <!ENTITY rie "<choice> <abbr>r&amp;</abbr> <expan>rie</expan> </choice>">
+   <!ENTITY elli "<choice> <abbr>&#734;</abbr> <expan>elli</expan> </choice>">
+   <!ENTITY us "<choice> <abbr>&#999;</abbr> <expan>us</expan> </choice>">
+   <!ENTITY us_v2 "<choice> <abbr>&#541;</abbr> <expan>us</expan> </choice>">
+   <!ENTITY m_v2 "<choice> <abbr>&#541;</abbr> <expan>m</expan> </choice>">
+   <!ENTITY vel "<choice> <abbr>v&#175;l</abbr> <expan>vel</expan> </choice>">  
+   <!ENTITY ter "<choice> <abbr>&#175;</abbr> <expan>ter</expan> </choice>">
+   <!ENTITY ae "<choice> <abbr>&#230;</abbr> <expan>e</expan> </choice>">
+   <!ENTITY os "<choice> <abbr>&#734;</abbr> <expan>os</expan> </choice>">
+   <!ENTITY ser "<choice> <abbr>&#503;</abbr> <expan>ser</expan> </choice>">
+   <!ENTITY dict "<choice> <abbr>dc&#175;</abbr> <expan>dict</expan> </choice>">
+   <!ENTITY hec "<choice> <abbr>h&#175;</abbr> <expan>hec</expan> </choice>">
+   <!ENTITY nostr "<choice> <abbr>nr&#175;</abbr> <expan>nostr</expan> </choice>">
+   <!ENTITY fact "<choice> <abbr>fc&#175;</abbr> <expan>fact</expan> </choice>">
+   <!ENTITY domin "<choice> <abbr>dn</abbr> <expan>d<ex>omi</ex>n</expan> </choice>">
+   <!ENTITY dominis "<choice> <abbr>dn&#565;</abbr> <expan>d<ex>omi</ex>nis</expan> </choice>">
+   <!ENTITY hab "<choice> <abbr>h&#175;</abbr> <expan>hab</expan> </choice>">
+   <!ENTITY ips "<choice> <abbr>ip&#175;</abbr> <expan>ips</expan> </choice>">
+   <!ENTITY secund "<choice> <abbr>&s_long;cd&#175;</abbr> <expan>secund</expan> </choice>">
+   <!ENTITY licet "<choice> <abbr>&#999;</abbr> <expan>licet</expan> </choice>">
+   <!ENTITY licet_v2 "<choice> <abbr>l&#541;</abbr> <expan>licet</expan> </choice>">
+   <!ENTITY libet "<choice> <abbr>l&#541;</abbr> <expan>libet</expan> </choice>">
+   <!ENTITY libet_v2 "<choice> <abbr>lib&#541;</abbr> <expan>libet</expan> </choice>">
+   <!ENTITY liter "<choice> <abbr>lr&#175;</abbr> <expan>liter</expan> </choice>">
+   <!ENTITY fratr "<choice> <abbr>fr&#175;</abbr> <expan>fratr</expan> </choice>">
+   <!ENTITY instrument "<choice> <abbr>in&s_long;tr&#175;</abbr> <expan>instrument</expan> </choice>">
+   <!ENTITY ecclesi "<choice> <abbr>eccl&#175;i</abbr> <expan>ecclesi</expan> </choice>">
+   <!ENTITY et_tironien "<choice> <abbr>z</abbr> <expan>et</expan> </choice>">
+   <!ENTITY Guillelm "<choice> <abbr>Guill</abbr> <expan>Guill<ex>elm</ex></expan> </choice>">
+   <!ENTITY Matthe "<choice> <abbr>m&#698;th&#175;</abbr> <expan>Matthe</expan> </choice>">
+   <!ENTITY sanct "<choice> <abbr>&s_long;c&#175;</abbr> <expan>sanct</expan> </choice>">
+   <!ENTITY Sanct "<choice> <abbr>&s_long;c&#175;</abbr> <expan><choice> <orig>s</orig> <reg>S</reg> </choice>anct</expan> </choice>">
+   <!ENTITY Sanct_avec_s_court "<choice> <abbr>sc&#175;</abbr> <expan><choice> <orig>s</orig> <reg>S</reg> </choice>anct</expan> </choice>">
+   <!ENTITY Agrippav "<choice> <abbr>Ag&#710;ppav</abbr> <expan>Aggripav</expan> </choice>">
+   <!ENTITY vicecomitis "<choice> <abbr>vicecom&#175;</abbr> <expan>vicecomitis</expan> </choice>">
+   <!ENTITY sollemniter "<choice> <orig><abbr>Sollep&n;it&er;</abbr> <expan>sollepniter</expan></orig> <reg>sollemniter</reg> </choice>">
+   <!ENTITY sollemnitate "<choice> <orig><abbr>&#383;olle&#175;pnitate</abbr> <expan>sollemnitate</expan></orig> <reg>sollemnitate</reg> </choice>">
+   <!ENTITY sollemnis_avec_s_long "<choice> <orig>&s_long;ollepnis</orig> <reg>sollemnis</reg> </choice>">
+   <!ENTITY sollemnis "<choice> <orig>sollepnis</orig> <reg>sollemnis</reg> </choice>">
+   <!ENTITY sollemnis_v2 "<choice> <orig>solle&#175;pnis</orig> <reg>sollemnis</reg> </choice>">
+   <!ENTITY pedagi "<choice> <orig>pedacgi</orig> <reg>pedagi</reg> </choice>">
+   <!ENTITY polveragi "<choice> <orig>polvoracgi</orig> <reg>polveragi</reg> </choice>">
+   <!ENTITY ibidem "<choice> <abbr>ibi&#545;</abbr> <expan>ibidem</expan> </choice>">
+   <!ENTITY quodam "<choice> <abbr>quo&#545;</abbr> <expan>quodam</expan> </choice>">
+   <!ENTITY turonenses "<choice> <orig>tu&#565;</orig> <reg>turonenses</reg> </choice>">
+   <!ENTITY turonensium "<choice> <orig>tu&#565;</orig> <reg>turonensium</reg> </choice>">
+   <!ENTITY rarum "<choice> <abbr>&#565;</abbr> <expan>rarum</expan> </choice>">
+   <!ENTITY Podempniaci "<choice> <abbr>podepni&#175;</abbr> <expan><choice> <orig>p</orig> <reg>P</reg> </choice>odempniaci</expan> </choice>">
+   <!ENTITY Johann "<choice> <abbr>Ioh&#175;</abbr> <expan>Johann</expan> </choice>">
+   <!ENTITY Philippo "<choice> <abbr>pho&#175;</abbr> <expan>Philippo</expan> </choice>">
+   <!ENTITY Iherusolomitani "<choice> <abbr>Ihrlmi&#175;</abbr> <expan>Iherusolomitani</expan> </choice>">
+   <!ENTITY Devesset "<choice> <orig>deve&s_long;&s_long;et</orig> <reg>Devesset</reg> </choice>">
+   <!ENTITY bayllivia "<choice> <abbr>bayll&#175;ia</abbr> <expan>bayllivia</expan> </choice>">
+   <!ENTITY vallavie "<choice> <abbr>vall&#175;ie</abbr> <expan>vallavie</expan> </choice>">
+   <!ENTITY auctoritate "<choice> <abbr>au&#269;te</abbr> <expan>auctoritate</expan> </choice>">
+   <!ENTITY necessaria "<choice> <abbr>ne&#269;ia</abbr> <expan>necessaria</expan> </choice>">
+   <!ENTITY presen "<choice> <abbr>p&#328;</abbr> <expan>presen</expan> </choice>">
+   <!ENTITY espace "<choice> <orig></orig> <reg> </reg> </choice>">
+   <!ENTITY virgule "<choice> <orig></orig> <reg>,</reg> </choice>">
+   <!ENTITY point_virgule_v "<choice> <orig>V</orig> <reg>; v</reg> </choice>">
+   <!ENTITY point "<choice> <orig></orig> <reg>.</reg> </choice>">
 ]>
 
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
@@ -33,7 +137,7 @@
          <notesStmt>
             <note> Le texte reproduit est une charte régulant les droits de passage des hommes de
                Devesset par Saint-Agrève. La présente édition est réalisée à partir du texte
-               original en complétant ses lacules à partir de deux copies conservées dans le même
+               original en complétant ses lacunes à partir de deux copies conservées dans le même
                fonds. </note>
          </notesStmt>
          <sourceDesc>
@@ -52,7 +156,11 @@
                <physDesc>
                   <objectDesc form="Rouleau">
                      <supportDesc material="Parchemin">
-                        <support>Rouleau de parchemin</support>
+                        <support>Rouleau de <material>parchemin</material></support>
+                        <extent><dimensions>
+                              <height unit="mm">1390</height>
+                              <width unit="mm">550</width>
+                           </dimensions></extent>
                         <condition>Document en mauvais état, des parties entières ont été altérées
                            par de mauvaises conditions de conservation</condition>
                      </supportDesc>
@@ -60,9 +168,15 @@
                </physDesc>
                <history>
                   <origin>Manuscrit produit après 1335 par la commanderie de Devesset </origin>
-                  <acquisition>Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
-                     Devesset vers le centre du grand-prieuré d'Auvergne à Lyon où il a été
-                     transféré aux AD à la révolution.</acquisition>
+                  <provenance><p>Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
+                        Devesset vers le centre du grand-prieuré d'Auvergne à
+                           Lyon</p><bibl><author>Léopold Niepce</author><title>Le grand prieuré
+                           d’Auvergne</title><pubPlace>Lyon</pubPlace><publisher>H.
+                           Georg</publisher><date>1883</date><ref
+                           target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001103580630#"
+                        /></bibl></provenance>
+                  <acquisition>Les archives du Grand-Prieuré de Lyon ont été transférés aux AD du
+                     Rhône à la Révolution</acquisition>
                </history>
             </msDesc>
             <msDesc xml:id="AD69_48H_1671-3" type="Source">
@@ -89,9 +203,15 @@
                <history>
                   <origin> Manuscrit produit au cours du XIVème siècle par la commanderie de
                      Devesset </origin>
-                  <acquisition> Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
-                     Devesset vers le centre du grand-prieuré d'Auvergne à Lyon où il a été
-                     transféré aux AD à la révolution. </acquisition>
+                  <provenance><p>Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
+                        Devesset vers le centre du grand-prieuré d'Auvergne à
+                           Lyon</p><bibl><author>Léopold Niepce</author><title>Le grand prieuré
+                           d’Auvergne</title><pubPlace>Lyon</pubPlace><publisher>H.
+                           Georg</publisher><date>1883</date><ref
+                           target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001103580630#"
+                        /></bibl></provenance>
+                  <acquisition>Les archives du Grand-Prieuré de Lyon ont été transférés aux AD du
+                     Rhône à la Révolution</acquisition>
                </history>
             </msDesc>
             <msDesc xml:id="AD69_48H_1671-4" type="Source">
@@ -116,9 +236,15 @@
                </physDesc>
                <history>
                   <origin>Copie manuscrite produite au cours du XVIIème ou du XVIIIème siècle </origin>
-                  <acquisition>Le manuscrit a été conservé au sein du fonds de Devesset dans les
-                     archives du grand-prieuré d'Auvergne à Lyon où il a été transféré aux AD à la
-                     révolution. </acquisition>
+                  <provenance><p>Le manuscrit a suivi le fonds de l'actuelle série 48 H depuis
+                        Devesset vers le centre du grand-prieuré d'Auvergne à
+                           Lyon</p><bibl><author>Léopold Niepce</author><title>Le grand prieuré
+                           d’Auvergne</title><pubPlace>Lyon</pubPlace><publisher>H.
+                           Georg</publisher><date>1883</date><ref
+                           target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001103580630#"
+                        /></bibl></provenance>
+                  <acquisition>Les archives du Grand-Prieuré de Lyon ont été transférés aux AD du
+                     Rhône à la Révolution</acquisition>
                </history>
             </msDesc>
             <bibl xml:id="Reignier_2021b" type="Bibliographie">
@@ -351,306 +477,657 @@
          <div1>
             <div2>
                <div3>
-                  <p><lb n="1"/>Nov&er;int univ&er;si et singuli presentes pariter et futuri hoc presens
-                     publicum instrumentum inspecturi et auditori, quod <date when="1327-06-06">anno
-                        ab incarnatione domini millesimo tercentesimo vigesimo septimo die vero
-                        sexta men<lb n="2" break="no" rend="hyphen"/>sis junii</date> inclito
-                     principe <persName nymRef="#Charles_IV">domino Karolo dei gratia rege francorum
-                        et Navarre regnante</persName>. </p>
+                  <p><lb n="1"/>Nov&er;int univ&er;si et &s_long;inguli p&re;&s_long;entes parit&er;
+                     et futuri hoc &pre;&s_long;ens publicum in&s_long;trum<ex>e</ex>&n;tum
+                     in&s_long;p&ec;turi et audituri&virgule; &quod_maj; <date when="1327-06-06"
+                        >anno ab incarnat&i;on<expan><ex>e</ex></expan> domini mille&s_long;imo <cl
+                           type="version" n="3">tercentesimo vigesimo septimo die vero</cl> sexta
+                           me&n;<lb n="2" break="no" rend="hyphen"/>&s_long;is <cl type="version"
+                           n="3">junii</cl></date>
+                     <cl type="version" n="3">inclito principe </cl><persName nymRef="#Charles_IV"
+                           ><cl type="version" n="2">&domin;o</cl>
+                        <choice>
+                           <orig>k</orig>
+                           <reg>K</reg>
+                        </choice>arolo <cl type="version" n="2">dei</cl> gratia rege franco&rum; et
+                           <cl type="version" n="2"><choice>
+                              <orig>n</orig>
+                              <reg>N</reg>
+                           </choice>avarre</cl>
+                        <cl type="version" n="3">regnante</cl></persName>&point; </p>
                </div3>
                <div3>
-                  <p>Cum, inter nobilem <persName nymRef="#Guillaume_Rochette">Guillelmum Rocheta
-                        domicellum baiulum castri Sancti Agrippavi</persName> procuratorem etiam et
-                     nomine procuratorio nobilium <lb n="3"/>virorum <persName
-                        nymRef="#Armand_de_Polignac">domini Armandi vicecomitis Podempniaci
-                        militis</persName> et <persName nymRef="#Eustache_de_Lamastre">Heustachii de
-                        Mastra domicelli</persName> dominorum castri Sancti Agrippavi ut dicebat ex
-                     una parte et venerabilem et <persName nymRef="#Renaud_de_Fay">religiosum virum
-                        fratrem Renaudum de Fayno or<lb n="4" break="no" rend="hyphen"/>dinis
-                        hospitalis Sancti Iohannis Iherusolomitani preceptorem castri ac domus
-                        Devesseti</persName> nomine suo ac dicta <orgName
-                        nymRef="#Commanderie_de_Devesset">domus Devesseti</orgName> et <orgName
-                        nymRef="#hommes_de_Devesset">hominum suorum et dicte domus
-                        Devesseti</orgName> et <orgName nymRef="#Grand-Prieuré_d_Auvergne"
-                        >prioris</orgName> ex parte altera, orta fuisset discordia, controversia et
-                     questionis <lb n="5"/>materia super eo videlicet quod dictus <persName
-                        nymRef="#Guillaume_Rochette">nobilis Guillermus Rocheta</persName> nomine
-                     procuratorio quo supra petebat et exigebat pedacgium et polvoracgium ab
-                        <orgName nymRef="#hommes_de_Devesset">hominibus dicti domini preceptoris et
-                        domus predicte de Devesseto</orgName> transentibus per <placeName
-                        nymRef="#Saint-Agrève">villam <lb n="6"/>Sancti Agrippavi et eius
-                        mandamentum</placeName> ducentibus bestias omnias seu alias quascumque
-                     quicumque dicti homines seu aliqui ipsorum transitum suum faciebant per loca
-                     predicta cum animalibus quibuscumque pro quibus et de quibus consuetum est
-                     levare <lb n="7"/>pedacgium et polvoracgium apud <placeName
-                        nymRef="#Saint-Agrève">Sanctum Agrippavum</placeName> per dominos dicti loci
-                     seu deputatos ab eis <persName nymRef="#Renaud_de_Fay">dicto domino
-                        preceptore</persName> nomine suo et dicte <orgName
-                        nymRef="#hommes_de_Devesset">domus Devesseti</orgName> et <orgName
-                        nymRef="#hommes_de_Devesset">hominum suorum et dicte domus</orgName> et pro
-                     ipsis. In contrarium dicente <orgName nymRef="#Grand-Prieuré_d_Auvergne"
-                        >[dominus prior</orgName> quod <orgName nymRef="#hommes_de_Devesset">ipsi]
-                           homi<lb n="8" break="no" rend="hyphen"/>nes suos</orgName> et <orgName
-                        nymRef="#Commanderie_de_Devesset">dicte domus Devesseti</orgName> minime
-                     tenere solvere, dare et prestare nec etiam debere dare, prestare et solvere
-                     pedacgium et polvoracgium apud <placeName nymRef="#Saint-Agrève">Sanctum
-                        Agrippavum et in eius mandamento</placeName> pro quacumque ratione occasione
-                     […] <lb n="9"/>[…] et immunes apud <placeName nymRef="#Saint-Agrève">Sanctum
-                        Agrippavum et in eius mandamento</placeName> ab omni exactione, prestatione
-                     et solutione pedacgii et polvoracgii quorumcumque. </p>
+                  <p>Cum&virgule; int&er; <choice>
+                        <orig>N</orig>
+                        <reg>n</reg>
+                     </choice>obilem <persName nymRef="#Guillaume_Rochette">&Guillelm;um Rocheta
+                        domicellum baiulum castri &Sanct;i &Agrippav;i</persName>
+                     <cl type="version" n="3">procuratorem</cl> etiam et nomi&n;e <cl type="version"
+                        n="3">procuratorio</cl>
+                     <choice>
+                        <orig>N</orig>
+                        <reg>n</reg>
+                     </choice>obilium <lb n="3"/>virorum <persName nymRef="#Armand_de_Polignac"
+                        >&domin;i <cl type="version" n="3"><choice>
+                              <orig>a</orig>
+                              <reg>A</reg>
+                           </choice>rmandi</cl>
+                        <cl type="version" n="2">&vicecomitis; &Podempniaci; militis</cl></persName>
+                     et <persName nymRef="#Eustache_de_Lamastre"><choice>
+                           <orig>h</orig>
+                           <reg>H</reg>
+                        </choice>eu&s_long;tachii de <choice>
+                           <orig>m</orig>
+                           <reg>M</reg>
+                        </choice>a&s_long;tra domicelli</persName> domino&rum; ca&s_long;t&ri;
+                     &Sanct;i &Agrippav;i ut dicebat ex una &par;te <choice>
+                        <orig>E</orig>
+                        <reg>e</reg>
+                     </choice>t ve&n;<ex>e</ex>rabilem et <persName nymRef="#Renaud_de_Fay"
+                        >religiosum virum <cl type="version" n="3">fratrem Renaudum</cl> de <choice>
+                           <orig>f</orig>
+                           <reg>F</reg>
+                        </choice>ayno or<lb n="4" break="no" rend="hyphen"/>dinis <choice>
+                           <orig>h</orig>
+                           <reg>H</reg>
+                        </choice>o&s_long;pitalis &Sanct;i <cl type="version" n="2">&Johann;is
+                           &Iherusolomitani; p&re_v2;ceptorem ca&s_long;tri</cl> ac domus
+                        &Devesset;i</persName> nomi&n;e suo ac &dict;a <orgName
+                        nymRef="#Commanderie_de_Devesset">dom&us; &Devesset;i</orgName> et <orgName
+                        nymRef="#hommes_de_Devesset">hominu&m; &s_long;uo&rum; et &dict;e domus
+                        &Devesset;i</orgName> et <orgName nymRef="#Grand-Prieuré_d_Auvergne"><cl
+                           type="version" n="3">prioris</cl></orgName> ex &par;te <cl type="version"
+                        n="3">altera&virgule; orta</cl> fui&s_long;&s_long;et
+                     di&s_long;cordia&virgule; &con;trov&er;&s_long;ia et &que;&s_long;tionis <lb
+                        n="5"/>mat&er;ia su&per; eo <cl type="version" n="3">vid<ex>e</ex>&licet;
+                        &quod; &dict;us <persName nymRef="#Guillaume_Rochette">nobilis &Guillelm;us
+                           Rocheta</persName> no&m;i&n;e &pro;curatorio</cl> quo sup&ra; petebat et
+                     exigebat &pedagi;um et &polveragi;um ab <orgName nymRef="#hommes_de_Devesset"
+                        >hominib&us; &dict;i <cl type="version" n="3">domini pr&ae;ceptoris et domus
+                           pr&ae;dict&ae;</cl> de &Devesset;o</orgName> tran&s_long;entib&us; &per;
+                        <placeName nymRef="#Saint-Agrève">villam <lb n="6"/>&Sanct;i &Agrippav;i et
+                           <cl type="version" n="3">eius</cl>
+                        <cl type="version" n="2">mandamentum</cl></placeName>
+                     <cl type="version" n="2">ducentibus be&s_long;tias</cl> omn<ex>i</ex>as
+                     &s_long;eu alias &qua;&s_long;cum&que_final; qu<ex>i</ex>cum&que_final; &dict;i
+                     homines &s_long;eu aliqui &ips;o&rum; tran&s_long;itum &s_long;uum faciebant
+                     &per; loca &pre;&dict;a cum <cl type="version" n="3">animalibus
+                        quibuscumque</cl> &pro; quib&us; et de quib&us; <cl type="version" n="3"
+                        >consuetum est</cl> levare <lb n="7"/>&pedagi;um <cl type="version" n="2">et
+                        &polveragi;um apud <placeName nymRef="#Saint-Agrève">&Sanct;<ex>u</ex>m
+                           &Agrippav;um</placeName></cl> &per; &domin;os &dict;i loci &s_long;eu
+                     deputatos ab eis <persName nymRef="#Renaud_de_Fay"><choice>
+                           <orig>D</orig>
+                           <reg>d</reg>
+                        </choice>icto &domin;o p&re;ceptore</persName> no&m;i&n;e &s_long;uo
+                     &et_tironien; &dict;e <orgName nymRef="#hommes_de_Devesset">dom&us;
+                        &Devesset;i</orgName> et <orgName nymRef="#hommes_de_Devesset">hominu&m;
+                        suo&rum; et &dict;e domus</orgName> et <cl type="version" n="3">pro
+                        ipsis&point; <choice>
+                           <orig>i</orig>
+                           <reg>I</reg>
+                        </choice>n&espace;contrarium dicente</cl>
+                     <cl type="rajout"><orgName nymRef="#Grand-Prieuré_d_Auvergne">dominus
+                           prior</orgName> quod</cl>
+                     <orgName nymRef="#hommes_de_Devesset"><cl type="rajout">ipsi</cl> homi<lb n="8"
+                           break="no" rend="hyphen"/><cl type="version" n="2">&n;es</cl>
+                        &s_long;uos</orgName>
+                     <cl type="version" n="2">et</cl>
+                     <orgName nymRef="#Commanderie_de_Devesset"><cl type="version" n="2">&dict;e
+                           domus</cl> &Devesset;i</orgName> minime tene&re; solvere&virgule; <cl
+                        type="version" n="2">dare</cl> et &pre;&s_long;tare <choice>
+                        <orig>N</orig>
+                        <reg>n</reg>
+                     </choice>ec etiam debere dare&virgule; &pre;stare et solve&re; &pedagi;um et
+                     &polveragi;u&m; apud <placeName nymRef="#Saint-Agrève">&Sanct;um &Agrippav;um
+                        et in eius <cl type="version" n="2">mandamento</cl></placeName><cl
+                        type="version" n="3"> pro quacumque ratione occasione</cl>
+                     <cl type="lacune">…</cl>
+                     <lb n="9"/>
+                     <cl type="lacune">…</cl> et <cl type="version" n="3">immunes</cl>
+                     <cl type="version" n="2">apud </cl><placeName nymRef="#Saint-Agrève"><cl
+                           type="version" n="2">&Sanct;</cl> &Agrippav;vum et in eius <cl
+                           type="version" n="2">mandamento</cl></placeName> ab <cl type="version"
+                        n="2">omn&i; exact&i;one</cl>&virgule; p&re;&s_long;tat&i;one et
+                        &s_long;olut&i;on<ex>e</ex> &pedagi;i et &polveragi;i
+                     quo&rum;cum&que_final;&point; </p>
 
-                  <p>Tandem dicte partes constitute in presentia <persName nymRef="#Andrea_Garralis"
-                        >notarii</persName> et testium infrascriptorum non errans [in] <lb n="10"
-                     />[aliquo nec] decepte set bene certe et certifficate videlicet dictus nobilis
-                        <persName nymRef="#Guillaume_Rochette">Guillermus Rocheta</persName> de jure
-                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictorum
-                        dominorum Sancti Agrippavi</persName>, quorum est procurator, et bene
-                     premeditatus ut dicebat et <persName nymRef="#Renaud_de_Fay">dictus dominus
-                        preceptor</persName> de jure suo et <orgName
-                        nymRef="#Commanderie_de_Devesset">dicte <lb n="11"/>domus
-                        Devesseti</orgName> et <orgName nymRef="#hommes_de_Devesset">hominum suorum
-                        et dicte domus Devesseti</orgName> et bene premeditatus ut dicebat super
-                     discordia, controvertia et questionis predictis et super quibusdam aliis
-                     articulis infrascriptis cupientes [...] super amicabili-<lb n="12" break="no"
-                     />-ter expensas et aufractus litiam et aurgiorum materiam evitare super eisdem
-                     sollempniter transagendo concordaverunt nominibus quibus supra pacificaverunt
-                     et transegerunt per modum qui sequitur infrascriptum. </p>
+                  <p>Tandem &dict;e &par;tes &con;&s_long;titute in &pre;&s_long;entia <persName
+                        nymRef="#Andrea_Garralis">notarii</persName> et testium <cl type="version"
+                        n="3">infra&s_long;criptorum</cl>
+                     <choice>
+                        <orig>N</orig>
+                        <reg>n</reg>
+                     </choice>on errans <cl type="rajout">in <lb n="10"/>aliquo nec</cl>
+                     <cl type="version" n="2">decepte</cl>
+                     <choice>
+                        <orig>set</orig>
+                        <reg>sed</reg>
+                     </choice> bene c&er;te et c&er;tificate vide&licet; &dict;us nobilis <persName
+                        nymRef="#Guillaume_Rochette">&Guillelm;us Rocheta</persName> de jure
+                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">&dict;orum
+                        &domin;o&rum; &Sanct;i &Agrippav;i</persName>&virgule; quo&rum; e&s_long;t
+                     &pro;curator&virgule; et bene &pre;meditat&us; ut dicebat et <persName
+                        nymRef="#Renaud_de_Fay">&dict;us <cl type="version" n="3">&domin;us
+                           pr&ae;ceptor</cl></persName><cl type="version" n="3"> de jure</cl>
+                     &s_long;uo et <orgName nymRef="#Commanderie_de_Devesset"><cl type="version"
+                           n="3">dict&ae; <lb n="11"/>dom<choice>
+                              <orig>û</orig>
+                              <reg>u</reg>
+                           </choice>s</cl>
+                        <cl type="version" n="2">&Devesset;i</cl></orgName> et <orgName
+                        nymRef="#hommes_de_Devesset">hominu&m; suo&rum; et &dict;e domus
+                        &Devesset;i</orgName> et bene &pre;meditat&us; ut dicebat <choice>
+                        <orig>S</orig>
+                        <reg>s</reg>
+                     </choice>u&per; di&s_long;cordia&virgule; &con;trov&er;&s_long;ia et
+                     que&s_long;tion&is; p&re;&dict;is et su&per; quibu&s_long;dam aliis articulis
+                     infra&s_long;c&ri_v2;ptis cupientes <choice>
+                        <orig>N</orig>
+                        <reg>n</reg>
+                     </choice>on<cl type="lacune">…</cl> &s_long;u&per; amicab&i;li<lb n="12"
+                        break="no" rend="hyphen"/><cl type="version" n="2">ter expensas et aufractus
+                        litiam</cl> et aurgiorum mat&er;iam evitare su&per; ei&s_long;dem
+                     &sollemniter; tran&s_long;egendo &con;cordaveru&n;t nomi&n;&i;b&us; quib&us;
+                     sup&ra; pacificav&er;u&n;t &et_tironien; tran&s_long;eg&er;unt &per; modum qui
+                     sequitur infra&s_long;c&ri_v2;ptum&point; </p>
                </div3>
 
                <div3>
-                  <p>In primis, ex causa sollepnis <lb n="13"/>transactionis, convenerunt inter se
-                     dicte partes nominibus quibus supra quod idem <persName nymRef="#Renaud_de_Fay"
-                        >dictus preceptor</persName>, <orgName nymRef="#Commanderie_de_Devesset"
-                        >fratres et donati dicte domus Devesseti et eorum successores
-                        perpetuo</orgName> sint quitii, liberi et immunes apud <placeName
-                        nymRef="#Saint-Agrève">Sanctum Agrippavum et in toto mandamento
-                        eiusdem</placeName>
-                     <lb n="14"/>ab omni prestatione, exactione et solutione pedacgii, leyde et
-                     polvoracgii cui[buscumque] et quod per se vel per alium seu alios possint
-                     transire et transitum suum facere pure et libere per <placeName
-                        nymRef="#Saint-Agrève">castrum Sancti Agrippavi et eius
-                        mandamentum</placeName> cum anima<lb n="15" break="no" rend="hyphen"/>libus
-                     suis et ductore si quod conducebant seu locabant in rippia vel alibi pro
-                     fimandis terris grangiarum de <placeName nymRef="#Maujour">Malodie sive Del
-                        Chalfalt</placeName>, de <placeName nymRef="#Arcelet">Arcelleto</placeName>,
-                     de <placeName nymRef="#Le_Cholet">Chauleto</placeName>, et de <placeName
-                        nymRef="#Champagne">Champanhis</placeName> sine solutione seu prestatione
-                     pedacgii et polv[orac]<lb n="16" break="no" rend="hyphen"/>[gii] quorumcumque
-                     et insuper possint et ipsos liceat pure et libere blata (sic) sua vendere et
-                     animalia quecumque emere apud <placeName nymRef="#Saint-Agrève">Sanctum
-                        Agrippavum et in mandamento eiusdem</placeName> absque prestatione seu
-                     solutione leyde cuiuscumque. </p>
-                  <p>Item convenerunt inter <lb n="17"/>se dicte partes nominibus quibus supra ex
-                     causa sollepnis transactionis quod <orgName nymRef="#hommes_de_Devesset"
-                        >homines dicte domus Devesseti</orgName> pro quolibet trentenario averis ab
-                     uno usque ad summam quinque tretenariorum et dimidium transente per <placeName
-                        nymRef="#Saint-Agrève">villam Sancti Agripp[avi] et in eius <lb n="18"
-                        />mandamentum</placeName> si quod locabant et adducebant de rippia causa
-                     fimandi terras suas dare et solvere debeant ac etiam teneantur <persName
-                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictis dominis Sancti
-                        Agrippavi</persName> ratione pedacgii tres denarios turonenses. Hoc acto
-                     quod de trentenaris […] <lb n="19"/>nihil dare teneantur. Si vero dictum avere
-                     exedere contigeret summam quinque trentenariorum et dimidii, quantumcumque sit
-                     seu esse poterit, quod pro quolibet ovili quod exinde facerent de ipso avere
-                        <orgName nymRef="#hommes_de_Devesset">dicti homines et quilibet
-                        ipsorum</orgName>, dare et solvere teneantur <lb n="20"/>et debeant
-                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictis
-                        dominis</persName> ratione polvoracgii duos solidos et semis turonensium et
-                        <persName nymRef="#Guillaume_Rochette">eorum baiulis</persName> unum caseum. </p>
-                  <p>Item convuenerunt inter se dicte partes nominibus quibus supra ex causa
-                     sollepnis transactionis quod <orgName
-                        nymRef="#hommes_de_Devesset #Commanderie_de_Devesset">homines predicti et
-                        dicte domus [De]vesseti <lb n="21"/>et quilibet ipsorum</orgName> possint et
-                     ipsos liceat transire pure et libere et transitum suum facere per <placeName
-                        nymRef="#Saint-Agrève">castrum Sancti Agrippavi et eius
-                        mandamentum</placeName> cum animalibus suis proprius (sic) et eorum hospicio
-                     Scurchelcis […] <lb n="22"/>placuerit faciendum absque prestatione seu
-                     solutione pedacgii. Hoc salvo et retento quod si sunt aliqui de <orgName
-                        nymRef="#hommes_de_Devesset">predictis hominibus</orgName> qui teneant
-                     denariatas quascumque ad vendendum et ipsi vel alicui ipsorum transitum suum
-                     facerent per <placeName nymRef="#Saint-Agrève">castrum Sancti <lb n="23"
-                        />Agrippavi seu eius mandamentum</placeName> cum dictis denariatis, tunc in
-                     illo casu pro qualibet saumata unum denarium turonensem ratione pedacgii
-                        <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictis
-                        dominis</persName> dare et soluere teneantur. Aliter pedacgium apud
-                        <placeName nymRef="#Saint-Agrève">[Sanctum] Agrippavum seu in eius
-                        mandamento</placeName>
-                     <lb n="24"/>dare et soluere minime debeant nec etiam teneantur preter quam in
-                     casibus superius memoratis. </p>
-                  <p>Item convenerunt inter se dicte partes nominibus quibus supra ex causa
-                     sollepnis transaction[is] quod <orgName nymRef="#Commanderie_de_Devesset"
-                        >servientes castri Devesseti et quilibet ipsorum</orgName> qui nunc <lb
-                        n="25"/> sunt vel qui pro tempore fuerint possint portare arma sua per
-                        <placeName nymRef="#Saint-Agrève">villam Sancti Agrippavi et eius
-                        mandamentum</placeName> eundo et redeundo sine offensa tamen alicui
-                     facienda. Hoc acto et adjuncto quod cum <placeName nymRef="#Saint-Agrève"
-                        >villam Sancti Agrippavi</placeName> intraverint et <lb n="26"/>moram ibidem
-                     facere vellent, tunc in eo casu quo ibidem moram facerent dicta arma ponere
-                     debeant in quadam domo in qua notitiam habeant et ibidem dimitere teneantur
-                     [...] [-]rint <lb n="27"/>gressus suos. </p>
-                  <p>Item convenerunt inter se dicte partes nominibus quibus supra ex causa
-                     sollepnis transactionis quod si <orgName nymRef="#Commanderie_de_Devesset"
-                        >servientes et familiares curie castri Devesseti</orgName> caperent aliquem
-                     delatum qui in terra et juridictione dicti castri Devesseti <lb n="28"/>aliquid
-                     commisisset et ipsum ducere vellent versus <placeName
-                        nymRef="#Commanderie_de_Devesset">Devessetum</placeName> pro justitia ibidem
-                     facienda de eodem, de et super hiis de quibus delatus esset in juridictione
-                     dicti castri Devesseti, tunc in iillo casu <orgName
-                        nymRef="#Commanderie_de_Devesset">dicti [servientes] castri Devesseti <lb
-                           n="29"/>qui nunc sunt vel qui pro tempore fuerint</orgName> dictum
-                     delatum transire possint per <placeName nymRef="#Saint-Agrève">mandamentum et
-                        villam Sancti Agrippavi</placeName> omni impedimento cessante, ita tamen
-                     quod dictum delatum <persName nymRef="#Guillaume_Rochette">baiulis seu
-                        curialibus Sancti Agrippavi</persName> remitere teneantur <lb n="30"/>et
-                     debeant. Et facta remissione de dicto delato ut premissum est, <persName
-                        nymRef="#Guillaume_Rochette">baiuli ipsi castri Sancti Agrippavi seu
-                        curiales dicti castri</persName> incontinenter et sine aliquo intervallo
-                     dictum delatum <orgName nymRef="#Commanderie_de_Devesset">servientibus seu
-                        curialibus curie castri Dvesseti</orgName> in fine <lb n="31"/>
-                     <placeName nymRef="#Saint-Agrève">mandamenti castri Sancti
-                        Agrippavi</placeName> reddere et deliberare debeant ac etiam teneantur
-                     omnibus exeptionibus et allegationibus post positis et remotis. Et si
-                     contingeret aliquo casu quod <orgName nymRef="#Commanderie_de_Devesset"
-                        >curiales Devesseti</orgName> non [...] <placeName nymRef="#Saint-Agrève"
-                        >[Sanctum] Agrippavum</placeName>
-                     <lb n="32"/>aliquem de curialibus dicti loci cui facerent remissionem de dicto
-                     delato, quod in eo casu dictum delatum ducere debeant in platea <placeName
-                        nymRef="#Saint-Agrève">Sancti Agrippavi</placeName>, et ibidem presentare se
-                     paratos remittere dictum delatum si <persName nymRef="#Guillaume_Rochette">idem
-                        [...] <lb n="33"/>dicti castri Sancti Agrippavi</persName> ipsum reciperet.
-                     Quo facto, <orgName nymRef="#Commanderie_de_Devesset">predicti curiales
-                        Devesseti</orgName> predictum delatum secum ducere possint et debeant pure,
-                     libere et impune, et etiam omni impedimento cessante. Si vero contigeret dictum
-                     delatum aliquid de<lb n="34" break="no" rend="hyphen"/>linquisse in
-                     juridictione castri Sancti Agrippavi et idem delatus propter delictum commissum
-                     per eum in juridictione castri Devesseti minime judicaretur ad mortem per
-                     judicem <orgName nymRef="#Commanderie_de_Devesset">curie castri
-                        Devesseti</orgName>, tunc in casu <orgName nymRef="#Commanderie_de_Devesset"
-                        >[servientes seu curiales] <lb n="35"/>castri Devesseti</orgName> dictum
-                     delatum remittere debeant <persName
-                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">dominis Sancti Agrippavi
-                        seu eorum curialibus</persName> in fine <placeName
-                        nymRef="#Commanderie_de_Devesset">mandamenti castri Devesseti</placeName>,
-                     facta prius exequtione de eodem per <orgName nymRef="#Commanderie_de_Devesset"
-                        >curiales Devesseti</orgName> de hiis qui ad ipsos pertinent. </p>
-                  <p>Item convenerunt inter se <lb n="36"/>dicte partes nominibus quibus supra ex
-                     causa sollempnis transactionis quod <persName nymRef="#Guillaume_Rochette"
-                        >dictus Guillermus Rocheta</persName> procuret et procurare debeat ac etiam
-                     teneatur cum effectu quod <persName
-                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">domini Sancti Agrippavi
-                        predicti</persName> ac etiam <persName nymRef="#Cateherine_de_Bouzols"
-                        >domina vicecomitissa Podempniaci</persName>
-                     <lb n="37"/>et simplicem requisitionem <persName nymRef="#Renaud_de_Fay">dicti
-                        domini preceptoris seu eius certi mandati</persName> hanc presentem
-                     transactionem et omnia et singula supradicta in hoc presenti publico
-                     instrumento contenta laudent, approbent et confirment ac etiam [...] <lb n="38"
-                     />in eisdem cum sollempnitate qua decet et quod <persName
-                        nymRef="#Renaud_de_Fay">dictus dominus preceptor</persName> procuret etiam
-                     cum effectu quod <orgName nymRef="#hommes_de_Devesset">homines domus
-                        Devesseti</orgName> faciant illud idem et etiam fieri faciat hoc idem per
-                        <orgName nymRef="#Grand-Prieuré_d_Auvergne">dominum priorem Alvernie
-                        prioratus</orgName> ad solam [et simpli]<lb n="39" break="no" rend="hyphen"
-                     />cem requisitionem <persName
-                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">dictorum dominorum Sancti
-                        Agrippavi seu eorum certi mandati</persName>. </p>
+                  <p>In <cl type="version" n="2">p&ri_v2;mis</cl>&virgule; ex cau&s_long;a
+                     &sollemnis_avec_s_long; <lb n="13"/><cl type="version" n="3"
+                        >transactionis&virgule; convenerunt</cl> int&er; se &dict;e &par;tes <cl
+                        type="version" n="3">nominibus quibus &s_long;upra</cl> &quod; <cl
+                        type="version" n="3">idem <persName nymRef="#Renaud_de_Fay">dictus
+                           pr&ae;ceptor</persName></cl>&virgule; <orgName
+                        nymRef="#Commanderie_de_Devesset">&fratr;es et donati &dict;e domus
+                        &Devesset;i et eorum succe&s_long;&s_long;ores &per;petuo</orgName> sint
+                     quitii&virgule; liberi et immunes apud <placeName nymRef="#Saint-Agrève"
+                        >&Sanct;um &Agrippav;um et in toto ma&n;dame&n;to <cl type="version" n="2"
+                           >ei&us;dem</cl></placeName>
+                     <lb n="14"/><cl type="version" n="2">ab om&n;i
+                        p&re;&s_long;tat<ex>i</ex>o&n;e&virgule; exact<ex>i</ex>o&n;e</cl> et
+                        &s_long;olut<ex>i</ex>o&n;e &pedagi;i&virgule; leyde et <cl type="version"
+                        n="3">polveragii</cl> cui<cl type="rajout">buscumque</cl>
+                     <cl type="version" n="3">et</cl> &quod; &per; se vel &per; alium &s_long;eu
+                     alios po&s_long;&s_long;int tran&s_long;ire et tran&s_long;itum &s_long;uum
+                     face&re; pure &et_tironien; libere &per; <placeName nymRef="#Saint-Agrève"
+                        >ca&s_long;trum &Sanct;i &Agrippav;i et eius
+                        mandam<ex>e</ex>&n;tum</placeName> cu&m; <cl type="version" n="2"
+                           >a&n;i&m;a<lb n="15" break="no" rend="hyphen"/>libus</cl> &s_long;uis <cl
+                        type="version" n="3">et ductore si quod</cl> &con;ducebant &s_long;eu
+                     locabant in rippia vel alibi pro fimandis t&er;ris grangia&rum; de <placeName
+                        nymRef="#Maujour"><choice>
+                           <orig>m</orig>
+                           <reg>M</reg>
+                        </choice>alodie sive <choice>
+                           <orig>d</orig>
+                           <reg>D</reg>
+                        </choice>el <choice>
+                           <orig>c</orig>
+                           <reg>C</reg>
+                        </choice>halfalt</placeName>&virgule; de <placeName nymRef="#Arcelet"><choice>
+                           <orig>a</orig>
+                           <reg>A</reg>
+                        </choice>rcelleto</placeName>&virgule; de <placeName nymRef="#Le_Cholet"><choice>
+                           <orig>c</orig>
+                           <reg>C</reg>
+                        </choice>hauleto</placeName>&virgule; et de <placeName nymRef="#Champagne"><choice>
+                           <orig>c</orig>
+                           <reg>C</reg>
+                        </choice>hampanhis</placeName> &s_long;ine solut<ex>i</ex>o&n;e seu
+                        p&re;&s_long;tat<ex>i</ex>o&n;e &pedagi;i et <choice>
+                        <orig>polv<cl type="rajout">orac<lb n="16" break="no" rend="hyphen"
+                              />gii</cl></orig>
+                        <reg>polveragii</reg>
+                     </choice>
+                     <cl type="version" n="3">quorumcumque</cl> et in&s_long;u&per;
+                     po&s_long;&s_long;int et &ips;os liceat pure et libere <choice>
+                        <orig>blata</orig>
+                        <reg>blada</reg>
+                     </choice> sua vender&e_final; et a&n;i<ex>m</ex>alia quecu&m;&que_final; emere
+                     apud <placeName nymRef="#Saint-Agrève">&Sanct;um &Agrippav;um et in
+                           mandam<ex>e</ex>&n;to eiu&s_long;dem</placeName> ab&s_long;&que_final;
+                        <cl type="version" n="3">pr&ae;statione</cl> &s_long;eu solut<ex>i</ex>o&n;e
+                     leyde cuiu&s_long;cu&m;&que_final;&point; </p>
+                  <p>Item <cl type="version" n="3">convenerunt inter <lb n="17"/>se dict&ae; partes
+                        nominibus quibus &s_long;upra</cl> ex causa &sollemnis; tra&n;sact&i;onis
+                     &quod; <orgName nymRef="#hommes_de_Devesset">homines &dict;e domus
+                        &Devesset;i</orgName> &pro; quo&libet; trentenario averis ab uno
+                     u&s_long;&que_final; ad sum&m;am &qui;n&que_final; tre&n;tenario&rum; et
+                     dimidium tran&s_long;ente &per; <placeName nymRef="#Saint-Agrève">villam
+                        &Sanct; &Agrippav;i <cl type="version" n="3">et in eius <lb n="18"
+                           />mandamentum</cl></placeName><cl type="version" n="3"> &s_long;i
+                        quod</cl> locabant et adducebant de rippia cau&s_long;a fimandi t&er;ras
+                     &s_long;uas dare et &s_long;olvere deb&e;ant ac etiam teneant&ur; <persName
+                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">&dict;is domini&s_long; <choice>
+                           <orig>s</orig>
+                           <reg>S</reg>
+                        </choice>ancti &Agrippav;i</persName> rat&i;one &pedagi;i tres denarios
+                     &turonenses;&point; <choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                     </choice>oc acto &quod; de tre&n;tenaris <cl type="lacune">...</cl>
+                     <lb n="19"/><cl type="version" n="3">nihil dare teneantur</cl>&point; <choice>
+                        <orig>s</orig>
+                        <reg>S</reg>
+                     </choice>i v&er;o &dict;<ex>u</ex>m avere exedere &con;ting&er;et su&m;mam
+                     &qui;n&que_final; trentenario&rum; et dimidii&virgule; &qua;<choice>
+                        <orig>&#541;</orig>
+                        <reg>n</reg>
+                     </choice>tumcu&m;&que_final; sit &s_long;eu e&s_long;&s_long;e
+                     pot&er;it&virgule; &quod; &pro; quo&libet; ovili quod exinde face&re;nt de
+                     &ips;o avere <orgName nymRef="#hommes_de_Devesset">&dict;i homines et
+                        qui&libet; &ips;o&rum;</orgName>&virgule; dare &et_tironien; <cl
+                        type="version" n="3">&s_long;olvere teneantur</cl>
+                     <lb n="20"/><cl type="version" n="2">et debeant</cl>
+                     <persName nymRef="#Armand_de_Polignac #Eustache_de_Lamastre"><cl type="version"
+                           n="3">dictis dominis</cl></persName> rat<ex>i</ex>o&n;e &polveragi;i duos
+                     &s_long;olid&os; et &s_long;emis &turonensium; et <persName
+                        nymRef="#Guillaume_Rochette">eorum baiulis</persName> unum
+                     ca&s_long;eum&point; </p>
+                  <p>Item &con;vueneru&n;t int&er; se &dict;e &par;tes no&m;i<ex>ni</ex>ibus
+                     quib&us; &s_long;up&ra; ex cau&s_long;a &sollemnis_avec_s_long;
+                        tran&s_long;a<cl type="version" n="3">ctionis</cl> &quod; <orgName
+                        nymRef="#hommes_de_Devesset #Commanderie_de_Devesset">homines p&re;&dict;i
+                        et <cl type="version" n="2">dict&ae; domus</cl>
+                        <choice>
+                           <orig><cl type="rajout">De</cl><cl type="version" n="2"
+                                 >ve&s_long;&s_long;et</cl></orig>
+                           <reg>Devesset</reg>
+                        </choice><cl type="version" n="2">i <lb n="21"/>et</cl>
+                        <cl type="version" n="3">quilibet</cl>
+                        <cl type="version" n="2">&ips;o&rum;</cl></orgName> po&s_long;&s_long;int et
+                     &ips;os liceat tran&s_long;ire pure et libere et tran&s_long;itum &s_long;uum
+                     facere &per; <placeName nymRef="#Saint-Agrève">ca&s_long;trum &Sanct;i
+                        &Agrippav;i et eius mandam<ex>e</ex>&n;tum</placeName> cum
+                     a<ex>n</ex>i&m;alib&us_v2; &s_long;uis &pro;p&ri_v2;<choice>
+                        <orig>u</orig>
+                        <reg>i</reg>
+                     </choice>s et eo&rum; <cl type="version" n="3">hospicio <cl type="note"
+                           >Scurchelcis</cl></cl>
+                     <cl type="lacune">…</cl>
+                     <lb n="22"/><cl type="version" n="3">placuerit faciendum</cl>
+                     ab&s_long;&que_final; p&re;&s_long;tat&i;on<ex>e</ex> seu
+                        &s_long;olut<ex>i</ex>o&n;e &pedagi;i&point; <choice>
+                        <orig>H</orig>
+                        <reg>h</reg>
+                     </choice>oc &s_long;alvo et retento &quod; si &s_long;unt aliqui de <orgName
+                        nymRef="#hommes_de_Devesset">p&re;&dict;s homi&n;<ex>i</ex>bus</orgName> qui
+                     teneant denariatas quas&s_long;cu&m;&que_final; ad vendendum et &ips;i <cl
+                        type="version" n="3">vel alicui ipsorum transitum suum facerent per
+                        </cl><placeName nymRef="#Saint-Agrève"><cl type="version" n="3">castrum <choice>
+                              <orig>&#383;</orig>
+                              <reg>S</reg>
+                           </choice>an<ex>c</ex>ti <lb n="23"/><choice>
+                              <orig>a</orig>
+                              <reg>A</reg>
+                           </choice>gr<choice>
+                              <orig>r</orig>
+                              <reg>i</reg>
+                           </choice>ppavi</cl> &s_long;eu eius mandam<ex>e</ex>&n;tum</placeName>
+                     cum &dict;is denariatis&virgule; tunc in illo ca&s_long;u &pro; qua&libet;
+                     saumata unum dena&rium; <choice>
+                        <orig>tu&#565;</orig>
+                        <reg>turonensem</reg>
+                     </choice> rat<ex>i</ex>o&n;e &pedagi;i <persName
+                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">&dict;is
+                        &domin;is</persName> dare et &s_long;oluere teneant&ur;&point; <choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                     </choice>liter <cl type="version" n="2">&pedagi;um ap<ex>u</ex>d</cl>
+                     <placeName nymRef="#Saint-Agrève"><cl type="rajout">Sanctum</cl><cl
+                           type="version" n="3"> &Agrippav;u&m; &s_long;eu in ei&us_v2;
+                           mandamento</cl></placeName>
+                     <lb n="24"/><cl type="version" n="3">dare et &s_long;olue&re;</cl> minime
+                     debeant nec etiam teneant&ur; pret&er; &quam; in ca&s_long;ib&us;
+                     &s_long;u&per;i&us; memoratis&point; </p>
+                  <p>Item &con;ven&er;unt int&er; se &dict;e &par;tes no&m;i<ex>ni</ex>b&us;
+                     quib&us; &s_long;u&pra; ex causa &sollemnis_avec_s_long;
+                        tran&s_long;act<ex>i</ex>o&n;<cl type="rajout">is</cl><cl type="version"
+                        n="2"> &quod; <orgName nymRef="#Commanderie_de_Devesset">&ser;vientes
+                           ca&s_long;t&ri_v2; &Devesset;i et qui&libet_v2; &ips;o&rum;</orgName> qui
+                        nu&n;c <lb n="25"/> &s_long;unt &vel; qui &pro;</cl>
+                        t<ex>e</ex>&m;p<ex>o</ex>re fu&er;int po&s_long;&s_long;int portare arma sua
+                     &per; <placeName nymRef="#Saint-Agrève">villam &Sanct;i &Agrippav;i et <cl
+                           type="version" n="2">eius</cl> ma&n;dam<ex>e</ex>&n;tum</placeName> eundo
+                     &et_tironien; redeundo &s_long;ine offen&s_long;a tamen alicui facienda&point; <choice>
+                        <orig>h</orig>
+                        <reg>H</reg>
+                     </choice>oc acto et <cl type="version" n="2">adjuncto &quod; cum <placeName
+                           nymRef="#Saint-Agrève">villam &Sanct;i &Agrippav;i</placeName>
+                        int&ra;verint et <lb n="26"/>mora&m; ibide&m;</cl> face&re; vellent&virgule;
+                     tu&n;c in eo ca&s_long;u quo ibidem moram face&re;nt &dict;a arma <cl
+                        type="version" n="2">pone&re;</cl> debeant in quadam domo in qua notitiam
+                     &hab;eant et ibidem dimite&re; <cl type="version" n="2">teneantur</cl>
+                     <cl type="lacune"> ... ...</cl>
+                     <cl type="version" n="2">rint <lb n="27"/>gre&s_long;&s_long;us
+                        &s_long;uos</cl>&point; </p>
+                  <p>Item &con;ven&er;unt int&er; se &dict;e &par;tes nomi&n;<ex>i</ex>b&us;
+                     quib&us; su&pra; ex cau&s_long;a &sollemnis; tra&n;&s_long;act<ex>i</ex>o&n;is
+                     &quod; si <orgName nymRef="#Commanderie_de_Devesset">&ser;vie&n;tes et
+                        familiares curie cast&ri; &Devesset;i</orgName> ca&per;ent aliquem <cl
+                        type="version" n="2">delat<choice>
+                           <orig>&us;</orig>
+                           <reg>um</reg>
+                        </choice> qui in t&er;ra et juridict<ex>i</ex>o&n;e &dict;i cast&ri_v2;
+                        &Devesset;i</cl>
+                     <lb n="28"/>aliquid &com;mi&s_long;i&s_long;&s_long;et et &ips;<ex>u</ex>m
+                     duce&re; vellent &ver;&s_long;us <placeName nymRef="#Commanderie_de_Devesset"
+                        >&Devesset;um</placeName> &pro; ju&s_long;titia &ibidem; facienda de
+                     eodem&virgule; de et &s_long;u&per; hiis de quib&us; delat&us;
+                     e&s_long;&s_long;et in juridict<ex>i</ex>o&n;e &dict;i cast&ri_v2;
+                     &Devesset;i&virgule; <cl type="version" n="2">tunc in iillo ca&s_long;u</cl>
+                     <orgName nymRef="#Commanderie_de_Devesset"><cl type="version" n="2">&dict;i
+                           </cl><cl type="rajout">servientes</cl><cl type="version" n="2">
+                           cast&ri_v2; &Devesset;i</cl>
+                        <lb n="29"/>qui nu&n;c sunt vel qui pro te&m;pore fu&er;int</orgName>
+                        &dict;<ex>u</ex>m delatum tran&s_long;ire po&s_long;&s_long;int &per;
+                        <placeName nymRef="#Saint-Agrève">ma&n;dam<ex>e</ex>&n;tum et villam
+                        &Sanct;i &Agrippav;i</placeName> om&n;i impedim<ex>e</ex>&n;to
+                     ce&s_long;&s_long;ante&virgule; ita tamen &quod; &dict;<ex>u</ex>m delatum
+                        <persName nymRef="#Guillaume_Rochette">baiulis <cl type="version" n="2"
+                           >&s_long;eu curialibus &Sanct;i &Agrippav;i</cl></persName><cl
+                        type="version" n="2"> remite&re; teneantur</cl>
+                     <lb n="30"/>et debeant&point; <choice>
+                        <orig>e</orig>
+                        <reg>E</reg>
+                     </choice>t facta remi&s_long;&s_long;ione de &dict;o delato ut
+                     p&re;mi&s_long;&s_long;um e&s_long;t&virgule; <persName
+                        nymRef="#Guillaume_Rochette">baiuli &ips;i cast&ri; &Sanct;i &Agrippav;i
+                        &s_long;eu curiales &dict;i cast&ri;</persName> incontinen&ter; et
+                     &s_long;ine aliquo int&er;vallo &dict;<ex>u</ex>m <cl type="version" n="2"
+                        >delatu&m;</cl>
+                     <orgName nymRef="#Commanderie_de_Devesset">&ser;vie&n;tib&us; &s_long;eu
+                        curialib&us; <cl type="version" n="2">cu&rie; cast&ri_v2;
+                        &Devesset;i</cl></orgName><cl type="version" n="2"> in fine</cl>
+                     <lb n="31"/>
+                     <placeName nymRef="#Saint-Agrève">ma&n;dam<ex>e</ex>&n;ti cast&ri_v2;
+                        &Sanct_avec_s_court;i &Agrippav;i</placeName>
+                     <choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                     </choice>eddere et deliberare debeant ac etiam teneant&ur; om&n;ib&us;
+                        exept<ex>i</ex>o&n;ib&us; et allegat<ex>i</ex>o&n;ib&us; po&s_long;t
+                     po&s_long;itis et <choice>
+                        <orig>R</orig>
+                        <reg>r</reg>
+                     </choice>emotis&point; Et si &con;tinge&re;t ali&quo; ca&s_long;u &quod;
+                        <orgName nymRef="#Commanderie_de_Devesset">curiales &Devesset;i</orgName>
+                     no&n; <cl type="lacune">...</cl>
+                     <placeName nymRef="#Saint-Agrève"><cl type="rajout">Sanctum</cl>
+                        <cl type="version" n="2">&Agrippav;u&m;</cl></placeName>
+                     <lb n="32"/>ali&quem; de curialib&us; &dict;i loci cui face&re;nt
+                     remi&s_long;&s_long;i&n;em de &dict;o delato&virgule; &quod; in eo ca&s_long;u
+                        &dict;<ex>u</ex>m delatum duce&re; debeant in platea <placeName
+                        nymRef="#Saint-Agrève">&Sanct;i &Agrippav;i</placeName>&virgule; et &ibidem; p<choice>
+                        <abbr>&#175;</abbr>
+                        <expan>rese</expan>
+                     </choice>ntare &s_long;e &par;atos remitte&re; &dict;<ex>u</ex>m delatum si
+                        <persName nymRef="#Guillaume_Rochette"><cl type="version" n="3">idem</cl>
+                        <cl type="lacune">...</cl>
+                        <lb n="33"/>&dict;i cast&ri_v2; &Sanct_avec_s_court;i &Agrippav;i</persName>
+                        &ips;<ex>u</ex>m reci&per;et&point; <choice>
+                        <orig>q</orig>
+                        <reg>Q</reg>
+                     </choice>uo &fact;o&virgule; <orgName nymRef="#Commanderie_de_Devesset"
+                        >p&re;&dict;i curiales &Devesset;i</orgName> p&re;&dict;<ex>u</ex>m delatum
+                     &s_long;ecum duce&re; po&s_long;&s_long;int et debeant pure&virgule; libere et
+                     impune&virgule; et etiam om&n;i impedim<ex>e</ex>&n;to
+                     ce&s_long;&s_long;ante&point; Si v&er;o <cl type="version" n="2">&con;tig&er;et
+                           &dict;<ex>u</ex>m delatu&m; aliquid de</cl><lb n="34" break="no"
+                        rend="hyphen"/>linqui&s_long;&s_long;e in juridict<ex>i</ex>o&n;e
+                     ca&s_long;t&ri_v2; &Sanct_avec_s_court;i &Agrippav;i et idem delatus
+                     &pro;pt&er; delictum &com;mi&s_long;&s_long;um &per; eum in
+                     juridict<ex>i</ex>o&n;e cast&ri_v2; &Devesset;i minime judicaret&ur; ad mortem
+                     &per; judicem <orgName nymRef="#Commanderie_de_Devesset">curie cast&ri;
+                        &Devesset;i</orgName>&virgule; <choice>
+                        <orig>T</orig>
+                        <reg>t</reg>
+                     </choice>unc in <cl type="version" n="3">casu</cl>
+                     <orgName nymRef="#Commanderie_de_Devesset"><cl type="rajout">servientes seu
+                           curiales</cl>
+                        <lb n="35"/>ca&s_long;tri &Devesset;i</orgName> &dict;<ex>u</ex>m delatum
+                     remitte&re; debeant <persName
+                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">&domin;is &Sanct;i
+                        &Agrippav;i &s_long;eu eo&rum; curialib&us;</persName> in fine <placeName
+                        nymRef="#Commanderie_de_Devesset">mandam<ex>e</ex>&n;ti cast&ri_v2;
+                        &Devesset;i</placeName>&virgule; &fact;a p&ri_v2;us exe<choice>
+                        <orig>q</orig>
+                        <reg>c</reg>
+                     </choice>ut<ex>i</ex>o&n;e de eodem &per; <orgName
+                        nymRef="#Commanderie_de_Devesset">curiales &Devesset;i</orgName> de hiis
+                     &qui; ad &ips;os &per;tine&n;t&point; </p>
+                  <p>Item <cl type="version" n="3">&con;ven&er;unt int&er; se</cl>
+                     <lb n="36"/>&dict;e &par;tes nomi&n;<ex>i</ex>b&us; quib&us; &s_long;u&pra; ex
+                     cau&s_long;a &sollemnis_v2; tra&n;&s_long;act<ex>i</ex>o&n;is &quod; <persName
+                        nymRef="#Guillaume_Rochette">&dict;us &Guillelm;us Rocheta</persName>
+                     &pro;curet et &pro;curare debeat ac etiam teneat&ur; cum effectu &quod;
+                        <persName nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">&domin;i
+                        &Sanct;i &Agrippav;i p&re;&dict;i</persName> ac etiam <persName
+                        nymRef="#Cateherine_de_Bouzols">&domin;a vicecomiti&s_long;&s_long;a <cl
+                           type="version" n="3"><choice>
+                              <orig>p</orig>
+                              <reg>P</reg>
+                           </choice>odepniaci</cl></persName>
+                     <lb n="37"/>et simplicem requi&s_long;it<ex>i</ex>o&n;em <persName
+                        nymRef="#Renaud_de_Fay">&dict;i domini p&re_v2;ceptoris &s_long;eu eius
+                        c&er;ti mandati</persName> hanc p&re;&s_long;entem
+                     tran&s_long;act<ex>i</ex>o&n;em et om&n;ia &et_tironien; &s_long;ing&u;la
+                     su&pra;&dict;a in hoc p&re;&s_long;enti publico &instrument;o &con;tenta
+                     laudent&virgule; ap&pro;bent et &con;firme&n;t ac <cl type="version" n="3"
+                        >etiam</cl>
+                     <cl type="lacune">...</cl>
+                     <lb n="38"/>in ei&s_long;dem cum &sollemnitate; qua decet et &quod; <persName
+                        nymRef="#Renaud_de_Fay">&dict;us &domin;us p&re_v2;ceptor</persName>
+                     &pro;curet etiam cum eff<choice>
+                        <abbr>&#175;</abbr>
+                        <expan>ec</expan>
+                     </choice>tu &quod; <orgName nymRef="#hommes_de_Devesset">homines domus
+                        &Devesset;i</orgName> faciant illud idem et etiam fieri faciat hoc idem
+                     &per; <orgName nymRef="#Grand-Prieuré_d_Auvergne">&domin;<ex>u</ex>m
+                        p&ri_v2;orem <choice>
+                           <orig>a</orig>
+                           <reg>A</reg>
+                        </choice>lv&er;nie p&ri_v2;orat&us;</orgName> ad &s_long;ola<cl
+                        type="version" n="3">m</cl>
+                     <cl type="rajout">et simpli</cl><lb n="39" break="no" rend="hyphen"/>cem
+                        requi&s_long;it<ex>i</ex>o&n;em <persName
+                        nymRef="#Armand_de_Polignac #Eustache_de_Lamastre">&dict;o&rum; &domin;orum
+                        &Sanct;i &Agrippav;i &s_long;eu eo&rum; c&er;ti mandati</persName>&point;
+                  </p>
                </div3>
                <div3>
-                  <p>Hanc vero tansactionem et omnia et singula supradicta et infrascripta in hoc
-                     presenti publico instrumento contenta secundum quod melius, sanius et firmius
-                     possunt dic<lb n="40" break="no" rend="hyphen"/>tari incartari, scribi,
-                     intelligi sive dici ad tollendum et removendum in futurum omnem oscuritatem et
-                     omne dubium promiserunt dicte partes nominibus quibus supra sub pena
-                     quinquaginta librarum turonensium ratione [...] <lb n="41"/>per partem
-                     inhobedientem parti obedienti quotiens contra predicta vel aliqua de predictis
-                     faceret in aliquo vel veniret et super sanctis dei evvangeliis ab ipsis
-                     corporaliter tactis juraverunt attendere perpetuo et illibate ; volentes
-                     [etiam] <lb n="42"/>dicte partes se posse et debere compelli ad attendendum et
-                     complendum omnia et singula supradicta per curiam et curiales dicti domini
-                     nostri regis omnibus exceptionibus, deffentionibus et juris allegationibus post
-                     positis et rem[otis] [...] <lb n="43"/><persName nymRef="#Guillaume_Rochette"
-                        >Guillermus Rocheta</persName> per bonorum <persName
-                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">dominorum castri Sancti
-                        Agrippavi predictorum</persName> quorum est procurator ut dicebat et
-                        <persName nymRef="#Renaud_de_Fay">dictus dominus preceptor</persName> per
-                     bonorum suorum captionem, distractionem, saysinam et venditionem in quam et
-                     quos consentierunt tamquam in suos judi<lb n="44" break="no" rend="hyphen"/>ces
-                     ordinarios et se et omnia bona predicta juridictione, districtui, compultioni
-                     et cohertioni eorumdem. Nec non et vigori discretui et cohertioni sigilli regii
-                     in bayllivia vallavie auctoritate regia constituti supposuerunt pro predictis
-                     omnibus et <lb n="45"/>singulis attendendis et complendis cum omni juris
-                     renunciatione ad predicta necessaria pariter et cautela. </p>
-                  <p>Acta fuerunt hec apud <placeName nymRef="#Berthoux">Bertos</placeName>, anno et
-                     die predictis in quodam orto juxta villam dicti loci, <listPerson>
+                  <p>Hanc &ver;o tan&s_long;act<ex>i</ex>o&n;em et om&n;ia et &s_long;ingula
+                     su&pra;&dict;a et infra&s_long;c&ri;pta in hoc p&re_v2;&s_long;enti publico
+                        in&s_long;trum<ex>e</ex>&n;to &con;tenta &secund;<ex>u</ex>m &quod;
+                     melius&virgule; &s_long;anius &et_tironien; firmi&us; <cl type="version" n="2"
+                        >possu&n;t <choice>
+                           <abbr>dc&#175;</abbr>
+                           <expan>dic</expan>
+                        </choice></cl><lb n="40" break="no" rend="hyphen"/>tari incartari&virgule;
+                     &s_long;cribi&virgule; intelligi &s_long;ive dici ad tollendum et removendum in
+                     futurum om&n;em o&s_long;curitatem et om&n;e dubium &pro;mi&ser;unt &dict;e
+                     &par;tes nomi&n;<ex>i</ex>b&us; quib&us; su&pra; sub pena quin&qua;ginta
+                     lib&rarum; &turonensium; ratione <cl type="lacune">...</cl>
+                     <lb n="41"/>&per; &par;tem inhobedie&n;tem &par;ti obedienti quotiens &con;tra
+                     p&re;&dict;a vel ali&qua; de p&re;&dict;is face&re;t in aliquo vel veniret et
+                     su&per; &sanct;is dei evva&n;geliis ab &ips;is corpora&liter; tactis
+                     jurav&er;u&n;t attendere &per;petuo et illibate &point_virgule_v;olentes <cl
+                        type="rajout">etiam</cl>
+                     <lb n="42"/>&dict;e &par;tes &s_long;e po&s_long;&s_long;e et deber&e_final;
+                     &com;pelli ad attendendum et &com;plendum om&n;ia &et_tironien;
+                     &s_long;ing&u;la su&pra;dicta &per; curiam &et_tironien; curiales &dict;i
+                     &domin;i &nostr;i regis om&n;ibus except<ex>i</ex>o&n;ib&us;&virgule;
+                        deffent<ex>i</ex>o&n;ib&us; et juris allegat<ex>i</ex>o&n;ibus po&s_long;t
+                     po&s;itis et rem<cl type="rajout">otis</cl>
+                     <cl type="lacune">...</cl>
+                     <lb n="43"/><persName nymRef="#Guillaume_Rochette">&Guillelm;us
+                        Rocheta</persName> &per; bono&rum; <persName
+                        nymRef="#Eustache_de_Lamastre #Armand_de_Polignac">&domin;o&rum;
+                        ca&s_long;tri &Sanct;i &Agrippav;i p&re_v2;&dict;o&rum;</persName> quo&rum;
+                     e&s_long;t &pro;curator ut dicebat et <persName nymRef="#Renaud_de_Fay"
+                        >&dict;us &domin;us p&re_v2;ceptor</persName> &per; bono&rum; suo&rum;
+                        capt<ex>i</ex>o&n;em&virgule; di&s_long;tract<ex>i</ex>o&n;em&virgule;
+                     &s_long;ay&s_long;inam &et_tironien; vendit<ex>i</ex>o&n;em in quam et quos
+                     &con;&s_long;entieru&n;t ta<cl type="version" n="2">m&que;m in &s_long;uos
+                        judi</cl><lb n="44" break="no" rend="hyphen"/>ces ordinarios et se et
+                     om&n;ia bona p&re_v2;&dict;a juridict&i;oni&virgule;
+                     di&s_long;t&ri_v2;ctui&virgule; &com;pult&i;oni &et_tironien;
+                     cohert<ex>i</ex>o&n;i eo&rum;dem&point; Nec non et vigori di&s_long;c&re;tui et
+                     cohert&i;oni sigilli regii in &bayllivia; &vallavie; &auctoritate; regia
+                     &con;&s_long;tituti suppo&s_long;ueru&n;t <cl type="version" n="2">&pro;
+                        p&re_v2;&dict;is o<ex>m</ex>&n;ibus et</cl>
+                     <lb n="45"/>&s_long;ing&u;lis attendendis et &com;plendis cum om&n;i <cl
+                        type="version" n="3">juris renunciatione</cl> ad p&re_v2;&dict;a
+                     &necessaria; &par;it&er; et cautela&point; </p>
+                  <p>Acta fuerunt hec apud <placeName nymRef="#Berthoux"><choice>
+                           <orig>b</orig>
+                           <reg>B</reg>
+                        </choice>ertos</placeName>&virgule; anno et die p&re_v2;&dict;is in &quodam;
+                     orto <cl type="version" n="3">juxta</cl> villam &dict;i loci&virgule; <listPerson>
                         <personGrp role="Témoins">
-                           <p>testibus presentibus fratribus <persName nymRef="Seigneur de Solerio"
-                                 >dominis de <lb n="46"/>de Solerio</persName> et <persName>Raynaudo
-                                 de Fayno</persName> ordinis Hospitalis predicti, <persName>Raymundo
-                                 de Villa Nova domicello</persName>, <persName nymRef="Pierre Doux"
-                                 >Petro Dulcis</persName>, <persName nymRef="Guillaume de La Roche"
-                                 >Guillermo de Ruppe</persName>, <persName nymRef="Bonnefoi Textor"
-                                 >Bonafide Textoris</persName> et <persName
-                                 nymRef="#Andrea_Garralis">notario publico regio
-                                 infrascripto</persName> per quem de predictis dicte partes <lb
-                                 n="47"/>ad invicem concesserunt fieri earum cuilibet publicum et
-                              eiusdem tenoris instrumentum</p>
+                           <p><choice>
+                                 <orig>T</orig>
+                                 <reg>t</reg>
+                              </choice>e&s_long;tib&us; &presen;tib&us; &fratr;ib&us; <persName
+                                 nymRef="Seigneur de Solerio"><cl type="version" n="2">&dominis;
+                                    de</cl>
+                                 <lb n="46"/><choice>
+                                    <orig>s</orig>
+                                    <reg>S</reg>
+                                 </choice>olerio</persName> et <persName>Raynaudo de <choice>
+                                    <orig>f</orig>
+                                    <reg>F</reg>
+                                 </choice>ayno</persName> ordinis <choice>
+                                 <orig>h</orig>
+                                 <reg>H</reg>
+                              </choice>o&s_long;pitalis p&re;&dict;i&virgule; <persName>Raymu&n;do
+                                 de <choice>
+                                    <orig>v</orig>
+                                    <reg>V</reg>
+                                 </choice>illanova domicello</persName>&virgule; <persName
+                                 nymRef="Pierre Doux">Petro <choice>
+                                    <orig>d</orig>
+                                    <reg>D</reg>
+                                 </choice>ulcis</persName>&virgule; <persName
+                                 nymRef="Guillaume de La Roche">&Guillelm;o de
+                              Ruppe</persName>&virgule; <persName nymRef="Bonnefoi Textor">Bonafide <choice>
+                                    <orig>t</orig>
+                                    <reg>T</reg>
+                                 </choice>extoris</persName> et <persName nymRef="#Andrea_Garralis"
+                                 >notario publico regio infra&s_long;c&ri_v2;pto</persName> &per;
+                              que&m; de p&re;&dict;is <cl type="version" n="3">dict&ae; partes</cl>
+                              <lb n="47"/>ad invicem &con;ce&s_long;&ser;erunt fieri ea&rum;
+                              cui&libet_v2; publicum et eiu&s_long;dem tenoris
+                                 &instrument;<ex>u</ex>m</p>
                         </personGrp>
-                     </listPerson>. </p>
+                     </listPerson>&point; </p>
                </div3>
             </div2>
          </div1>
          <div1>
             <div2>
-               <p>Post hec <date when="1328-06-22">anno domini millesimo tercentesimo vicesimo
-                     octavo videlicet die vicesima secunda mensis junii</date> inclito principe
-                     <persName nymRef="#Philippe_VI">domino Philippo dee (sic) gra-<lb n="48"
-                        break="no"/>-tia rege francorum regnante</persName>, in presentia <persName
-                     nymRef="#Andrea_Garralis">notarii</persName> et testium infrascriptorum,
-                  personnaliter constitutus <persName nymRef="#Armand_de_Polignac">vir nobilis et
-                     potens dominus Armandus vicecomes Podepniaci miles dominus in parte castri
-                     [Sancti Agrippavi]</persName> non errans <lb n="49"/>in aliquo nec deceptus set
-                  bene certus et certificatus de predictis et etiam de jure suo et bene premeditatus
-                  ut dicebat per se suosque heredes et sucessores predictam transactionem et omnia
-                  et singula supradicta in hoc pre<lb n="50" break="no" rend="hyphen"/>senti publico
-                  instrumento contenta laudavit, approbavit, ratificavit et confirmavit et etiam
-                  grata habuit et in eis consentiit. Et universa omnia et singula supradicta
-                  promisit sub [ypothece et obligatione omnium bonorum suorum] <lb n="51"/>et super
-                  sanctis dei evvangeliis ab ipso corporaliter sponte tactis juravit attendere et
-                  contra per se vel per alium non venire, quod si faceret quod absit voluit et
-                  concessit quod nullathenus audiatur set quod omnis audicientia in judi<lb n="52"
-                     break="no" rend="hyphen"/>cio et extra eidem denegetur tamquam venienti contra
-                  suum proprium factum ac etiam juramentum ; volens et concedens <persName
-                     nymRef="#Armand_de_Polignac">dictus dominus vicecomes</persName> se posse
-                  compelli ad attendendum predicta pro curiam et curiales dicti domini <lb n="53"
-                  />nostri regis omnibus exeptionibus, deffentionibus et juris allegationibus post
-                  positis et remotis videlicet per bonorum suorum captionem, distrationem, saysinam
-                  et venditionem in quam et quos consentiit tamquam in suos judicios ordinarios <lb
-                     n="54"/>et se et omnia bona sua juridictioni, districtui, compultioni et
-                  cohertioni eorumdem sub sigillo regio predicto supposuit pro predictis omnibus et
-                  singulis attendendis complendis et [inviolabiliter] observendis cum omni juri
-                     renun<lb n="55" break="no" rend="hyphen"/>tiatis ad predicta nesessaria pariter
-                  et cautela. </p>
-               <p>Acta fuerunt hec apud <placeName nymRef="#Saint-Agrève">Sanctum
-                     Agrippavum</placeName> in <placeName nymRef="Maison de Guillaume Rochette"
-                     >hospicio <persName nymRef="#Guillaume_Rochette">Guillermi Rocheta
-                        domicelli</persName></placeName>, anno et die supra proximis, <listPerson>
+               <p>Po&s_long;t hec <date when="1328-06-22">anno domini mille&s_long;imo
+                     t&er;cente&s_long;imo vice&s_long;imo octavo vide&licet_v2; die vice&s_long;ima
+                     &secund;a mensis junii</date>
+                  <cl type="version" n="2">inclito p&ri_v2;ncipe </cl><persName
+                     nymRef="#Philippe_VI"><cl type="version" n="2">&domin;o &Philippo; <choice>
+                           <orig>dee</orig>
+                           <reg>dei</reg>
+                        </choice> gra</cl><lb n="48" break="no" rend="hyphen"/>tia rege franco&rum;
+                     regnan&te;</persName>&virgule; <choice>
+                     <orig>I</orig>
+                     <reg>i</reg>
+                  </choice>n p&re;sentia <persName nymRef="#Andrea_Garralis">notarii</persName> et
+                  te&s_long;tium infra&s_long;c&ri_v2;ptorum&virgule; &per;&s_long;ona&liter;
+                  &con;&s_long;titutus <persName nymRef="#Armand_de_Polignac">vir nobilis et potens
+                     domin&us; <choice>
+                        <orig>a</orig>
+                        <reg>A</reg>
+                     </choice>rmandus vicecomes <cl type="version" n="2">&Podempniaci; miles
+                        &domin;us in &par;te cast&ri_v2;</cl>
+                     <cl type="rajout">Sancti Agri</cl></persName><cl type="version" n="2">ppavi non
+                     errans</cl>
+                  <lb n="49"/>in aliquo nec deceptus <choice>
+                     <orig>set</orig>
+                     <reg>sed</reg>
+                  </choice> bene c&er;tus et c&er;tificatus de p&re;&dict;is et etiam de jure
+                  &s_long;uo et bene p&re;meditat&us; ut dicebat per se &s_long;suos<choice>
+                     <orig> </orig>
+                     <reg/>
+                  </choice>que heredes et suce&s_long;&s_long;ores pre&dict;am <cl type="version"
+                     n="2">t&ra;nsact<ex>i</ex>o&n;em et o<ex>m</ex>&n;ia et sing&u;la
+                     su&pra;&dict;a in hoc p&re;</cl><lb n="50" break="no" rend="hyphen"
+                  />&s_long;enti publico in&s_long;trum<ex>e</ex>&n;to &con;tenta laudavit&virgule;
+                  ap&pro;bavit&virgule; ratificavit et &con;firmavit et etiam grata habuit et in eis
+                  &con;&s_long;entiit&point; <choice>
+                     <orig>e</orig>
+                     <reg>E</reg>
+                  </choice>t univ&er;&s_long;a om&n;ia et &s_long;ing&u;la su&pra;&dict;a <cl
+                     type="version" n="2">&pro;mi&s_long;it sub</cl>
+                  <cl type="rajout">ypothece et obligatione omnium bonorum suorum</cl>
+                  <lb n="51"/>et su&per; &sanct;is dei evva&n;geliis ab &ips;o corpora&liter;
+                  &s_long;ponte tactis juravit attendere et &con;tra per se vel &per; alium non
+                  venire&virgule; quod si face&re;t quod ab&s_long;it voluit et
+                  &con;ce&s_long;&s_long;it <cl type="version" n="2">&quod; nullathen&us; audiatur
+                     sed &quod; o<ex>m</ex>&n;is audien&tia; in judi</cl><lb n="52" break="no"
+                     rend="hyphen"/>cio et extra eidem denegetur tam&quam; venienti <cl
+                     type="version" n="3">contra suum proprium factum</cl> ac etiam
+                  juram<ex>e</ex>&n;tum &point_virgule_v;olens et &con;cedens <persName
+                     nymRef="#Armand_de_Polignac">&dict;us &domin;us vicecomes</persName> &s_long;e
+                  po&s_long;&s_long;e &com;pelli ad attend<cl type="version" n="2">endu&m;
+                     p&re;&dict;a &pro; curiam et curiales &dict;i &domin;i <lb n="53"/>&nostr;i
+                     reg&is_final; o<ex>m</ex>&n;ibus exep&tionibus;</cl>&virgule;
+                  deffent<ex>i</ex>o&n;ib&us; et <cl type="version" n="2">jur&is_final;
+                     allega&tionibus;</cl> po&s_long;t<choice>
+                     <orig/>
+                     <reg> </reg>
+                  </choice>po&s_long;itis &et_tironien; remotis vide&licet_v2; &per; bono&rum;
+                  suo&rum; capt<ex>i</ex>o&n;em&virgule; di&s_long;tract<ex>i</ex>o&n;em&virgule;
+                  say&s_long;inam et vendit<ex>i</ex>o&n;em in <cl type="version" n="2">quam et quos
+                     &con;&s_long;entiit tam<choice>
+                        <abbr>&#487;&#999;</abbr>
+                        <expan>qua</expan>
+                     </choice>m in &s_long;uos judic&ios; ordinar&ios; <lb n="54"/>et</cl> se et
+                  om&n;ia <cl type="version" n="2">bona &s_long;ua juridict<ex>i</ex>o&n;i&virgule;
+                     di&s_long;t&ri_v2;ctui&virgule; &com;pult<ex>i</ex>o&n;i et
+                     cohert<ex>i</ex>o&n;i</cl> eo&rum;dem sub &s_long;igill<cl type="version" n="2"
+                     >o</cl> regio pre&dict;o suppo&s_long;uit &pro; pre&dict;is om&n;ibus et
+                  &s_long;ing&u;lis attendendis &com;ple<cl type="version" n="2">nd&is_final;
+                     et</cl>
+                  <cl type="rajout">inviolabiliter</cl>
+                  <cl type="version" n="2">ob&ser;rvend&is_final; cu&m; om&n;i jur&i_final;
+                        renu&n;<lb n="55" break="no" rend="hyphen"/>tiat&is_final;</cl> ad <cl
+                     type="version" n="2">p&re;&dict;a nese&s_long;&s_long;a&ria; &par;it&er; et
+                     cautela</cl>&point; </p>
+               <p><cl type="version" n="2">Acta fu&er;unt &hec; ap&u;d <placeName
+                        nymRef="#Saint-Agrève">&Sanct;<ex>u</ex>m &Agrippav;u&m;</placeName></cl> in
+                     <placeName nymRef="Maison de Guillaume Rochette">ho&s_long;picio <persName
+                        nymRef="#Guillaume_Rochette">&Guillelm;i Rocheta
+                     domicelli</persName></placeName>&virgule; anno et die su&pra;
+                  &pro;ximis&virgule; <listPerson>
                      <personGrp role="Témoins">
-                        <p>testibus hiis presentibus <persName>domino Guillermo de Senareto
-                              milite</persName>, <persName>domino Mattheo Sabbo-<lb n="56"
-                                 break="no"/>-ti rectore <placeName>ecclesie <placeName
-                                    nymRef="#Saint-Agrève">Sancti
-                                 [Agrippavi]</placeName></placeName></persName>, <persName>[...]
+                        <p><choice>
+                              <orig>T</orig>
+                              <reg>t</reg>
+                        </choice>estib&us; hiis &presen;tibus <persName>&domin;o <cl type="version" n="2">&Guillelm;o de <choice><orig>&#383;</orig><reg>S</reg></choice>enareto
+                           milite</cl></persName>&virgule; <persName><cl type="version" n="2">&domin;o &Matthe;o <choice><orig>&#383;</orig><reg>S</reg></choice>abbo<lb n="56"
+                              break="no" rend="hyphen"/>ti rectore </cl><placeName><cl type="version" n="2">&ecclesi;e</cl> <placeName
+                                 nymRef="#Saint-Agrève"><cl type="version" n="2">&Sanct;i</cl>
+                                 <cl type="rajout">Agrippavi</cl></placeName></placeName></persName>&virgule; <persName><cl type="lacune">...</cl>
                               Runerii</persName> et <persName nymRef="#Andrea_Garralis">notario
-                              infrascripto</persName> per quem de predictis <persName
-                              nymRef="#Armand_de_Polignac">dictus dominus vicecomes</persName>
-                           petiit sibi fieri publicum instrumentum</p>
+                              infra&s_long;c&ri_v2;pto</persName> &per; quem de pre&dict;is <persName
+                              nymRef="#Armand_de_Polignac">&dict;us dominus vicecomes</persName>
+                           petiit sibi fieri publicum <cl type="version" n="2">&instrument;<ex>u</ex>m</cl></p>
                      </personGrp>
-                  </listPerson>. </p>
+                  </listPerson>&point; </p>
             </div2>
             <div2>
-               <p>Post hec <date when="1328-06-22">anno et die supra proximis</date>
+               <p><cl type="version" n="2">Post hec <date when="1328-06-22">anno et die supra proximis</date>
                   <lb n="57"/><persName nymRef="#Philippe_VI">eodem domino Philippo rege francorum
                      regnante</persName>, in presentia mei <persName nymRef="#Andrea_Garralis"
-                     >notarii predicti</persName> et testium infrascriptorum, personnaliter
+                     >notarii predicti</persName> et testium</cl> infrascriptorum, personnaliter
                   constitutus <persName nymRef="#Eustache_de_Lamastre">vir nobilis Heustachius de
                      Mastra dominus de Bastia et pro parte castri Sancti Agrippavi</persName> non
                   errans in aliquo nec deceptus <lb n="58"/>set bene certus et certifficatus de jure
