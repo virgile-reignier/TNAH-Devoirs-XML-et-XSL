@@ -139,6 +139,7 @@
    <!ENTITY point "<choice> <orig></orig> <reg>.</reg> </choice>">
 ]>
 
+<?xml-model href="out/ODD_Devoir_charte_Devesset.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -177,7 +178,7 @@
                         <settlement>Lyon</settlement>
                         <repository>Archives du Département du Rhône et de la Métropole de
                            Lyon</repository>
-                        <idno type="Cote_archivistique">48 H 1669</idno>
+                        <idno type="cote_archivistique">48 H 1669</idno>
                      </msIdentifier>
                      <msContents>
                         <summary>
@@ -185,8 +186,8 @@
                         </summary>
                      </msContents>
                      <physDesc>
-                        <objectDesc form="Rouleau">
-                           <supportDesc material="Parchemin">
+                        <objectDesc form="rouleau">
+                           <supportDesc material="parchemin">
                               <support>Rouleau de <material>parchemin</material></support>
                               <extent>
                                  <dimensions>
@@ -218,7 +219,7 @@
                         <settlement>Lyon</settlement>
                         <repository>Archives du Département du Rhône et de la Métropole de
                            Lyon</repository>
-                        <idno type="Cote_archivistique">48 H 1671-3</idno>
+                        <idno type="cote_archivistique">48 H 1671-3</idno>
                      </msIdentifier>
                      <msContents>
                         <summary>
@@ -227,8 +228,8 @@
                      </msContents>
                      <physDesc>
                         <objectDesc>
-                           <supportDesc material="Parchemin">
-                              <support>Pièce de parchemin</support>
+                           <supportDesc material="parchemin">
+                              <support>Pièce de <material>parchemin</material></support>
                               <condition>Document en mauvais état, des parties entières ont été
                                  altérées par de mauvaises conditions de conservation.</condition>
                            </supportDesc>
@@ -253,7 +254,7 @@
                         <settlement>Lyon</settlement>
                         <repository>Archives du Département du Rhône et de la Métropole de
                            Lyon</repository>
-                        <idno type="Cote_archivistique">48 H 1671-4</idno>
+                        <idno type="cote_archivistique">48 H 1671-4</idno>
                      </msIdentifier>
                      <msContents>
                         <summary>
@@ -262,8 +263,8 @@
                      </msContents>
                      <physDesc>
                         <objectDesc>
-                           <supportDesc material="Papier">
-                              <support>Pièces de papiers</support>
+                           <supportDesc material="papier">
+                              <support>Pièces de <material>papier</material></support>
                               <condition>Document en bon état de conservation</condition>
                            </supportDesc>
                         </objectDesc>
@@ -282,88 +283,90 @@
                   </msDesc>
                </witness>
             </listWit>
-            <bibl xml:id="Reignier_2021b" type="Bibliographie">
-               <title>Les droits de passage à Saint-Agrève au début du XIVe siècle</title>
-               <author>Virgile Reignier</author>
-               <date>2021</date>
-               <series>
-                  <title>Mémoire d'Ardèche et temps présent</title>
-                  <idno>151</idno>
-                  <biblScope>p. 89-94</biblScope>
-               </series>
-            </bibl>
-            <bibl xml:id="Reignier_2021a" type="Bibliographie">
-               <title>Aux origines de la commanderie de Devesset</title>
-               <author>Virgile Reignier</author>
-               <date>2021</date>
-               <series>
-                  <title>Revue du Vivarais</title>
-                  <idno>CXXV</idno>
-                  <biblScope>p. 81-105</biblScope>
-               </series>
-            </bibl>
-            <bibl xml:id="Reignier_2020" type="Bibliographie">
-               <title>Une seigneurie montagnarde entre Vivarais et Velay, monographie de la
-                  commanderie de Devesset au XIVe sièclet</title>
-               <author>Virgile Reignier</author>
-               <date>2020</date>
-               <pubPlace>Lyon</pubPlace>
-               <objectName>Mémoire de master</objectName>
-               <affiliation>Université Jean Moulin Lyon 3</affiliation>
-               <respStmt>
-                  <resp>Directeur de mémoire</resp>
-                  <persName>Nicolas Carrier</persName>
-                  <orgName>Université Jean Moulin Lyon 3</orgName>
-               </respStmt>
-            </bibl>
-            <bibl xml:id="Reignier_2022" type="Bibliographie">
-               <title>L’élevage à Devesset au Moyen Âge : un enjeu de géopolitique locale</title>
-               <author>Virgile Reignier</author>
-               <date>2022</date>
-               <series>
-                  <title>Mémoire d'Ardèche et Temps Présent</title>
-               </series>
-               <note>A paraître</note>
-            </bibl>
-            <bibl xml:id="Brechon_2000" type="Bibliographie">
-               <title>Réseau routier et organisation de l’espace en Vivarais et sur ses marges au
-                  Moyen Âge</title>
-               <author>Franck Brechon</author>
-               <date>2000</date>
-               <pubPlace>Lyon</pubPlace>
-               <objectName>Thèse de doctorat</objectName>
-               <affiliation>Université Lumière Lyon 2</affiliation>
-               <respStmt>
-                  <resp>Directeur de thèse</resp>
-                  <persName>Marie-Thérèse Lorcin</persName>
-                  <orgName>Université Lumière Lyon 2</orgName>
-               </respStmt>
-               <ref target="http://theses.univ-lyon2.fr/documents/lyon2/2000/brechon_f"/>
-            </bibl>
-            <bibl xml:id="ENC_2002" type="Bibliographie">
-               <title>Conseils pour l’édition des textes médiévaux</title>
-               <editor>Ecole Nationale des Chartes</editor>
-               <publisher>Edition du CTHS</publisher>
-               <pubPlace>Paris</pubPlace>
-               <num>3 volumes</num>
-               <date>2001-2002</date>
-            </bibl>
-            <bibl xml:id="Inventaire">
-               <title>Inventaire sommaire des archives départementales antérieures à 1790. Rhône,
-                  archives ecclésiastiques, série H : ordre de Malte, Langue d’Auvergne</title>
-               <editor>Archives Départementales du Rhône</editor>
-               <publisher>Imprimerie nouvelle lyonnaise</publisher>
-               <pubPlace>Lyon</pubPlace><author>Georges Guigue et Claude Faure </author>
-               <extent>3 vol.</extent>
-               <date>1895-1945</date>
-            </bibl>
-            <bibl xml:id="Niepce_1883">
-               <author>Léopold Niepce</author>
-               <title>Le grand prieuré d’Auvergne</title><pubPlace>Lyon</pubPlace>
-               <publisher>H. Georg</publisher>
-               <date>1883</date>
-               <ref target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001103580630#"
-               /></bibl>
+            <listBibl>
+               <bibl xml:id="Reignier_2021b" type="bibliographie">
+                  <title>Les droits de passage à Saint-Agrève au début du XIVe siècle</title>
+                  <author>Virgile Reignier</author>
+                  <date>2021</date>
+                  <series>
+                     <title>Mémoire d'Ardèche et temps présent</title>
+                     <idno>151</idno>
+                     <biblScope>p. 89-94</biblScope>
+                  </series>
+               </bibl>
+               <bibl xml:id="Reignier_2021a" type="bibliographie">
+                  <title>Aux origines de la commanderie de Devesset</title>
+                  <author>Virgile Reignier</author>
+                  <date>2021</date>
+                  <series>
+                     <title>Revue du Vivarais</title>
+                     <idno>CXXV</idno>
+                     <biblScope>p. 81-105</biblScope>
+                  </series>
+               </bibl>
+               <bibl xml:id="Reignier_2020" type="bibliographie">
+                  <title>Une seigneurie montagnarde entre Vivarais et Velay, monographie de la
+                     commanderie de Devesset au XIVe sièclet</title>
+                  <author>Virgile Reignier</author>
+                  <date>2020</date>
+                  <pubPlace>Lyon</pubPlace>
+                  <objectName>Mémoire de master</objectName>
+                  <affiliation>Université Jean Moulin Lyon 3</affiliation>
+                  <respStmt>
+                     <resp>Directeur de mémoire</resp>
+                     <persName>Nicolas Carrier</persName>
+                     <orgName>Université Jean Moulin Lyon 3</orgName>
+                  </respStmt>
+               </bibl>
+               <bibl xml:id="Reignier_2022" type="bibliographie">
+                  <title>L’élevage à Devesset au Moyen Âge : un enjeu de géopolitique locale</title>
+                  <author>Virgile Reignier</author>
+                  <date>2022</date>
+                  <series>
+                     <title>Mémoire d'Ardèche et Temps Présent</title>
+                  </series>
+                  <note>A paraître</note>
+               </bibl>
+               <bibl xml:id="Brechon_2000" type="bibliographie">
+                  <title>Réseau routier et organisation de l’espace en Vivarais et sur ses marges au
+                     Moyen Âge</title>
+                  <author>Franck Brechon</author>
+                  <date>2000</date>
+                  <pubPlace>Lyon</pubPlace>
+                  <objectName>Thèse de doctorat</objectName>
+                  <affiliation>Université Lumière Lyon 2</affiliation>
+                  <respStmt>
+                     <resp>Directeur de thèse</resp>
+                     <persName>Marie-Thérèse Lorcin</persName>
+                     <orgName>Université Lumière Lyon 2</orgName>
+                  </respStmt>
+                  <ref target="http://theses.univ-lyon2.fr/documents/lyon2/2000/brechon_f"/>
+               </bibl>
+               <bibl xml:id="ENC_2002" type="bibliographie">
+                  <title>Conseils pour l’édition des textes médiévaux</title>
+                  <editor>Ecole Nationale des Chartes</editor>
+                  <publisher>Edition du CTHS</publisher>
+                  <pubPlace>Paris</pubPlace>
+                  <extent>3 vol.</extent>
+                  <date>2001-2002</date>
+               </bibl>
+               <bibl xml:id="Inventaire" type="inventaire_archivistique">
+                  <title>Inventaire sommaire des archives départementales antérieures à 1790. Rhône,
+                     archives ecclésiastiques, série H : ordre de Malte, Langue d’Auvergne</title>
+                  <editor>Archives Départementales du Rhône</editor>
+                  <publisher>Imprimerie nouvelle lyonnaise</publisher>
+                  <pubPlace>Lyon</pubPlace><author>Georges Guigue et Claude Faure</author>
+                  <extent>3 vol.</extent>
+                  <date>1895-1945</date>
+               </bibl>
+               <bibl xml:id="Niepce_1883" type="bibliographie">
+                  <author>Léopold Niepce</author>
+                  <title>Le grand prieuré d’Auvergne</title><pubPlace>Lyon</pubPlace>
+                  <publisher>H. Georg</publisher>
+                  <date>1883</date>
+                  <ref target="https://numelyo.bm-lyon.fr/f_view/BML:BML_00GOO0100137001103580630#"
+                  /></bibl>
+            </listBibl>
          </sourceDesc>
       </fileDesc>
       <profileDesc>
@@ -436,32 +439,32 @@
             <listPerson>
                <person>
                   <persName xml:id="Guillaume_Rochette">Guillermus Rocheta</persName>
-                  <occupation>Bayle de <placeName corresp="#Saint-Agrève"
+                  <occupation>Bayle de <placeName nymRef="#Saint-Agrève"
                      >Saint-Agrève</placeName></occupation>
                </person>
                <person>
                   <persName xml:id="Renaud_de_Fay">Reynaudus de Fayn</persName>
-                  <affiliation><orgName corresp="#Commanderie_de_Devesset">Commanderie de
+                  <affiliation><orgName nymRef="#Commanderie_de_Devesset">Commanderie de
                         Devesset</orgName></affiliation>
                   <occupation>Commandeur de Devesset</occupation>
                </person>
                <person>
                   <persName xml:id="Eustache_de_Lamastre">Heustachius de Mastra</persName>
                   <occupation>Seigneur de <placeName>Lamastre</placeName> et pour partie de
-                        <placeName corresp="#Saint-Agrève">Saint-Agrève</placeName></occupation>
+                        <placeName nymRef="#Saint-Agrève">Saint-Agrève</placeName></occupation>
                </person>
                <person>
                   <persName xml:id="Cateherine_de_Bouzols">Katherina de Bouzolio</persName>
                   <occupation>Vicomtesse de Polignac</occupation>
                   <event>
-                     <desc>Mariée avec <persName corresp="#Armand_de_Polignac"/>Armand de
+                     <desc>Mariée avec <persName nymRef="#Armand_de_Polignac"/>Armand de
                         Polignac</desc>
                   </event>
                </person>
                <person>
                   <persName xml:id="Armand_de_Polignac">Armandus de Podemniaco</persName>
                   <occupation>Vicomte de Polignac et seigneur pour partie de <placeName
-                        corresp="#Saint-Agrève">Saint-Agrève</placeName></occupation>
+                        nymRef="#Saint-Agrève">Saint-Agrève</placeName></occupation>
                   <event>
                      <desc>Marié avec <persName nymRef="#Cateherine_de_Bouzols">Catherine de
                            Bouzols</persName></desc>
@@ -526,9 +529,9 @@
                         particulièrement du <orgName nymRef="#Grand-Prieuré_d_Auvergne"
                            >Grand-Prieuré d'Auvergne</orgName></p>
                   </trait>
-                  <settlement type="Commune">Devesset</settlement>
-                  <district type="Département">Ardèche</district>
-                  <district type="Département">Haute-Loire</district>
+                  <settlement type="commune">Devesset</settlement>
+                  <district type="département">Ardèche</district>
+                  <district type="département">Haute-Loire</district>
                </org>
                <org>
                   <orgName xml:id="Grand-Prieuré_d_Auvergne">Prioris Alvernie</orgName>
@@ -541,44 +544,44 @@
                <place>
                   <placeName xml:id="Commanderie_de_Devesset">Commanderie de Devesset</placeName>
                   <geogName>Devesset</geogName>
-                  <settlement type="Commune">Devesset</settlement>
-                  <district type="Département">Ardèche</district>
+                  <settlement type="commune">Devesset</settlement>
+                  <district type="département">Ardèche</district>
                </place>
                <place>
                   <placeName xml:id="Berthoux">Berthos</placeName>
                   <geogName>Berthoux</geogName>
-                  <settlement type="Commune">Devesset</settlement>
-                  <district type="Département">Ardèche</district>
+                  <settlement type="commune">Devesset</settlement>
+                  <district type="département">Ardèche</district>
                </place>
                <place>
-                  <placeName xml:id="Saint-Agrève">Sanctus-Agrippavus</placeName>
+                  <placeName xml:id="Saint-Agrève">Sanctus Agrippavus</placeName>
                   <geogName>Saint-Agrève</geogName>
-                  <settlement type="Commune">Saint-Agrève</settlement>
-                  <district type="Département">Ardèche</district>
+                  <settlement type="commune">Saint Agrève</settlement>
+                  <district type="département">Ardèche</district>
                </place>
                <place>
                   <placeName xml:id="Maujour">Malodie</placeName>
                   <geogName>Maujour</geogName>
-                  <settlement type="Commune">Devesset</settlement>
-                  <district type="Département">Ardèche</district>
+                  <settlement type="commune">Devesset</settlement>
+                  <district type="département">Ardèche</district>
                </place>
                <place>
                   <placeName xml:id="Le_Cholet">Chauletus</placeName>
                   <geogName>Le Cholet</geogName>
-                  <settlement type="Commune">Devesset</settlement>
-                  <district type="Département">Ardèche</district>
+                  <settlement type="commune">Devesset</settlement>
+                  <district type="département">Ardèche</district>
                </place>
                <place>
                   <placeName xml:id="Arcelet">Arceletus</placeName>
                   <geogName>Arcelet</geogName>
-                  <settlement type="Commune">Le Chambon sur Lignon</settlement>
-                  <district type="Département">Haute-Loire</district>
+                  <settlement type="commune">Le Chambon sur Lignon</settlement>
+                  <district type="département">Haute-Loire</district>
                </place>
                <place>
                   <placeName xml:id="Champagne">Champachis</placeName>
                   <geogName>Champagne</geogName>
-                  <settlement type="Commune">Les Vastres</settlement>
-                  <district type="Département">Haute-Loire</district>
+                  <settlement type="commune">Les Vastres</settlement>
+                  <district type="département">Haute Loire</district>
                </place>
             </listPlace>
          </settingDesc>
@@ -636,7 +639,7 @@
          </surface>
       </surfaceGrp>
    </facsimile>
-   <text>
+   <text type="edition" corresp="#AD69_48H_1669">
       <body>
          <div1 xml:id="acte_principal">
             <div2 xml:id="accord_droits_passage">
@@ -644,8 +647,8 @@
                   <p><lb n="1"/>Nov&er;int univ&er;si et &s_long;inguli p&re;&s_long;entes parit&er;
                      et futuri hoc &pre;&s_long;ens publicum in&s_long;trum<ex>e</ex>&n;tum
                      in&s_long;p&ec;turi et audituri&virgule; &quod_maj; <date when="1327-06-06"
-                        >anno ab incarnat&i;on<expan><ex>e</ex></expan> domini mille&s_long;imo
-                           <supplied source="#AD69_48H_1671-4">tercentesimo vigesimo septimo die
+                        >anno ab incarnat&i;on<ex>e</ex> domini mille&s_long;imo <supplied
+                           source="#AD69_48H_1671-4">tercentesimo vigesimo septimo die
                            vero</supplied> sexta me&n;<lb n="2" break="no" rend="hyphen"/>&s_long;is
                            <supplied source="#AD69_48H_1671-4">junii</supplied></date>
                      <supplied source="#AD69_48H_1671-4">inclito principe </supplied><persName
@@ -856,8 +859,8 @@
                      </choice>
                      <supplied source="#AD69_48H_1671-4">quorumcumque</supplied> et in&s_long;u&per;
                      po&s_long;&s_long;int et &ips;os liceat pure et libere <choice>
-                        <orig>blata</orig>
-                        <reg>blada</reg>
+                        <sic>blata</sic>
+                        <corr>blada</corr>
                      </choice> sua vender&e_final; et a&n;i<ex>m</ex>alia quecu&m;&que_final; emere
                      apud <placeName nymRef="#Saint-Agrève">&Sanct;um &Agrippav;um et in
                            mandam<ex>e</ex>&n;to eiu&s_long;dem</placeName> ab&s_long;&que_final;
@@ -920,8 +923,8 @@
                         >ca&s_long;trum &Sanct;i &Agrippav;i et eius
                         mandam<ex>e</ex>&n;tum</placeName> cum a<ex>n</ex>i&m;alib&us_v2;
                      &s_long;uis &pro;p&ri_v2;<choice>
-                        <orig>u</orig>
-                        <reg>i</reg>
+                        <sic>u</sic>
+                        <corr>i</corr>
                      </choice>s et eo&rum; <supplied source="#AD69_48H_1671-4">hospicio
                            Scurchelcis<note n="1">Le mot semble ici avoir été rajouté
                            postérieurement par une autre main. D’une lecture difficile, il ne
@@ -1086,11 +1089,10 @@
                         <reg>c</reg>
                      </choice>ut<ex>i</ex>o&n;e de eodem &per; <orgName
                         nymRef="#Commanderie_de_Devesset">curiales &Devesset;i</orgName> de hiis
-                     &qui; ad &ips;os &per;tine&n;t&point; <app>
+                     &qui; ad &ips;os &per;tine&n;t<app>
                         <rdg wit="#AD69_48H_1671-3"><gap rend="..."/> om&n;i inpedimento
                            ce&s_long;&s_long;ante </rdg>
-                     </app>
-                  </p>
+                     </app>&point; </p>
                   <p>Item <supplied source="#AD69_48H_1671-4">&con;ven&er;unt int&er; se</supplied>
                      <lb n="36"/>&dict;e &par;tes nomi&n;<ex>i</ex>b&us; quib&us; &s_long;u&pra; ex
                      cau&s_long;a &sollemnis_v2; tra&n;&s_long;act<ex>i</ex>o&n;is &quod; <persName
@@ -1184,9 +1186,9 @@
                            <p><choice>
                                  <orig>T</orig>
                                  <reg>t</reg>
-                              </choice>e&s_long;tib&us; &presen;tib&us; &fratr;ib&us; <persName
-                                 nymRef="Seigneur de Solerio"><supplied source="#AD69_48H_1671-3"
-                                    >&dominis; de</supplied>
+                              </choice>e&s_long;tib&us; &presen;tib&us; &fratr;ib&us;
+                                    <persName><supplied source="#AD69_48H_1671-3">&dominis;
+                                    de</supplied>
                                  <lb n="46"/><choice>
                                     <orig>s</orig>
                                     <reg>S</reg>
@@ -1204,9 +1206,9 @@
                                  nymRef="Pierre Doux">Petro <choice>
                                     <orig>d</orig>
                                     <reg>D</reg>
-                                 </choice>ulcis</persName>&virgule; <persName
-                                 nymRef="Guillaume de La Roche">&Guillerm;o de
-                              Ruppe</persName>&virgule; <persName nymRef="Bonnefoi Textor">Bonafide <choice>
+                                 </choice>ulcis</persName>&virgule; <persName>&Guillerm;o de
+                                 Ruppe</persName>&virgule; <persName nymRef="Bonnefoi Textor"
+                                 >Bonafide <choice>
                                     <orig>t</orig>
                                     <reg>T</reg>
                                  </choice>extoris</persName> et <persName nymRef="#Andrea_Garralis"
@@ -1228,8 +1230,8 @@
                      &secund;a mensis junii</date>
                   <supplied source="#AD69_48H_1671-3">inclito p&ri_v2;ncipe </supplied><persName
                      nymRef="#Philippe_VI"><supplied source="#AD69_48H_1671-3">&domin;o &Philippo; <choice>
-                           <orig>dee</orig>
-                           <reg>dei</reg>
+                           <sic>dee</sic>
+                           <corr>dei</corr>
                         </choice> gra</supplied><lb n="48" break="no" rend="hyphen"/>tia rege
                      franco&rum; regnan&te;</persName>&virgule; <choice>
                      <orig>I</orig>
@@ -1420,7 +1422,7 @@
                      <personGrp role="Témoins">
                         <p><supplied source="#AD69_48H_1671-3">te&s_long;&tibus; hiis
                               p&re;&s_long;en&tibus_v2;</supplied>
-                           <persName nymRef="Pierre de Saint-Vincent">magi&s_long;tro Petro de <choice>
+                           <persName>magi&s_long;tro Petro de <choice>
                                  <orig>&#383;</orig>
                                  <reg>S</reg>
                               </choice>ancto <choice>
@@ -1490,8 +1492,8 @@
                      &s_long;uos<supplied>que heredes et successores</supplied>&virgule; <lb n="69"
                   />de et cu&m; con&s_long;en&s_long;u&virgule; voluntate et
                   a&s_long;&s_long;en&s_long;u &dict;i &domin;i vicecomi<choice>
-                     <orig>t</orig>
-                     <reg/>
+                     <sic>t</sic>
+                     <corr/>
                   </choice>tis mariti &s_long;ui p&re;&s_long;entis ibidem quod etiam &ver;um
                   e&s_long;&s_long;e&virgule; dicebat pre&dict;am tran&s_long;act<ex>i</ex>o&n;em et
                   om&n;ia et sing&u;la su&pra;&dict;a in hoc <supplied source="#AD69_48H_1671-4"
@@ -1500,8 +1502,8 @@
                   <lb n="70"/>&con;tenta la<supplied source="#AD69_48H_1671-4"
                   >udavi</supplied>t&virgule; ap&pro;bavit&virgule; ratifficavit et &con;firmavit et
                   pre&dict;a om&n;ia attendere &pro;mi&s_long;it bona fide sub ypotheca et obligat&i;on<choice>
-                     <orig>i</orig>
-                     <reg>e</reg>
+                     <sic>i</sic>
+                     <corr>e</corr>
                   </choice> om&n;ium bono&rum; &s_long;uo&rum; et su&per; &sanct;is dei
                   evva&n;geliis ab <supplied source="#AD69_48H_1671-3">&ips;i<ex>s</ex>
                      corpora&liter; &s_long;ponte tac&tis;</supplied>
@@ -1598,7 +1600,7 @@
                   <supplied source="#AD69_48H_1671-3">infra&s_long;c&ri_v2;pt&orum;
                      &per;&s_long;ona&liter;</supplied>
                   <lb n="78"/>con&s_long;tituti <listPerson>
-                     <personGrp>
+                     <personGrp role="Ratifiants">
                         <p><persName>Petrus la <choice>
                                  <orig>r</orig>
                                  <reg>R</reg>
@@ -2068,8 +2070,8 @@
                         <orig>P</orig>
                         <reg>p</reg>
                      </choice>&re_v2;ceptoris ac domus p&re_v2;dicte de Deve<choice>
-                        <orig>c</orig>
-                        <reg>ss</reg>
+                        <sic>c</sic>
+                        <corr>ss</corr>
                      </choice>eto </orgName> om&n;es <supplied source="#AD69_48H_1671-3">in
                      &s_long;im&u;l et &qui;&libet_v2; eo&rum; &pro; &s_long;e et
                      &qui;b&us;</supplied>
@@ -2137,8 +2139,7 @@
                         <p><choice>
                               <orig>T</orig>
                               <reg>t</reg>
-                           </choice>e&s_long;tibus hiis p&re;&s_long;entibus <persName
-                              nymRef="Austorge de Layresset"><choice>
+                           </choice>e&s_long;tibus hiis p&re;&s_long;entibus <persName><choice>
                                  <orig>a</orig>
                                  <reg>A</reg>
                               </choice>u&s_long;torgio de <foreign xml:lang="occ"><choice>
@@ -2272,7 +2273,7 @@
                               </choice>omeriis</persName>&virgule; <persName nymRef="Stephane Bayle"
                               >&Stephan;o <choice>
                                  <orig>b</orig>
-                                 <expan>B</expan>
+                                 <reg>B</reg>
                               </choice>aiuli</persName> et <persName nymRef="#Andrea_Garralis"
                               >notario publico <supplied source="#AD69_48H_1671-3">reg&io;
                                  p&re;&dict;o</supplied></persName>
@@ -2450,8 +2451,8 @@
                   judices ordinarios et se et om&n;ia &et_tironien; &s_long;ingula bona &s_long;ua
                   juridict&i;oni&virgule; di&s_long;trictui&virgule; &com;pult&i;oni et cohert&i;oni
                   eorumdem &s_long;ub <choice>
-                     <orig>sub</orig>
-                     <reg/>
+                     <sic>sub</sic>
+                     <corr/>
                   </choice> &s_long;igillo regio predicto <supplied source="#AD69_48H_1671-3"
                      >&s_long;uppo&s_long;uit &pro; p&re;</supplied><lb n="125" break="no"
                      rend="hyphen"/>dictis om&n;ibus et &s_long;ingulis attendendis et inv<supplied
@@ -2473,8 +2474,7 @@
                               de <choice>
                                  <orig>&#383;</orig>
                                  <reg>S</reg>
-                              </choice>ahnna domicello</persName>&virgule; <persName
-                              nymRef="Humbert de Sorberio">&domin;is <choice>
+                              </choice>ahnna domicello</persName>&virgule; <persName>&domin;is <choice>
                                  <orig>h</orig>
                                  <reg>H</reg>
                               </choice>umberto de <choice>
@@ -2588,29 +2588,29 @@
                      >&s_long;ing&u;lis p&re;&s_long;ens fui <lb n="136"/>et p&re;&dict;a
                      om&n;ia</supplied> &et_tironien; &s_long;ing&u;la notarii&point; </p>
             </div2>
-            <div2 xml:id="renvois_internes">
-               <p>
-                  <seg xml:id="renvoi_1" n="1">
-                     <choice>
-                        <orig>v</orig>
-                        <reg>V</reg>
-                     </choice>italonus <choice>
-                        <orig>b</orig>
-                        <reg>B</reg>
-                     </choice>lachoni de <choice>
-                        <orig>r</orig>
-                        <reg>R</reg>
-                     </choice>a&s_long;cha&s_long;&s_long;aco &pro; se et <choice>
-                        <orig>p</orig>
-                        <reg>P</reg>
-                     </choice>etro ei&us; &fratr;e&virgule; </seg>
-                  <seg xml:id="renvoi_2" n="2">
-                     <choice>
-                        <orig>C</orig>
-                        <reg>c</reg>
-                     </choice>um om&n;i juris renu&n;ciat<ex>i</ex>o&n;e ad p&re;&dict;a
-                     &necessaria; &par;it&er; et cautela </seg>&point; </p>
-            </div2>
+         </div1>
+         <div1 xml:id="renvois_internes">
+            <p>
+               <seg xml:id="renvoi_1" n="1">
+                  <choice>
+                     <orig>v</orig>
+                     <reg>V</reg>
+                  </choice>italonus <choice>
+                     <orig>b</orig>
+                     <reg>B</reg>
+                  </choice>lachoni de <choice>
+                     <orig>r</orig>
+                     <reg>R</reg>
+                  </choice>a&s_long;cha&s_long;&s_long;aco &pro; se et <choice>
+                     <orig>p</orig>
+                     <reg>P</reg>
+                  </choice>etro ei&us; &fratr;e&virgule; </seg>
+               <seg xml:id="renvoi_2" n="2">
+                  <choice>
+                     <orig>C</orig>
+                     <reg>c</reg>
+                  </choice>um om&n;i juris renu&n;ciat<ex>i</ex>o&n;e ad p&re;&dict;a &necessaria;
+                  &par;it&er; et cautela </seg>&point; </p>
          </div1>
       </body>
       <back>
