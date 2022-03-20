@@ -134,7 +134,7 @@
    <!ENTITY publicum "<choice> <abbr>pu&#705;&#733;&#762;</abbr> <expan>publicum</expan> </choice>">
    <!ENTITY presen "<choice> <abbr>p&#328;</abbr> <expan>presen</expan> </choice>">
    <!ENTITY espace "<choice> <orig></orig> <reg> </reg> </choice>">
-   <!ENTITY virgule "<choice> <orig></orig> <reg>,</reg> </choice>">
+   <!ENTITY virgule "<choice> <orig> </orig> <reg>, </reg> </choice>">
    <!ENTITY point_virgule_v "<choice> <orig>V</orig> <reg>; v</reg> </choice>">
    <!ENTITY point "<choice> <orig></orig> <reg>.</reg> </choice>">
 ]>
@@ -516,7 +516,7 @@
             </listPerson>
             <listOrg>
                <org>
-                  <orgName xml:id="hommes_de_Devesset">Homines Devesseti</orgName>
+                  <orgName xml:id="Hommes_de_Devesset">Homines Devesseti</orgName>
                   <trait>
                      <p>Dépendent de la <orgName nymRef="#Commanderie_de_Devesset">Commanderie de
                            Devesset</orgName></p>
@@ -693,7 +693,7 @@
                         <reg>e</reg>
                      </choice>t ve&n;<ex>e</ex>rabilem et <persName nymRef="#Renaud_de_Fay"
                         >religiosum virum <supplied source="#AD69_48H_1671-4">fratrem
-                           Renaudum</supplied>> de <choice>
+                           Renaudum</supplied> de <choice>
                            <orig>f</orig>
                            <reg>F</reg>
                         </choice>ayno or<lb n="4" break="no" rend="hyphen"/>dinis <choice>
@@ -2178,7 +2178,7 @@
                               <choice>
                                  <orig>a</orig>
                                  <reg>A</reg>
-                              </choice>/choice>lamandi ordinis ho&s_long;pitalis</persName>
+                              </choice>lamandi ordinis ho&s_long;pitalis</persName>
                            p&re;dicti petiit et <orgName nymRef="#hommes_de_Devesset">p&re;dicti
                               homines</orgName> &s_long;ibi conce&s_long;&ser;unt ac etiam
                               petier<supplied source="#AD69_48H_1671-3">u&n;t &sibi; fier&i_final;
@@ -2643,7 +2643,7 @@
                      <reg>D</reg>
                   </choice>e quib&us; notis hoc p&re;&s_long;ens &publicum; &instrument;<ex>u</ex>m
                   ex&tra;hi&virgule; &s_long;c&ri_v2;bi et gro&s_long;&s_long;ari feci &per;per
-                  Petru&m; <choice>
+                  <persName nymRef="#Pierre_Girardi">Petru&m; <choice>
                      <orig>g</orig>
                      <reg>G</reg>
                   </choice>irardi cl<choice>
@@ -2652,7 +2652,7 @@
                   </choice>icum &s_long;ub&s_long;criptu&m; et jur<choice>
                      <abbr>&#734;</abbr>
                      <expan>atum</expan>
-                  </choice> meu&m; &auctoritate; reg&is_final; michi co&m;i&s_long;&s_long;a et
+                  </choice> meu&m; &auctoritate; reg&is_final;</persName> michi co&m;i&s_long;&s_long;a et
                   &con;ce&s_long;&s_long;a&virgule; &fact;a collat<ex>i</ex>o&n;e de nota cu&m; hoc
                   p&re;&s_long;en&s; &publico; &instrument;o p&er;sone et <gap rend="..."/>
                   piet&is_final; et curial&es; datu&m; ut su&pra;&point;<handShift
