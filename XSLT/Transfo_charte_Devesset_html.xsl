@@ -5,7 +5,7 @@
     version="2.0">
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
     <xsl:strip-space elements="*"/>
-    <xsl:preserve-space elements="p supplied placeName persName orgName date"/>
+    <xsl:preserve-space elements="p supplied placeName persName orgName date seg"/>
 
     <!-- Je commence par définir les variables dont j'aurai besoin pour la suite -->
 
@@ -118,9 +118,6 @@
         <!-- Encodage des deux versions de l'édition -->
 
         <xsl:result-document method="html" indent="yes" href="{$pathAllo}">
-            <xsl:variable name="essai">
-                <xsl:text>orig</xsl:text>
-            </xsl:variable>
             <html>
                 <xsl:call-template name="lang"/>
                 <xsl:call-template name="meta"/>
@@ -134,9 +131,6 @@
             </html>
         </xsl:result-document>
         <xsl:result-document method="html" indent="yes" href="{$pathNorm}">
-            <xsl:variable name="essai">
-                <xsl:text>reg</xsl:text>
-            </xsl:variable>
             <html>
                 <xsl:call-template name="lang"/>
                 <xsl:call-template name="meta"/>
@@ -175,31 +169,30 @@
         </span>
     </xsl:template>
 
-    <!-- Suppression des balises inutilisées -->
-    <xsl:template match="teiHeader | facsimile" mode="#all"/>
-
-    <xsl:template match="abstract" mode="#all" name="description">
-        <div>
-            <h3>Contenu de la charte :</h3>
-            <ul>
-                <xsl:for-each select=".//item[ancestor::item]">
-                    <li>
-                        <xsl:value-of select="./@n"/>
-                        <xsl:text>. </xsl:text>
-                        <xsl:copy-of select=".//text()"/>
-                    </li>
-                </xsl:for-each>
-            </ul>
-        </div>
-    </xsl:template>
+    <xsl:template match="teiHeader | facsimile" mode="#all"/><!-- Suppression des balises inutilisées -->
 
     <xsl:template match="div1 | div2 | div3" mode="#all">
+        <xsl:variable name="id">
+            <xsl:text>#</xsl:text>
+            <xsl:value-of select="./@xml:id"/>
+        </xsl:variable>
         <div>
+            <xsl:if test="@xml:id">
+                <xsl:attribute name="id">
+                    <xsl:value-of select="$id"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="//item[@corresp = $id][@n]">
+                <p>
+                    <xsl:value-of select="//item[@corresp = $id]/@n"/>
+                    <xsl:text>.</xsl:text>
+                </p>
+            </xsl:if>
             <xsl:apply-templates mode="#current"/>
         </div>
     </xsl:template>
 
-    <xsl:template match="p[not(ancestor::personGrp | ancestor::rdg | ancestor::abstract)]"
+    <xsl:template match="p[not(ancestor::personGrp | ancestor::rdg)]"
         mode="#all">
         <p>
             <xsl:apply-templates mode="#current"/>
@@ -214,22 +207,32 @@
         <xsl:apply-templates select="./reg | ./expan | ./ex | ./corr" mode="#current"/>
     </xsl:template>
 
-    <!-- Visualisation des ruptures du texte -->
+    <!-- Visualisation des ruptures dans l'édition -->
 
-    <xsl:template match="supplied[@source = '#AD69_48H_1671-3']" mode="#all">
-        <b>
-            <xsl:apply-templates mode="#current"/>
-        </b>
-    </xsl:template>
-
-    <xsl:template match="supplied[@source = '#AD69_48H_1671-4']" mode="#all">
-        <b>
-            <u>
+    <xsl:template match="supplied" mode="#all">
+        <xsl:choose>
+            <xsl:when test="@source = '#AD69_48H_1671-3' or @source = '#AD69_48H_1671-4'">
+                <b>
+                    <xsl:choose>
+                        <xsl:when test="@source = '#AD69_48H_1671-4'">
+                            <u>
+                                <xsl:apply-templates mode="#current"/>
+                            </u>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:apply-templates mode="#current"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </b>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>[</xsl:text>
                 <xsl:apply-templates mode="#current"/>
-            </u>
-        </b>
+                <xsl:text>]</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
-
+  
     <xsl:template match="gap" mode="#all">
         <xsl:text>[</xsl:text>
         <xsl:value-of select="./@rend"/>
@@ -276,15 +279,32 @@
                 <xsl:text>#fn</xsl:text>
                 <xsl:value-of select="./@n"/>
             </xsl:attribute>
-            <xsl:text>[</xsl:text>
+            <xsl:text> [</xsl:text>
             <xsl:value-of select="./@n"/>
             <xsl:text>]</xsl:text>
         </a>
     </xsl:template>
+    
+    <!-- Description du contenu du texte -->
+    
+    <xsl:template match="abstract" mode="#all" name="description">
+        <div>
+            <h4>Contenu de la charte :</h4>
+            <ul>
+                <xsl:for-each select=".//item[ancestor::item]">
+                    <li>
+                        <xsl:value-of select="./@n"/>
+                        <xsl:text>. </xsl:text>
+                        <xsl:copy-of select=".//text()"/>
+                    </li>
+                </xsl:for-each>
+            </ul>
+        </div>
+    </xsl:template>
 
     <!-- Règle pour les éléments d'édition critique -->
 
-    <xsl:template match="//listWit" mode="#all" name="sources">
+    <xsl:template match="listWit" mode="#all" name="sources">
         <div>
             <h4>Ce texte nous est connu par trois documents :</h4>
             <p>
@@ -320,18 +340,33 @@
     <xsl:template match="rdg" mode="#all">
         <span>
             <xsl:text> (Variante </xsl:text>
-            <xsl:value-of select="replace(./@wit, '#', '')"/>
+            <xsl:value-of select="replace(replace(./@wit, '#', ''), '_', ' ')"/>
             <xsl:text> : "</xsl:text>
             <xsl:apply-templates mode="#current"/>
             <xsl:text>")</xsl:text>
         </span>
     </xsl:template>
 
-    <!-- 
-    <xsl:template match="ref" mode="reg">
-        <xsl:value-of select="//seg[@xml:id = ./@target]/text()"/>
+    <xsl:template match="text//ref" mode="reg">
+        <xsl:variable name="id">
+            <xsl:value-of select="replace(./@target, '#', '')"/>
+        </xsl:variable>
+        <xsl:apply-templates select="//seg[@xml:id = $id]" mode="#current"/>
     </xsl:template>
-    -->
+    
+    <xsl:template match="div1[@xml:id='renvois_internes']" mode="reg"/>
+    
+    <xsl:template match="text//ref" mode="orig">
+        <xsl:text> </xsl:text>
+        <xsl:number count="ref[ancestor::text]" format="[I]" level="any"/>
+    </xsl:template>
+    
+    <xsl:template match="seg" mode="orig">
+        <p>
+            <xsl:number count="seg" format="[I]" level="any"/>
+            <xsl:apply-templates mode="#current"/>
+        </p>
+    </xsl:template>
 
     <!-- Règle pour l'index -->
 

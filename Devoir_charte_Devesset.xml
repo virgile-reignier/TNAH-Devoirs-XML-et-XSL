@@ -1438,7 +1438,7 @@
                               </choice>riberii</persName>&virgule; <persName>&Guillerm_v2;o <choice>
                                  <orig>l</orig>
                                  <reg>L</reg>
-                              </choice>a<supplied source="#AD69_48H_1671-4"><choice>
+                              </choice>a <supplied source="#AD69_48H_1671-4"><choice>
                                     <orig/>
                                     <reg> </reg>
                                  </choice><choice>
@@ -2178,8 +2178,8 @@
                               <choice>
                                  <orig>a</orig>
                                  <reg>A</reg>
-                              </choice>lamandi ordinis ho&s_long;pitalis</persName>
-                           p&re;dicti petiit et <orgName nymRef="#hommes_de_Devesset">p&re;dicti
+                              </choice>lamandi ordinis ho&s_long;pitalis</persName> p&re;dicti
+                           petiit et <orgName nymRef="#hommes_de_Devesset">p&re;dicti
                               homines</orgName> &s_long;ibi conce&s_long;&ser;unt ac etiam
                               petier<supplied source="#AD69_48H_1671-3">u&n;t &sibi; fier&i_final;
                                  <lb n="100"/>et &etiam; &con;ce&s_long;&ser;u&n;t fier&i_final;
@@ -2610,7 +2610,7 @@
                      <orig>C</orig>
                      <reg>c</reg>
                   </choice>um om&n;i juris renu&n;ciat<ex>i</ex>o&n;e ad p&re;&dict;a &necessaria;
-                  &par;it&er; et cautela </seg>&point; </p>
+                  &par;it&er; et cautela</seg>&point; </p>
          </div1>
       </body>
       <back>
@@ -2643,26 +2643,27 @@
                      <reg>D</reg>
                   </choice>e quib&us; notis hoc p&re;&s_long;ens &publicum; &instrument;<ex>u</ex>m
                   ex&tra;hi&virgule; &s_long;c&ri_v2;bi et gro&s_long;&s_long;ari feci &per;per
-                  <persName nymRef="#Pierre_Girardi">Petru&m; <choice>
-                     <orig>g</orig>
-                     <reg>G</reg>
-                  </choice>irardi cl<choice>
-                     <abbr>&#175;</abbr>
-                     <expan>er</expan>
-                  </choice>icum &s_long;ub&s_long;criptu&m; et jur<choice>
-                     <abbr>&#734;</abbr>
-                     <expan>atum</expan>
-                  </choice> meu&m; &auctoritate; reg&is_final;</persName> michi co&m;i&s_long;&s_long;a et
-                  &con;ce&s_long;&s_long;a&virgule; &fact;a collat<ex>i</ex>o&n;e de nota cu&m; hoc
-                  p&re;&s_long;en&s; &publico; &instrument;o p&er;sone et <gap rend="..."/>
-                  piet&is_final; et curial&es; datu&m; ut su&pra;&point;<handShift
-                     sameAs="AD69_48H_1666-2"/> Cui ego jam &dict;is notar&i_final;<ex>i</ex> manu
-                  mea &pro;p&ri_v2;&us; &s_long;ub&s_long;c&ri_v2;p&s_long;i &s_long;igno<choice>
+                     <persName nymRef="#Pierre_Girardi">Petru&m; <choice>
+                        <orig>g</orig>
+                        <reg>G</reg>
+                     </choice>irardi cl<choice>
+                        <abbr>&#175;</abbr>
+                        <expan>er</expan>
+                     </choice>icum &s_long;ub&s_long;criptu&m; et jur<choice>
+                        <abbr>&#734;</abbr>
+                        <expan>atum</expan>
+                     </choice> meu&m; &auctoritate; reg&is_final;</persName> michi
+                  co&m;i&s_long;&s_long;a et &con;ce&s_long;&s_long;a&virgule; &fact;a
+                     collat<ex>i</ex>o&n;e de nota cu&m; hoc p&re;&s_long;en&s; &publico;
+                  &instrument;o p&er;sone et <gap rend="..."/> piet&is_final; et curial&es; datu&m;
+                  ut su&pra;&point;<handShift sameAs="AD69_48H_1666-2"/> Cui ego jam &dict;is
+                     notar&i_final;<ex>i</ex> manu mea &pro;p&ri_v2;&us;
+                  &s_long;ub&s_long;c&ri_v2;p&s_long;i &s_long;igno<choice>
                      <orig> </orig>
                      <reg/>
                   </choice>&que_final; meo &s_long;ignavi et &s_long;igilo regio p&re;&dict;o
                   &s_long;igillari debuit in&s_long;trum<ex>en</ex>tum prium
-                     p&re;mi&s_long;&s_long;o&rum;&virgule;<note n="2">Le document présente aussi
+                  p&re;mi&s_long;&s_long;or&u;m&point; <note n="2">Le document présente aussi
                      quelques mots illisibles dans le coin inférieur droit.</note></p>
             </rdg>
          </app>
