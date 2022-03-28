@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY er "<choice> <abbr>&#185;</abbr> <expan>er</expan> </choice>">
+<!ENTITY re "<choice> <abbr>&#185;</abbr> <expan>re</expan> </choice>">
+<!ENTITY re_v2 "<choice> <abbr>&#710;</abbr> <expan>re</expan> </choice>">
+<!ENTITY ri_v2 "<choice> <abbr>&#185;</abbr> <expan>ri</expan> </choice>">
+<!ENTITY ri "<choice> <abbr>&#710;</abbr> <expan>ri</expan> </choice>">
+<!ENTITY sibi "<choice> <abbr>s&#185;</abbr> <expan>sibi</expan> </choice>">
+<!ENTITY ra "<choice> <abbr>&#710;</abbr> <expan>ra</expan> </choice>">
+<!ENTITY ur "<choice> <abbr>&#705;</abbr> <expan>ur</expan> </choice>">
+<!ENTITY per "<choice> <abbr>&#xa751;</abbr> <expan>per</expan> </choice>">
+<!ENTITY pre "<choice> <abbr>&#58981;</abbr> <expan>pre</expan> </choice>">
+<!ENTITY pra "<choice> <abbr>&#421;</abbr> <expan>pra</expan> </choice>">
+<!ENTITY pro "<choice> <abbr>&#1020;</abbr> <expan>pro</expan> </choice>">
+<!ENTITY par "<choice> <abbr>&#xa751;</abbr> <expan>par</expan> </choice>">
+<!ENTITY per "<choice> <abbr>&#xa751;</abbr> <expan>per</expan> </choice>">
+<!ENTITY ec "<choice> <abbr>&#705;</abbr> <expan>ec</expan> </choice>">
+<!ENTITY ver "<choice> <abbr>v&#704;</abbr> <expan>ver</expan> </choice>">
+<!ENTITY quod "<choice> <abbr>q&#999;</abbr> <expan>quod</expan> </choice>">
+<!ENTITY quod_v2 "<choice> <abbr>qd&#175;</abbr> <expan>quod</expan> </choice>">
+<!ENTITY quod_maj "<choice> <abbr>Q&amp;</abbr> <expan>quod</expan> </choice>">
+<!ENTITY qua "<choice> <abbr>&#487;</abbr> <expan>qua</expan> </choice>">
+<!ENTITY s_long "<choice> <abbr>&#383;</abbr> <expan>s</expan> </choice>">
+<!ENTITY S_long "<choice> <abbr>&#383;</abbr> <expan>S</expan> </choice>">
+<!ENTITY n "<choice> <abbr>&#175;</abbr> <expan>n</expan> </choice>">
+<!ENTITY s "<choice> <abbr>&#175;</abbr> <expan>s</expan> </choice>">
+<!ENTITY m "<choice> <abbr>&#175;</abbr> <expan>m</expan> </choice>">
+<!ENTITY i "<choice> <abbr>&#175;</abbr> <expan>i</expan> </choice>">
+<!ENTITY e "<choice> <abbr>&#175;</abbr> <expan>e</expan> </choice>">
+<!ENTITY u "<choice> <abbr>&#175;</abbr> <expan>u</expan> </choice>">
+<!ENTITY v "<choice> <abbr>&#175;</abbr> <expan>v</expan> </choice>">
+<!ENTITY tra "<choice> <abbr>&#357;</abbr> <expan>tra</expan> </choice>">
+<!ENTITY is "<choice> <abbr>&#175;</abbr> <expan>is</expan> </choice>">
+<!ENTITY te "<choice> <abbr>&#175;</abbr> <expan>te</expan> </choice>">
+<!ENTITY tia "<choice> <abbr>&#175;</abbr> <expan>tia</expan> </choice>">
+<!ENTITY con "<choice> <abbr>&#999;</abbr> <expan>con</expan> </choice>">
+<!ENTITY com "<choice> <abbr>&#999;</abbr> <expan>com</expan> </choice>">
+<!ENTITY que "<choice> <abbr>q&#175;</abbr> <expan>que</expan> </choice>">
+<!ENTITY que_final "<choice> <abbr>q&#541;</abbr> <expan>que</expan> </choice>">
+<!ENTITY quam "<choice> <abbr>&#487;&#999;</abbr> <expan>quam</expan> </choice>">
+<!ENTITY quam_v2 "<choice> <abbr>&#487;&#999;m</abbr> <expan>quam</expan> </choice>">
+<!ENTITY qui "<choice> <abbr>q&#710;</abbr> <expan>qui</expan> </choice>">
+<!ENTITY quo "<choice> <abbr>q&#176;</abbr> <expan>quo</expan> </choice>">
+<!ENTITY quem "<choice> <abbr>q&#175;</abbr> <expan>quem</expan> </choice>">
+<!ENTITY rum "<choice> <abbr>&#565;</abbr> <expan>rum</expan> </choice>">
+<!ENTITY rium "<choice> <abbr>&#565;</abbr> <expan>rium</expan> </choice>">
+<!ENTITY e_final "<choice> <abbr>&#734;</abbr> <expan>e</expan> </choice>">
+<!ENTITY i_final "<choice> <abbr>&#734;</abbr> <expan>i</expan> </choice>">
+<!ENTITY is_final "<choice> <abbr>&#734;</abbr> <expan>is</expan> </choice>">
+<!ENTITY is_final_v2 "<choice> <abbr>&#541;</abbr> <expan>is</expan> </choice>">
+<!ENTITY es_final "<choice> <abbr>&#734;</abbr> <expan>es</expan> </choice>">
+<!ENTITY ios "<choice> <abbr>&#734;</abbr> <expan>ios</expan> </choice>">
+<!ENTITY io "<choice> <abbr>&#734;</abbr> <expan>io</expan> </choice>">
+<!ENTITY ria "<choice> <abbr>&#565;</abbr> <expan>ria</expan> </choice>">
+<!ENTITY tionibus "<choice> <abbr>t&#734;</abbr> <expan>tionibus</expan> </choice>">
+<!ENTITY tibus_v2 "<choice> <abbr>&#175;</abbr> <expan>tibus</expan> </choice>">
+<!ENTITY tibus "<choice> <abbr>t&#734;</abbr> <expan>tibus</expan> </choice>">
+<!ENTITY tione "<choice> <abbr>t&#734;</abbr> <expan>tione</expan> </choice>">
+<!ENTITY tioni "<choice> <abbr>t&#734;</abbr> <expan>tioni</expan> </choice>">
+<!ENTITY etiam "<choice> <abbr>et&#734;</abbr> <expan>etiam</expan> </choice>">
+<!ENTITY tis "<choice> <abbr>t&#734;</abbr> <expan>tis</expan> </choice>">
+<!ENTITY orum "<choice> <abbr>&#734;</abbr> <expan>orum</expan> </choice>">
+<!ENTITY arii "<choice> <abbr>&#734;</abbr> <expan>arii</expan> </choice>">
+<!ENTITY ario "<choice> <abbr>&#734;</abbr> <expan>ario</expan> </choice>">
+<!ENTITY ium "<choice> <abbr>&#734;</abbr> <expan>ium</expan> </choice>">
+<!ENTITY rie "<choice> <abbr>r&amp;</abbr> <expan>rie</expan> </choice>">
+<!ENTITY elli "<choice> <abbr>&#734;</abbr> <expan>elli</expan> </choice>">
+<!ENTITY iam "<choice> <abbr>&#734;</abbr> <expan>iam</expan> </choice>">
+<!ENTITY us "<choice> <abbr>&#999;</abbr> <expan>us</expan> </choice>">
+<!ENTITY us_v2 "<choice> <abbr>&#541;</abbr> <expan>us</expan> </choice>">
+<!ENTITY m_v2 "<choice> <abbr>&#541;</abbr> <expan>m</expan> </choice>">
+<!ENTITY vel "<choice> <abbr>v&#175;l</abbr> <expan>vel</expan> </choice>">  
+<!ENTITY ti "<choice> <abbr>&#175;</abbr> <expan>ti</expan> </choice>">
+<!ENTITY bene "<choice> <abbr>bn&#175;</abbr> <expan>bene</expan> </choice>">
+<!ENTITY ter "<choice> <abbr>&#175;</abbr> <expan>ter</expan> </choice>">
+<!ENTITY es "<choice> <abbr>&#175;</abbr> <expan>es</expan> </choice>">
+<!ENTITY ae "<choice> <abbr>&#230;</abbr> <expan>e</expan> </choice>">
+<!ENTITY os "<choice> <abbr>&#734;</abbr> <expan>os</expan> </choice>">
+<!ENTITY ser "<choice> <abbr>&#503;</abbr> <expan>ser</expan> </choice>">
+<!ENTITY sis "<choice> <abbr>&#503;</abbr> <expan>sis</expan> </choice>">
+<!ENTITY dict "<choice> <abbr>dc&#175;</abbr> <expan>dict</expan> </choice>">
+<!ENTITY hec "<choice> <abbr>h&#175;</abbr> <expan>hec</expan> </choice>">
+<!ENTITY nostr "<choice> <abbr>nr&#175;</abbr> <expan>nostr</expan> </choice>">
+<!ENTITY fact "<choice> <abbr>fc&#175;</abbr> <expan>fact</expan> </choice>">
+<!ENTITY domin "<choice> <abbr>dn</abbr> <expan>d<ex>omi</ex>n</expan> </choice>">
+<!ENTITY dominis "<choice> <abbr>dn&#565;</abbr> <expan>d<ex>omi</ex>nis</expan> </choice>">
+<!ENTITY hab "<choice> <abbr>h&#175;</abbr> <expan>hab</expan> </choice>">
+<!ENTITY ips "<choice> <abbr>ip&#175;</abbr> <expan>ips</expan> </choice>">
+<!ENTITY secund "<choice> <abbr>&s_long;cd&#175;</abbr> <expan>secund</expan> </choice>">
+<!ENTITY licet "<choice> <abbr>&#999;</abbr> <expan>licet</expan> </choice>">
+<!ENTITY delicet "<choice> <abbr>d&#541;</abbr> <expan>delicet</expan> </choice>">
+<!ENTITY licet_v2 "<choice> <abbr>l&#541;</abbr> <expan>licet</expan> </choice>">
+<!ENTITY licet_v3 "<choice> <abbr>lic&#541;</abbr> <expan>licet</expan> </choice>">
+<!ENTITY libet "<choice> <abbr>l&#541;</abbr> <expan>libet</expan> </choice>">
+<!ENTITY libet_v2 "<choice> <abbr>lib&#541;</abbr> <expan>libet</expan> </choice>">
+<!ENTITY liter "<choice> <abbr>lr&#175;</abbr> <expan>liter</expan> </choice>">
+<!ENTITY mentum "<choice> <abbr>&#705;&#711;&#715;</abbr> <expan>mentum</expan> </choice>">
+<!ENTITY mentum_v2 "<choice> <abbr>m&#705;&#711;&#715;</abbr> <expan>mentum</expan> </choice>">
+<!ENTITY fratr "<choice> <abbr>fr&#175;</abbr> <expan>fratr</expan> </choice>">
+<!ENTITY instrument "<choice> <abbr>in&s_long;tr&#175;</abbr> <expan>instrument</expan> </choice>">
+<!ENTITY ecclesi "<choice> <abbr>eccl&#175;i</abbr> <expan>ecclesi</expan> </choice>">
+<!ENTITY et_tironien "<choice> <abbr>z</abbr> <expan>et</expan> </choice>">
+<!ENTITY Guillerm "<choice> <abbr>Guill</abbr> <expan>Guill<ex>erm</ex></expan> </choice>">
+<!ENTITY Guillerm_v2 "<choice> <abbr>Guill&#175;m</abbr> <expan>Guillerm</expan> </choice>">
+<!ENTITY Matthe "<choice> <abbr>m&#698;th&#175;</abbr> <expan>Matthe</expan> </choice>">
+<!ENTITY sanct "<choice> <abbr>&s_long;c&#175;</abbr> <expan>sanct</expan> </choice>">
+<!ENTITY Sanct "<choice> <abbr>&s_long;c&#175;</abbr> <expan><choice> <orig>s</orig> <reg>S</reg> </choice>anct</expan> </choice>">
+<!ENTITY Sanct_avec_s_court "<choice> <abbr>sc&#175;</abbr> <expan><choice> <orig>s</orig> <reg>S</reg> </choice>anct</expan> </choice>">
+<!ENTITY Agrippav "<choice> <abbr>Ag&#710;ppav</abbr> <expan>Aggripav</expan> </choice>">
+<!ENTITY vicecomitis "<choice> <abbr>vicecom&#175;</abbr> <expan>vicecomitis</expan> </choice>">
+<!ENTITY sollemniter "<choice> <orig><abbr>Sollep&n;it&er;</abbr> <expan>sollepniter</expan></orig> <reg>sollemniter</reg> </choice>">
+<!ENTITY sollemnitate "<choice> <orig><abbr>&#383;olle&#175;pnitate</abbr> <expan>sollemnitate</expan></orig> <reg>sollemnitate</reg> </choice>">
+<!ENTITY sollemnis_avec_s_long "<choice> <orig>&s_long;ollepnis</orig> <reg>sollemnis</reg> </choice>">
+<!ENTITY sollemnis "<choice> <orig>sollepnis</orig> <reg>sollemnis</reg> </choice>">
+<!ENTITY sollemnis_v2 "<choice> <orig>solle&#175;pnis</orig> <reg>sollemnis</reg> </choice>">
+<!ENTITY pedagi "<choice> <orig>pedacgi</orig> <reg>pedagi</reg> </choice>">
+<!ENTITY polveragi "<choice> <orig>polvoracgi</orig> <reg>polveragi</reg> </choice>">
+<!ENTITY ibidem "<choice> <abbr>ibi&#545;</abbr> <expan>ibidem</expan> </choice>">
+<!ENTITY quodam "<choice> <abbr>quo&#545;</abbr> <expan>quodam</expan> </choice>">
+<!ENTITY turonenses "<choice> <abbr>tu&#565;</abbr> <expan>turonenses</expan> </choice>">
+<!ENTITY turonensium "<choice> <abbr>tu&#565;</abbr> <expan>turonensium</expan> </choice>">
+<!ENTITY supra "<choice> <abbr>&#353;</abbr> <expan>supra</expan> </choice>">
+<!ENTITY rarum "<choice> <abbr>&#565;</abbr> <expan>rarum</expan> </choice>">
+<!ENTITY Podempniaci "<choice> <abbr>podepni&#175;</abbr> <expan><choice> <orig>p</orig> <reg>P</reg> </choice>odempniaci</expan> </choice>">
+<!ENTITY Johann "<choice> <abbr>Ioh&#175;</abbr> <expan>Johann</expan> </choice>">
+<!ENTITY Philippo "<choice> <abbr>pho&#175;</abbr> <expan>Philippo</expan> </choice>">
+<!ENTITY Stephan "<choice> <abbr>stpho&#175;</abbr> <expan>Stephan</expan> </choice>">
+<!ENTITY Iherusolomitani "<choice> <abbr>Ihrlmi&#175;</abbr> <expan>Iherusolomitani</expan> </choice>">
+<!ENTITY Devesset "<choice> <orig>deve&s_long;&s_long;et</orig> <reg>Devesset</reg> </choice>">
+<!ENTITY bayllivia "<choice> <abbr>bayll&#175;ia</abbr> <expan>bayllivia</expan> </choice>">
+<!ENTITY vallavie "<choice> <abbr>vall&#175;ie</abbr> <expan>vallavie</expan> </choice>">
+<!ENTITY auctoritate "<choice> <abbr>au&#269;te</abbr> <expan>auctoritate</expan> </choice>">
+<!ENTITY necessaria "<choice> <abbr>ne&#269;ia</abbr> <expan>necessaria</expan> </choice>">
+<!ENTITY publico "<choice> <abbr>pu&#705;&#176;</abbr> <expan>publico</expan> </choice>">
+<!ENTITY publicum "<choice> <abbr>pu&#705;&#733;&#762;</abbr> <expan>publicum</expan> </choice>">
+<!ENTITY presen "<choice> <abbr>p&#328;</abbr> <expan>presen</expan> </choice>">
+<!ENTITY espace "<choice> <orig></orig> <reg> </reg> </choice>">
+<!ENTITY virgule "<choice> <orig></orig> <reg>,</reg> </choice>">
+<!ENTITY point_virgule_v "<choice> <orig>V</orig> <reg>; v</reg> </choice>">
+<!ENTITY point "<choice> <orig></orig> <reg>.</reg> </choice>">
+
+<!--Entités ajoutées-->
+<!ENTITY Aa "<choice><orig>a</orig><reg>A</reg></choice>" >
+<!ENTITY Bb "<choice><orig>b</orig><reg>B</reg></choice>" >
+<!ENTITY Cc "<choice><orig>c</orig><reg>C</reg></choice>" >
+<!ENTITY Dd "<choice><orig>d</orig><reg>D</reg></choice>" >
+<!ENTITY Ee "<choice><orig>e</orig><reg>E</reg></choice>" >
+<!ENTITY Ff "<choice><orig>f</orig><reg>F</reg></choice>" >
+<!ENTITY Gg "<choice><orig>g</orig><reg>G</reg></choice>" >
+<!ENTITY Hh "<choice><orig>h</orig><reg>H</reg></choice>" >
+<!ENTITY Ii "<choice><orig>i</orig><reg>I</reg></choice>" >
+<!ENTITY Jj "<choice><orig>j</orig><reg>J</reg></choice>" >
+<!ENTITY Kk "<choice><orig>k</orig><reg>K</reg></choice>" >
+<!ENTITY Ll "<choice><orig>l</orig><reg>L</reg></choice>" >
+<!ENTITY Mm "<choice><orig>m</orig><reg>M</reg></choice>" >
+<!ENTITY Nn "<choice><orig>n</orig><reg>N</reg></choice>" >
+<!ENTITY Oo "<choice><orig>o</orig><reg>O</reg></choice>" >
+<!ENTITY Pp "<choice><orig>p</orig><reg>P</reg></choice>" >
+<!ENTITY Qq "<choice><orig>q</orig><reg>Q</reg></choice>" >
+<!ENTITY Rr "<choice><orig>r</orig><reg>R</reg></choice>" >
+<!ENTITY Ss "<choice><orig>s</orig><reg>S</reg></choice>" >
+<!ENTITY Tt "<choice><orig>t</orig><reg>T</reg></choice>" >
+<!ENTITY Uu "<choice><orig>u</orig><reg>U</reg></choice>" >
+<!ENTITY Vv "<choice><orig>v</orig><reg>V</reg></choice>" >
+<!ENTITY Xx "<choice><orig>x</orig><reg>X</reg></choice>" >
+<!ENTITY Yy "<choice><orig>y</orig><reg>Y</reg></choice>" >
+<!ENTITY Zz "<choice><orig>z</orig><reg>Z</reg></choice>" >
+<!ENTITY td "<choice><orig>t</orig><reg>d</reg></choice>" >
+<!ENTITY er2 "<choice> <abbr>&#175;</abbr> <expan>er</expan> </choice>">
+<!ENTITY esp "<choice> <orig> </orig> <reg/> </choice>">
+<!ENTITY n "<choice> <orig>&#541;</orig> <reg>n</reg> </choice>">
+<!ENTITY guillerm "<choice> <abbr>guill</abbr> <expan>Guill<ex>erm</ex></expan> </choice>">
+<!ENTITY trus "<choice> <abbr>&#175;</abbr> <expan>trus</expan> </choice>">
+<!ENTITY ea "<choice><orig>e</orig><reg>a</reg></choice>">
+<!ENTITY ou "<choice><orig>o</orig><reg>u</reg></choice>">
+<!ENTITY omniu "o<ex>m</ex>&n;iu">

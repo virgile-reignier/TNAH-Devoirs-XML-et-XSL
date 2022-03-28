@@ -595,7 +595,7 @@
          <surface>
             <graphic url="Images/Page_1.jpg" width="3748px" height="2459px"/>
             <zone corresp="#accord_droits_passage"
-               points=" 174,179  949,864  284,199  339,2454  3594,2464  3534,164 "
+               points="174,179  949,864  284,199  339,2454  3594,2464  3534,164 "
                rendition="default"/>
          </surface>
          <surface>
@@ -926,10 +926,10 @@
                         <sic>u</sic>
                         <corr>i</corr>
                      </choice>s et eo&rum; <supplied source="#AD69_48H_1671-4">hospicio
-                           Scurchelcis<note n="1">Le mot semble ici avoir été rajouté
+                        Scurchelcis</supplied><note n="1">Le mot semble ici avoir été rajouté
                            postérieurement par une autre main. D’une lecture difficile, il ne
                            renvoit à rien qui nous soit connu dans le contexte
-                        étudié.</note></supplied>
+                        étudié.</note>
                      <gap rend="..."/>
                      <lb n="22"/><supplied source="#AD69_48H_1671-4">placuerit faciendum</supplied>
                      ab&s_long;&que_final; p&re;&s_long;tat&i;on<ex>e</ex> seu

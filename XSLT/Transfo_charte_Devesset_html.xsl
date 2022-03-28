@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Ce projet a été mené de front avec le projet rendu pour le devoir du cours de python et
+a été pensé pour pouvoir s'y inclure, cf https://github.com/virgile-reignier/Devoir-python.git.
+C'est pourquoi le présent document ne propose qu'une mise en forme minimale du rendu html,
+ces problématique ayant plutôt été traités au moment de l'inclusion de ces pages dans l'application.
+
+Nous avons aussi fait le choix de réutiliser les données du devoir de XML sans prendre en compte
+les corrections proposées par Ségolène Albouy. L'objectif était de ne
+modifier le code XML que lorsque cela était nécessaire pour la transformation. Une voie
+d'amélioration de ce devoir serait de retravailler intégralement l'édition TEI du texte
+en fonction de sa transformation pour amélioration la visualisation -->
+
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tei="http://www.tei-c.org/ns/1.0"
     xpath-default-namespace="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs tei"
     version="2.0">
     <xsl:output method="html" indent="yes" encoding="UTF-8"/>
+    
+    <!-- Gestion des espaces entre les balises : -->
+    
     <xsl:strip-space elements="*"/>
     <xsl:preserve-space elements="p supplied placeName persName orgName date seg"/>
 
@@ -33,6 +48,9 @@
     </xsl:variable>
     <xsl:variable name="pathAccueil">
         <xsl:value-of select="concat($witfile, '_accueil', '.html')"/>
+    </xsl:variable>
+    <xsl:variable name="pathImages">
+        <xsl:value-of select="concat($witfile, '_images', '.html')"/>
     </xsl:variable>
 
     <!-- Encodage des méta-données -->
@@ -66,51 +84,58 @@
         <!-- Encodage de la description du texte -->
 
         <xsl:result-document method="html" indent="yes" href="{$pathAccueil}">
-            <html>
+            <html id="accueil">
                 <xsl:call-template name="lang"/>
                 <xsl:call-template name="meta"/>
                 <body>
-                    <div>
+                    <h1>
+                        <xsl:attribute name="style">
+                            <xsl:text>text-align:center;</xsl:text>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat('Edition de la ', replace($titre, 'C', 'c'))"/>
+                    </h1>
+                    <p>
                         <xsl:value-of select=".//editionStmt//*/text()/normalize-space()"/>
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:text>Elle est issue d'un travail réalisé par </xsl:text>
                         <xsl:value-of select="$auteur"/>
                         <xsl:text> dans le cadre du master TNAH à l'</xsl:text>
                         <xsl:value-of select=".//titleStmt//orgName/text()"/>
                         <xsl:text>.</xsl:text>
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:value-of select=".//respStmt/note/text()/normalize-space()"/>
                         <xsl:text> Nous remercions également </xsl:text>
                         <xsl:value-of select=".//publicationStmt/authority/text()"/>
                         <xsl:text> et Ariane Pinche pour leur aide dans l'encodage de celle-ci.</xsl:text>
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:text>On trouvera une édition-traduction partielle de ce texte dans </xsl:text>
                         <xsl:value-of
                             select="concat('&quot;', //bibl[@xml:id = 'Reignier_2021b']/title/text(), '&quot;', ', ', //bibl[@xml:id = 'Reignier_2021b']/series/title/text(), ', ', //bibl[@xml:id = 'Reignier_2021b']/series/idno/text(), ', ', //bibl[@xml:id = 'Reignier_2021b']/date/text(), ', ', //bibl[@xml:id = 'Reignier_2021b']/series/biblScope/text(), '.')"
                         />
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:text>Pour plus d'informations sur le contexte historique, on se reportera aussi à </xsl:text>
                         <xsl:value-of
                             select="concat('&quot;', //bibl[@xml:id = 'Reignier_2021a']/title/text(), '&quot;', ', ', //bibl[@xml:id = 'Reignier_2021a']/series/title/text(), ', ', //bibl[@xml:id = 'Reignier_2021a']/series/idno/text(), ', ', //bibl[@xml:id = 'Reignier_2021a']/date/text(), ', ', //bibl[@xml:id = 'Reignier_2021a']/series/biblScope/text(), '.')"
                         />
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:text>L'édition paléographique du texte est disponible </xsl:text>
                         <a href="{$pathAllo}">ici</a>
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:text>L'édition normalisée du texte est disponible </xsl:text>
                         <a href="{$pathNorm}">ici</a>
-                    </div>
-                    <div>
+                    </p>
+                    <p>
                         <xsl:text>Un index a également été réalisé </xsl:text>
                         <a href="{$pathIndex}">ici</a>
                         <xsl:text> avec les noms propres et les toponymes mentionnés dans le texte</xsl:text>
-                    </div>
+                    </p>
+                    <p>Les images d'origines sont disponibles <a href="{$pathImages}">ici</a></p>
                 </body>
             </html>
         </xsl:result-document>
@@ -118,7 +143,7 @@
         <!-- Encodage des deux versions de l'édition -->
 
         <xsl:result-document method="html" indent="yes" href="{$pathAllo}">
-            <html>
+            <html id="allograph">
                 <xsl:call-template name="lang"/>
                 <xsl:call-template name="meta"/>
                 <body>
@@ -131,7 +156,7 @@
             </html>
         </xsl:result-document>
         <xsl:result-document method="html" indent="yes" href="{$pathNorm}">
-            <html>
+            <html id="normalise">
                 <xsl:call-template name="lang"/>
                 <xsl:call-template name="meta"/>
                 <body>
@@ -147,12 +172,25 @@
         <!-- Mise en place de l'index -->
 
         <xsl:result-document method="html" indent="yes" href="{$pathIndex}">
-            <html>
+            <html id="index">
                 <xsl:call-template name="lang"/>
                 <xsl:call-template name="meta"/>
                 <body>
                     <xsl:call-template name="titre"/>
                     <xsl:call-template name="index"/>
+                </body>
+            </html>
+        </xsl:result-document>
+
+        <!-- Visualisation des images -->
+
+        <xsl:result-document method="html" indent="yes" href="{$pathImages}">
+            <html id="images">
+                <xsl:call-template name="lang"/>
+                <xsl:call-template name="meta"/>
+                <body>
+                    <xsl:call-template name="titre"/>
+                    <xsl:call-template name="images"/>
                 </body>
             </html>
         </xsl:result-document>
@@ -162,14 +200,17 @@
 
     <xsl:template name="titre">
         <h1>
+            <xsl:attribute name="style">
+                <xsl:text>text-align:center;</xsl:text>
+            </xsl:attribute>
             <xsl:value-of select="$titre"/>
         </h1>
         <span>
-            <a href="{$pathAccueil}">Retour accueil</a>
+            <a href="{$pathAccueil}">Retour présentation charte</a>
         </span>
     </xsl:template>
 
-    <xsl:template match="teiHeader | facsimile" mode="#all"/><!-- Suppression des balises inutilisées -->
+    <xsl:template match="teiHeader | facsimile" mode="#all"/>
 
     <xsl:template match="div1 | div2 | div3" mode="#all">
         <xsl:variable name="id">
@@ -192,8 +233,7 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="p[not(ancestor::personGrp | ancestor::rdg)]"
-        mode="#all">
+    <xsl:template match="p[not(ancestor::personGrp | ancestor::rdg)]" mode="#all">
         <p>
             <xsl:apply-templates mode="#current"/>
         </p>
@@ -232,7 +272,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-  
+
     <xsl:template match="gap" mode="#all">
         <xsl:text>[</xsl:text>
         <xsl:value-of select="./@rend"/>
@@ -258,10 +298,13 @@
 
     <xsl:template match="text" name="notes_finales">
         <div>
+            <xsl:attribute name="style">
+                <xsl:text>margin-top: 2%;</xsl:text>
+            </xsl:attribute>
             <xsl:for-each select=".//note[ancestor::text]">
                 <p>
                     <xsl:attribute name="id">
-                        <xsl:text>#fn</xsl:text>
+                        <xsl:text>fn</xsl:text>
                         <xsl:value-of select="./@n"/>
                     </xsl:attribute>
                     <xsl:text>[</xsl:text>
@@ -284,9 +327,9 @@
             <xsl:text>]</xsl:text>
         </a>
     </xsl:template>
-    
+
     <!-- Description du contenu du texte -->
-    
+
     <xsl:template match="abstract" mode="#all" name="description">
         <div>
             <h4>Contenu de la charte :</h4>
@@ -353,14 +396,14 @@
         </xsl:variable>
         <xsl:apply-templates select="//seg[@xml:id = $id]" mode="#current"/>
     </xsl:template>
-    
-    <xsl:template match="div1[@xml:id='renvois_internes']" mode="reg"/>
-    
+
+    <xsl:template match="div1[@xml:id = 'renvois_internes']" mode="reg"/>
+
     <xsl:template match="text//ref" mode="orig">
         <xsl:text> </xsl:text>
         <xsl:number count="ref[ancestor::text]" format="[I]" level="any"/>
     </xsl:template>
-    
+
     <xsl:template match="seg" mode="orig">
         <p>
             <xsl:number count="seg" format="[I]" level="any"/>
@@ -438,4 +481,26 @@
             </ul>
         </div>
     </xsl:template>
+
+    <!-- Règle pour la visualisation des images -->
+
+    <xsl:template match="facsimile" name="images">
+        <div>
+            <xsl:for-each select=".//surface">
+                <xsl:variable name="url"
+                    select="concat(substring-before($witfile, 'Devoir_charte_Devesset'), ./graphic/@url)"/>
+                <xsl:variable name="titre_image"
+                    select="substring-before(substring-after($url, 'Images/'), '.jpg')"/>
+                <h2>
+                    <xsl:value-of select="concat(replace($titre_image, '_', ' '), ' :')"/>
+                </h2>
+                <p data-section="{position()}">
+                    <a href="{$url}">
+                        <img src="{$url}" alt="{$titre_image}" height="100px"/>
+                    </a>
+                </p>
+            </xsl:for-each>
+        </div>
+    </xsl:template>
+
 </xsl:stylesheet>
